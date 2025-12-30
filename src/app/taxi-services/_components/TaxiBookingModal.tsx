@@ -49,7 +49,7 @@ const TaxiBookingModal = ({
   //   search taxi
   const handleSearchTaxi = async () => {
     setShowList(true);
-    const response = await getAllTaxis(input.date);
+    const response = await getAllTaxis(input.date.toISOString().split('T')[0]);
     if (!("error" in response)) {
       setTaxiList(response);
       const map: Record<string, string[]> = {};

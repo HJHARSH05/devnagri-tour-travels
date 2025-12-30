@@ -255,6 +255,7 @@ const useBookingHook = () => {
     getAllTaxiBookings,
     getAllTaxis,
     sendQuery,
+    getBookedSeats
   };
 };
 

@@ -202,10 +202,11 @@ const useBookingHook = () => {
   const getBookedSeats = async (taxiId: string, date: string | Date) => {
     try {
       const dateObj = date instanceof Date ? date : new Date(date as any);
+      const dateString = dateObj.toISOString().split('T')[0];
       const rows = await db
         .select({ bookedSeats: TaxiBooking.bookedSeats })
         .from(TaxiBooking)
-        .where(and(eq(TaxiBooking.taxi, taxiId), eq(TaxiBooking.date, dateObj), inArray(TaxiBooking.status, ["approved","pending","rejected"])));
+        .where(and(eq(TaxiBooking.taxi, taxiId), eq(TaxiBooking.date, dateString), inArray(TaxiBooking.status, ["approved","pending","rejected"])));
 
       // collect bookedSeats values and flatten
       const seats: string[] = [];

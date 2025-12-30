@@ -1,0 +1,22 @@
+export const cities = [
+  "Dehradun",
+  "Haridwar",
+  "Rishikesh",
+  "Nainital",
+  "Haldwani",
+  "Roorkee",
+  "Rudrapur",
+  "Almora",
+  "Pithoragarh",
+  "Kashipur",
+  "Kotdwar",
+  "Mussoorie",
+  "Srinagar (Garhwal)",
+  "Pauri",
+  "Uttarkashi",
+  "Bageshwar",
+  "Champawat",
+  "Gopeshwar",
+  "Rudraprayag",
+  "New Tehri"
+]

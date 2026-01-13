@@ -56,3 +56,4 @@ export const Queries = pgTable("queries", {
   email: varchar("Email", { length: 50 }).notNull(),
   message: varchar("Message", { length: 50 }).notNull(),
 });
+

@@ -44,7 +44,7 @@ export type TaxiBookingsTypes = {
   date: Date | string | null;
   bookingDate: Date | string | null;
   status: "pending" | "approved" | "rejected" | null;
-  bookedSeats?: string[] | null;
+  bookedSeats?: string[] | string | null;
 };
 
 export type TaxiTypes = {
@@ -144,6 +144,11 @@ export type TourPackage = {
   packing_list?: string[]; // Optional as not all packages might list this.
   terms_and_conditions: TermsAndConditions;
   cancellation_policy: string;
+  pdf_url?: string;
+  exclusions: string[];
+  bike_options?: string[];
+  mandatory_requirements?: string[];
+  packaging_list?: string[];
 };
 
 export type BookingInput = {

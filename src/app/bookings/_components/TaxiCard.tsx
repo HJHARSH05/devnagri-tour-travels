@@ -56,6 +56,14 @@ const TaxiBookingCard = ({ pack }: { pack: TaxiBookingsTypes }) => {
               <TaxiInformation Taxi={pack.taxi} />
             </div>
           )}
+          {pack.bookedSeats && pack.bookedSeats !== "" && (
+            <div className="col-span-2">
+              <p className=" font-semibold text-center">
+                Booked Seats:{" "}
+                <span className="font-bold">{pack.bookedSeats}</span>
+              </p>
+            </div>
+          )}
           <div className="col-span-2 flex items-center justify-center gap-4">
             <span>Status: </span>
             <Badge
@@ -63,8 +71,8 @@ const TaxiBookingCard = ({ pack }: { pack: TaxiBookingsTypes }) => {
                 pack.status && pack.status === "approved"
                   ? "bg-green-500"
                   : pack.status === "rejected"
-                  ? "bg-red-500"
-                  : "bg-yellow-500"
+                    ? "bg-red-500"
+                    : "bg-yellow-500"
               } text-sm font-semibold text-white shadow-md`}
             >
               {pack.status?.toUpperCase()}

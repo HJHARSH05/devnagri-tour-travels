@@ -43,6 +43,7 @@ const useAdminHook = () => {
         price: TaxiBooking.price,
         bookingDate: TaxiBooking.bookingDate,
         status: TaxiBooking.status,
+        bookedSeats: TaxiBooking.bookedSeats,
         user: {
           name: Users.name,
           id: Users.id,

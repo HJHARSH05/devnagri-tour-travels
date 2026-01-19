@@ -13,6 +13,7 @@ export const Users = pgTable("users", {
   name: varchar("Name", { length: 50 }).notNull(),
   email: varchar("Email", { length: 50 }).notNull(),
   password: varchar("Password", { length: 150 }).notNull(),
+  mobile: varchar("Mobile", { length: 50 }),
 });
 
 export const Bookings = pgTable("bookings", {

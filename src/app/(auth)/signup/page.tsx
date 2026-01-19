@@ -13,6 +13,7 @@ const Signup = () => {
     name: "",
     email: "",
     password: "",
+    mobile:"",
   });
   const [isLoading, setisLoading] = useState(false);
   const router = useRouter();

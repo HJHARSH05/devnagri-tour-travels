@@ -23,6 +23,7 @@ const Signup = () => {
     setinput({ ...input, [e.target.name]: e.target.value });
   };
 
+  // signup user
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     try {
@@ -35,6 +36,7 @@ const Signup = () => {
       setisLoading(false);
     }
   };
+
   return (
     <div className="flex justify-center items-center h-[calc(100vh-100px)]">
       <div className="border-2 gradient-border flex flex-col sm:min-w-1/2 min-w-4/5 items-center">

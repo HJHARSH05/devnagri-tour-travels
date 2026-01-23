@@ -1145,375 +1145,375 @@ export const TOURS = [
     pdf_url: "",
   },
   {
-  __id: "8",
-  name: "Helicopter Tour to Munsyari",
-  overview:
-    "Experience the ultimate luxury and convenience with our exclusive helicopter tour to Munsyari. Skip the long mountain drives and arrive at the 'Little Kashmir' of Uttarakhand in style. This premium 2-day, 1-night package offers breathtaking aerial views of the Himalayas, quick access to Munsyari's stunning landscapes, and comfortable ground arrangements. Perfect for those seeking a time-efficient yet unforgettable journey to witness the majestic Panchachuli peaks.",
-  description:
-    "<h2>Fly to the Heart of the Himalayas</h2>\n<p>Elevate your travel experience with our <strong>exclusive helicopter tour to Munsyari</strong>. This premium package is designed for travelers who value time and comfort while seeking an extraordinary adventure. Bypass hours of road travel and soar directly to one of Uttarakhand's most picturesque destinations. Enjoy unparalleled aerial views of snow-capped peaks, deep valleys, and pristine forests as you fly over the Kumaon Himalayas.</p>\n\n<h3>Aerial Views of the Himalayas</h3>\n<p>The helicopter journey itself is an adventure, offering spectacular bird's-eye views of the <strong>Panchachuli peaks, Nanda Devi range, and the lush valleys</strong> below. As you fly over the rugged terrain, you'll witness landscapes that few get to see from this unique perspective. The flight is not just transportation—it's an integral part of the experience, providing photo opportunities and memories that will last a lifetime.</p>\n\n<h3>Munsyari: The Little Kashmir</h3>\n<p>Upon landing in <strong>Munsyari</strong>, you'll be greeted by panoramic views of the mighty <strong>Panchachuli peaks</strong> (five snow-clad peaks standing majestically at over 6,000 meters). The town is a tranquil retreat offering stunning vistas, spiritual sites like the Nanda Devi Temple, and opportunities to explore local culture. Visit the tribal heritage museum, walk through quaint markets, and immerse yourself in the serene mountain atmosphere.</p>\n\n<h3>Premium Comfort & Convenience</h3>\n<p>This package includes helicopter transfers from Pithoragarh or a designated helipad, premium accommodation in Munsyari, all meals, and ground transportation for local sightseeing. Our experienced pilots ensure a safe and smooth journey, while our ground team takes care of all your needs. This is the perfect option for senior travelers, busy professionals, or anyone seeking a luxurious Himalayan escape without the fatigue of long road journeys.</p>",
-  itinerary: [
-    {
-      day: 1,
-      title: "Helicopter Flight to Munsyari & Local Sightseeing",
-      distance: "Approx. 30-40 min flight from Pithoragarh",
-      details: [
-        "Report at Pithoragarh helipad 1 hour before departure (or designated pickup point).",
-        "Safety briefing and boarding formalities.",
-        "Scenic helicopter flight to Munsyari (30-40 minutes) with breathtaking aerial views of Himalayan peaks.",
-        "Landing at Munsyari helipad and transfer to hotel.",
-        "Check-in and freshen up at premium hotel.",
-        "Visit Nanda Devi Temple with panoramic views of Panchachuli peaks.",
-        "Explore local market and Munsyari viewpoints.",
-        "Visit Gayatri Ashram and enjoy the serene environment.",
-        "Optional visit to Tribal Heritage Museum.",
-        "Witness stunning sunset over the Himalayan ranges.",
-        "Dinner and overnight stay at hotel in Munsyari."
-      ],
-      inclusions: "Helicopter Transfer, Premium Hotel Stay, All Meals (Lunch, Dinner), Ground Transport for sightseeing.",
-      night_stay: "Munsyari."
+    __id: "8",
+    name: "Helicopter Tour to Munsyari",
+    overview:
+      "Experience the ultimate luxury and convenience with our exclusive helicopter tour to Munsyari. Skip the long mountain drives and arrive at the 'Little Kashmir' of Uttarakhand in style. This premium 2-day, 1-night package offers breathtaking aerial views of the Himalayas, quick access to Munsyari's stunning landscapes, and comfortable ground arrangements. Perfect for those seeking a time-efficient yet unforgettable journey to witness the majestic Panchachuli peaks.",
+    description:
+      "<h2>Fly to the Heart of the Himalayas</h2>\n<p>Elevate your travel experience with our <strong>exclusive helicopter tour to Munsyari</strong>. This premium package is designed for travelers who value time and comfort while seeking an extraordinary adventure. Bypass hours of road travel and soar directly to one of Uttarakhand's most picturesque destinations. Enjoy unparalleled aerial views of snow-capped peaks, deep valleys, and pristine forests as you fly over the Kumaon Himalayas.</p>\n\n<h3>Aerial Views of the Himalayas</h3>\n<p>The helicopter journey itself is an adventure, offering spectacular bird's-eye views of the <strong>Panchachuli peaks, Nanda Devi range, and the lush valleys</strong> below. As you fly over the rugged terrain, you'll witness landscapes that few get to see from this unique perspective. The flight is not just transportation—it's an integral part of the experience, providing photo opportunities and memories that will last a lifetime.</p>\n\n<h3>Munsyari: The Little Kashmir</h3>\n<p>Upon landing in <strong>Munsyari</strong>, you'll be greeted by panoramic views of the mighty <strong>Panchachuli peaks</strong> (five snow-clad peaks standing majestically at over 6,000 meters). The town is a tranquil retreat offering stunning vistas, spiritual sites like the Nanda Devi Temple, and opportunities to explore local culture. Visit the tribal heritage museum, walk through quaint markets, and immerse yourself in the serene mountain atmosphere.</p>\n\n<h3>Premium Comfort & Convenience</h3>\n<p>This package includes helicopter transfers from Pithoragarh or a designated helipad, premium accommodation in Munsyari, all meals, and ground transportation for local sightseeing. Our experienced pilots ensure a safe and smooth journey, while our ground team takes care of all your needs. This is the perfect option for senior travelers, busy professionals, or anyone seeking a luxurious Himalayan escape without the fatigue of long road journeys.</p>",
+    itinerary: [
+      {
+        day: 1,
+        title: "Helicopter Flight to Munsyari & Local Sightseeing",
+        distance: "Approx. 30-40 min flight from Pithoragarh",
+        details: [
+          "Report at Pithoragarh helipad 1 hour before departure (or designated pickup point).",
+          "Safety briefing and boarding formalities.",
+          "Scenic helicopter flight to Munsyari (30-40 minutes) with breathtaking aerial views of Himalayan peaks.",
+          "Landing at Munsyari helipad and transfer to hotel.",
+          "Check-in and freshen up at premium hotel.",
+          "Visit Nanda Devi Temple with panoramic views of Panchachuli peaks.",
+          "Explore local market and Munsyari viewpoints.",
+          "Visit Gayatri Ashram and enjoy the serene environment.",
+          "Optional visit to Tribal Heritage Museum.",
+          "Witness stunning sunset over the Himalayan ranges.",
+          "Dinner and overnight stay at hotel in Munsyari."
+        ],
+        inclusions: "Helicopter Transfer, Premium Hotel Stay, All Meals (Lunch, Dinner), Ground Transport for sightseeing.",
+        night_stay: "Munsyari."
+      },
+      {
+        day: 2,
+        title: "Morning Exploration & Return Helicopter Flight",
+        distance: "Approx. 30-40 min flight",
+        details: [
+          "Early morning wake up to witness spectacular sunrise over Panchachuli peaks.",
+          "Optional morning walk to nearby viewpoints.",
+          "Breakfast at hotel.",
+          "Visit Kalamuni Top (subject to time and weather) for 360-degree mountain views.",
+          "Optional quick visit to Birthi Falls viewpoint (time permitting).",
+          "Check out from hotel and transfer to Munsyari helipad.",
+          "Board helicopter for return journey.",
+          "Enjoy scenic flight back with different perspective of the Himalayas.",
+          "Landing at Pithoragarh/designated helipad.",
+          "Tour concludes with unforgettable memories of aerial Himalayan adventure."
+        ],
+        inclusions: "Helicopter Transfer, Breakfast, Ground Transport.",
+        night_stay: "N/A"
+      }
+    ],
+    images: [
+      "/Landing-6.jpg",
+      "/KM-1.jpg",
+      "/D-1.jpg",
+      "/AK-5.jpg",
+      "/D-2.jpg",
+      "/C-5.jpg"
+    ],
+    price: {
+      standard_plan: 45000,
+      deluxe_plan: 55000
     },
-    {
-      day: 2,
-      title: "Morning Exploration & Return Helicopter Flight",
-      distance: "Approx. 30-40 min flight",
-      details: [
-        "Early morning wake up to witness spectacular sunrise over Panchachuli peaks.",
-        "Optional morning walk to nearby viewpoints.",
-        "Breakfast at hotel.",
-        "Visit Kalamuni Top (subject to time and weather) for 360-degree mountain views.",
-        "Optional quick visit to Birthi Falls viewpoint (time permitting).",
-        "Check out from hotel and transfer to Munsyari helipad.",
-        "Board helicopter for return journey.",
-        "Enjoy scenic flight back with different perspective of the Himalayas.",
-        "Landing at Pithoragarh/designated helipad.",
-        "Tour concludes with unforgettable memories of aerial Himalayan adventure."
-      ],
-      inclusions: "Helicopter Transfer, Breakfast, Ground Transport.",
-      night_stay: "N/A"
-    }
-  ],
-  images: [
-    "/Landing-6.jpg",
-    "/KM-1.jpg",
-    "/D-1.jpg",
-    "/AK-5.jpg",
-    "/D-2.jpg",
-    "/C-5.jpg"
-  ],
-  price: {
-    standard_plan: 45000,
-    deluxe_plan: 55000
+    days: 2,
+    places: [
+      "Pithoragarh Helipad",
+      "Aerial views of Kumaon Himalayas",
+      "Munsyari",
+      "Panchachuli Peaks",
+      "Nanda Devi Temple",
+      "Gayatri Ashram",
+      "Kalamuni Top",
+      "Local Markets"
+    ],
+    tour_operator: {
+      name: "Devnagari Tour and Travels",
+      contact_number: "9456193464",
+      website: "https://devnagaritourtravels.com/",
+      email: "info@devnagaritourtravels.com"
+    },
+    inclusions: [
+      "Round-trip helicopter transfers (Pithoragarh-Munsyari-Pithoragarh)",
+      "Premium Hotel Accommodation in Munsyari",
+      "All Meals: Lunch, Dinner, Breakfast",
+      "Ground transportation for local sightseeing in Munsyari",
+      "Experienced helicopter pilot and ground support team",
+      "All aviation charges and permits",
+      "Travel insurance during helicopter journey",
+      "Basic Medical & First Aid kit"
+    ],
+    exclusions: [
+      "Transport to/from Pithoragarh helipad (can be arranged separately)",
+      "Personal expenses and shopping",
+      "Any adventure activities or optional treks",
+      "Tips and gratuities",
+      "Any additional helicopter flights or charter requests"
+    ],
+    packing_list: [
+      "Light Luggage: Maximum 10kg per person (strict weight limit for helicopter)",
+      "Comfortable Clothing: Layers for changing mountain weather",
+      "Warm Jacket: Temperatures can be cool at altitude",
+      "Sunglasses & Sunscreen: Essential for high-altitude sun protection",
+      "Camera: For capturing aerial and ground views",
+      "Valid ID: Government-issued photo ID mandatory for helicopter travel",
+      "Medications: Personal medicines and motion sickness tablets if needed",
+      "Comfortable Walking Shoes: For local sightseeing"
+    ],
+    important_notes: [
+      "Weight Limit: Strict 10kg baggage limit per person for helicopter safety.",
+      "Weather Dependent: Helicopter flights are subject to weather conditions. In case of cancellation, alternate dates will be offered or road transport arranged.",
+      "Age Restrictions: Children below 2 years and senior citizens above 75 years require medical clearance.",
+      "Health: Passengers with heart conditions, respiratory issues, or pregnancy should consult a doctor before booking.",
+      "Timing: Flight schedules are subject to change based on weather and operational requirements.",
+      "Check-in: Report 1 hour prior to departure for safety briefing and boarding.",
+      "Insurance: Basic travel insurance included; comprehensive insurance recommended."
+    ],
+    terms_and_conditions: {
+      payment: "Full payment required at least 7 days before departure due to helicopter booking requirements.",
+      identification: "Valid government-issued photo ID is mandatory for helicopter travel. No boarding without ID.",
+      booking: "Bookings are non-transferable. Name changes not permitted after booking confirmation.",
+      refunds: "50% refund if cancelled 7 days prior. No refund for cancellations within 7 days or no-shows.",
+      luggage: "Strict 10kg baggage limit per person. Excess baggage will not be allowed on helicopter.",
+      weather_cancellation: "Flight cancellations due to weather are beyond our control. Alternate dates or road transport will be offered.",
+      health_requirements: "Passengers must be medically fit for high-altitude helicopter travel.",
+      conduct: "Smoking and alcohol consumption strictly prohibited on helicopter and during tour.",
+      liability: "The company and helicopter operator are not responsible for accidents, injuries, or delays due to weather or technical reasons.",
+      itinerary_changes: "Ground itinerary may be altered based on weather, flight timings, or local conditions."
+    },
+    cancellation_policy:
+      "A 50% advance payment is mandatory to confirm helicopter booking. Cancellations made 7+ days prior receive 50% refund. Cancellations within 7 days or no-shows are non-refundable due to charter commitments.",
+    pdf_url: ""
   },
-  days: 2,
-  places: [
-    "Pithoragarh Helipad",
-    "Aerial views of Kumaon Himalayas",
-    "Munsyari",
-    "Panchachuli Peaks",
-    "Nanda Devi Temple",
-    "Gayatri Ashram",
-    "Kalamuni Top",
-    "Local Markets"
-  ],
-  tour_operator: {
-    name: "Devnagari Tour and Travels",
-    contact_number: "9456193464",
-    website: "https://devnagaritourtravels.com/",
-    email: "info@devnagaritourtravels.com"
-  },
-  inclusions: [
-    "Round-trip helicopter transfers (Pithoragarh-Munsyari-Pithoragarh)",
-    "Premium Hotel Accommodation in Munsyari",
-    "All Meals: Lunch, Dinner, Breakfast",
-    "Ground transportation for local sightseeing in Munsyari",
-    "Experienced helicopter pilot and ground support team",
-    "All aviation charges and permits",
-    "Travel insurance during helicopter journey",
-    "Basic Medical & First Aid kit"
-  ],
-  exclusions: [
-    "Transport to/from Pithoragarh helipad (can be arranged separately)",
-    "Personal expenses and shopping",
-    "Any adventure activities or optional treks",
-    "Tips and gratuities",
-    "Any additional helicopter flights or charter requests"
-  ],
-  packing_list: [
-    "Light Luggage: Maximum 10kg per person (strict weight limit for helicopter)",
-    "Comfortable Clothing: Layers for changing mountain weather",
-    "Warm Jacket: Temperatures can be cool at altitude",
-    "Sunglasses & Sunscreen: Essential for high-altitude sun protection",
-    "Camera: For capturing aerial and ground views",
-    "Valid ID: Government-issued photo ID mandatory for helicopter travel",
-    "Medications: Personal medicines and motion sickness tablets if needed",
-    "Comfortable Walking Shoes: For local sightseeing"
-  ],
-  important_notes: [
-    "Weight Limit: Strict 10kg baggage limit per person for helicopter safety.",
-    "Weather Dependent: Helicopter flights are subject to weather conditions. In case of cancellation, alternate dates will be offered or road transport arranged.",
-    "Age Restrictions: Children below 2 years and senior citizens above 75 years require medical clearance.",
-    "Health: Passengers with heart conditions, respiratory issues, or pregnancy should consult a doctor before booking.",
-    "Timing: Flight schedules are subject to change based on weather and operational requirements.",
-    "Check-in: Report 1 hour prior to departure for safety briefing and boarding.",
-    "Insurance: Basic travel insurance included; comprehensive insurance recommended."
-  ],
-  terms_and_conditions: {
-    payment: "Full payment required at least 7 days before departure due to helicopter booking requirements.",
-    identification: "Valid government-issued photo ID is mandatory for helicopter travel. No boarding without ID.",
-    booking: "Bookings are non-transferable. Name changes not permitted after booking confirmation.",
-    refunds: "50% refund if cancelled 7 days prior. No refund for cancellations within 7 days or no-shows.",
-    luggage: "Strict 10kg baggage limit per person. Excess baggage will not be allowed on helicopter.",
-    weather_cancellation: "Flight cancellations due to weather are beyond our control. Alternate dates or road transport will be offered.",
-    health_requirements: "Passengers must be medically fit for high-altitude helicopter travel.",
-    conduct: "Smoking and alcohol consumption strictly prohibited on helicopter and during tour.",
-    liability: "The company and helicopter operator are not responsible for accidents, injuries, or delays due to weather or technical reasons.",
-    itinerary_changes: "Ground itinerary may be altered based on weather, flight timings, or local conditions."
-  },
-  cancellation_policy:
-    "A 50% advance payment is mandatory to confirm helicopter booking. Cancellations made 7+ days prior receive 50% refund. Cancellations within 7 days or no-shows are non-refundable due to charter commitments.",
-  pdf_url: ""
-},
-{
-  __id: "9",
-  name: "Bike Tour: Pithoragarh - Adi Kailash - Munsyari",
-  overview:
-    "Embark on the ultimate motorcycling adventure through the stunning landscapes of Kumaon Himalayas. This 6-day, 5-night bike tour takes you from Pithoragarh to the sacred Adi Kailash, through remote Darma Valley, and to the scenic hill station of Munsyari. Perfect for experienced riders seeking thrilling mountain roads, breathtaking views, and an authentic Himalayan experience. Ride through challenging terrains, witness snow-capped peaks, and explore offbeat destinations on this adrenaline-pumping journey.",
-  description:
-    "<h2>Ride Through the Mighty Himalayas</h2>\n<p>Experience the thrill of a lifetime with our <strong>6-day, 5-night motorcycle expedition</strong> through the heart of the Kumaon Himalayas. This tour is designed for passionate riders who seek adventure, stunning landscapes, and the freedom of the open road. Starting from Pithoragarh, you'll ride through winding mountain passes, remote valleys, and traditional villages, reaching the sacred <strong>Adi Kailash</strong> and the picturesque <strong>Munsyari</strong>.</p>\n\n<h3>The Ultimate Mountain Riding Experience</h3>\n<p>This bike tour takes you on some of the most scenic and challenging roads in the Indian Himalayas. You'll navigate through <strong>hairpin bends, river crossings, and high-altitude terrain</strong>, all while surrounded by majestic peaks like Panchachuli, Nanda Devi, and the sacred Adi Kailash. The journey includes rides through the <strong>Darma Valley</strong>, one of the most remote and pristine valleys in Uttarakhand, offering unparalleled natural beauty and solitude.</p>\n\n<h3>Sacred Sites & Scenic Stops</h3>\n<p>Along the way, you'll visit the sacred <strong>Adi Kailash (Chota Kailash)</strong>, where you can perform darshan and experience the spiritual energy of this holy mountain. The tour also includes stops at <strong>Narayan Ashram</strong>, traditional villages like Seepu and Dugtu, and the stunning <strong>Munsyari</strong> with its panoramic views of the Panchachuli peaks. Visit waterfalls, hot springs, confluence points, and the India-Nepal border, making this not just a ride but a complete Himalayan adventure.</p>\n\n<h3>Complete Support & Safety</h3>\n<p>Your safety is our priority. The tour includes a support vehicle carrying luggage, spare parts, and emergency equipment. An experienced ride leader and mechanic accompany the group throughout the journey. We provide quality accommodation, meals, inner line permits, and comprehensive mechanical support. Riders have the option to bring their own bikes or rent Royal Enfield motorcycles. This tour is suitable for riders with prior experience on mountain roads and good fitness levels.</p>",
-  itinerary: [
-    {
-      day: 1,
-      title: "Pithoragarh - Dharchula - Narayan Ashram",
-      distance: "Approx. 130 km",
-      duration: "6-7 hrs",
-      details: [
-        "Morning briefing and bike check at Pithoragarh.",
-        "Start the ride towards Dharchula through scenic mountain roads.",
-        "Stop at Askot Wildlife Sanctuary viewpoint.",
-        "Visit the confluence of Kali and Gori rivers at Jauljibi.",
-        "Ride through Dharchula, a border town with Nepal.",
-        "Continue to Narayan Ashram via Tawaghat.",
-        "Sightseeing includes Ranthi Waterfall, Thanidhar View Point, and Chirkila Dam.",
-        "Visit Narayan Swami Ashram and enjoy views of Chipla Kedar peaks.",
-        "Check into TRC camp/homestay.",
-        "Dinner and overnight stay at Narayan Ashram."
-      ],
-      inclusions: "Bike rental (if opted), Support vehicle, Accommodation, Breakfast, Dinner & Evening Tea.",
-      night_stay: "Narayan Ashram."
+  {
+    __id: "9",
+    name: "Bike Tour: Pithoragarh - Adi Kailash - Munsyari",
+    overview:
+      "Embark on the ultimate motorcycling adventure through the stunning landscapes of Kumaon Himalayas. This 6-day, 5-night bike tour takes you from Pithoragarh to the sacred Adi Kailash, through remote Darma Valley, and to the scenic hill station of Munsyari. Perfect for experienced riders seeking thrilling mountain roads, breathtaking views, and an authentic Himalayan experience. Ride through challenging terrains, witness snow-capped peaks, and explore offbeat destinations on this adrenaline-pumping journey.",
+    description:
+      "<h2>Ride Through the Mighty Himalayas</h2>\n<p>Experience the thrill of a lifetime with our <strong>6-day, 5-night motorcycle expedition</strong> through the heart of the Kumaon Himalayas. This tour is designed for passionate riders who seek adventure, stunning landscapes, and the freedom of the open road. Starting from Pithoragarh, you'll ride through winding mountain passes, remote valleys, and traditional villages, reaching the sacred <strong>Adi Kailash</strong> and the picturesque <strong>Munsyari</strong>.</p>\n\n<h3>The Ultimate Mountain Riding Experience</h3>\n<p>This bike tour takes you on some of the most scenic and challenging roads in the Indian Himalayas. You'll navigate through <strong>hairpin bends, river crossings, and high-altitude terrain</strong>, all while surrounded by majestic peaks like Panchachuli, Nanda Devi, and the sacred Adi Kailash. The journey includes rides through the <strong>Darma Valley</strong>, one of the most remote and pristine valleys in Uttarakhand, offering unparalleled natural beauty and solitude.</p>\n\n<h3>Sacred Sites & Scenic Stops</h3>\n<p>Along the way, you'll visit the sacred <strong>Adi Kailash (Chota Kailash)</strong>, where you can perform darshan and experience the spiritual energy of this holy mountain. The tour also includes stops at <strong>Narayan Ashram</strong>, traditional villages like Seepu and Dugtu, and the stunning <strong>Munsyari</strong> with its panoramic views of the Panchachuli peaks. Visit waterfalls, hot springs, confluence points, and the India-Nepal border, making this not just a ride but a complete Himalayan adventure.</p>\n\n<h3>Complete Support & Safety</h3>\n<p>Your safety is our priority. The tour includes a support vehicle carrying luggage, spare parts, and emergency equipment. An experienced ride leader and mechanic accompany the group throughout the journey. We provide quality accommodation, meals, inner line permits, and comprehensive mechanical support. Riders have the option to bring their own bikes or rent Royal Enfield motorcycles. This tour is suitable for riders with prior experience on mountain roads and good fitness levels.</p>",
+    itinerary: [
+      {
+        day: 1,
+        title: "Pithoragarh - Dharchula - Narayan Ashram",
+        distance: "Approx. 130 km",
+        duration: "6-7 hrs",
+        details: [
+          "Morning briefing and bike check at Pithoragarh.",
+          "Start the ride towards Dharchula through scenic mountain roads.",
+          "Stop at Askot Wildlife Sanctuary viewpoint.",
+          "Visit the confluence of Kali and Gori rivers at Jauljibi.",
+          "Ride through Dharchula, a border town with Nepal.",
+          "Continue to Narayan Ashram via Tawaghat.",
+          "Sightseeing includes Ranthi Waterfall, Thanidhar View Point, and Chirkila Dam.",
+          "Visit Narayan Swami Ashram and enjoy views of Chipla Kedar peaks.",
+          "Check into TRC camp/homestay.",
+          "Dinner and overnight stay at Narayan Ashram."
+        ],
+        inclusions: "Bike rental (if opted), Support vehicle, Accommodation, Breakfast, Dinner & Evening Tea.",
+        night_stay: "Narayan Ashram."
+      },
+      {
+        day: 2,
+        title: "Narayan Ashram - Darma Valley - Dugtu (Panchachuli Base Camp)",
+        distance: "Approx. 60 km",
+        duration: "4-5 hrs (challenging terrain)",
+        details: [
+          "Early morning ride into the remote Darma Valley.",
+          "Navigate through narrow, winding roads with stunning valley views.",
+          "Pass through traditional villages: Nagling, Baling.",
+          "Stop at Kanchyoti Bridge and Waterfall for photos.",
+          "Ride to Dugtu village at Panchachuli Base Camp.",
+          "Visit Seepu Village with its mythological significance.",
+          "Optional short trek to Aadi-Aachari Taal (pond).",
+          "Experience authentic village life and hospitality.",
+          "Check into homestay for an immersive local experience.",
+          "Evening bonfire and traditional dinner with locals."
+        ],
+        inclusions: "Support vehicle, Homestay, Breakfast, Dinner & Evening Tea, Mechanical support.",
+        night_stay: "Dugtu/Datu Village (Darma Valley)."
+      },
+      {
+        day: 3,
+        title: "Dugtu - Adi Kailash Darshan - Gunji",
+        distance: "Approx. 50 km",
+        duration: "4-5 hrs + Adi Kailash visit",
+        details: [
+          "Morning ride towards Adi Kailash.",
+          "Navigate challenging high-altitude terrain.",
+          "Reach Adi Kailash base for darshan and charan sparsh.",
+          "Spend time at the sacred site, perform prayers and photography.",
+          "Experience the spiritual energy of this holy mountain.",
+          "Ride to Gunji village near the Indo-Tibetan border.",
+          "Explore the remote border village atmosphere.",
+          "Check into homestay in Gunji.",
+          "Evening interactions with local communities.",
+          "Dinner and overnight stay at Gunji."
+        ],
+        inclusions: "Support vehicle, Homestay, Inner line permits, Breakfast, Dinner & Evening Tea.",
+        night_stay: "Gunji Village."
+      },
+      {
+        day: 4,
+        title: "Gunji - Dharchula - Munsyari",
+        distance: "Approx. 140 km",
+        duration: "6-7 hrs",
+        details: [
+          "After breakfast, start the ride back through Darma Valley.",
+          "Ride through Dharchula and continue towards Munsyari.",
+          "Stop at Madkot hot water springs for a refreshing break.",
+          "Visit Bangapani Waterfalls en route.",
+          "Ride through the confluence of Kali and Gori rivers at Jauljibi.",
+          "Pass through Chaukori Tea Gardens with panoramic mountain views.",
+          "Stop at the stunning Birthi Waterfall for photos.",
+          "Reach Munsyari by evening.",
+          "Check into hotel with views of Panchachuli peaks.",
+          "Explore local market and cafes.",
+          "Dinner and overnight stay in Munsyari."
+        ],
+        inclusions: "Support vehicle, Hotel stay, Breakfast, Dinner & Evening Tea.",
+        night_stay: "Munsyari."
+      },
+      {
+        day: 5,
+        title: "Munsyari - Local Exploration & Rest Day",
+        distance: "Local sightseeing (30-40 km)",
+        details: [
+          "Relaxed morning with sunrise views over Panchachuli peaks.",
+          "Visit Nanda Devi Temple for blessings.",
+          "Ride to nearby viewpoints including Kalamuni Top.",
+          "Visit Gayatri Ashram and Tribal Heritage Museum.",
+          "Optional ride to Maheshwari Kund or Thamri Kund.",
+          "Explore local markets and handicraft shops.",
+          "Rest and relaxation time - bike maintenance check.",
+          "Enjoy the serene mountain atmosphere.",
+          "Evening bonfire at hotel (if available).",
+          "Dinner and overnight stay in Munsyari."
+        ],
+        inclusions: "Support vehicle for optional rides, Hotel stay, All meals, Bike maintenance.",
+        night_stay: "Munsyari."
+      },
+      {
+        day: 6,
+        title: "Munsyari - Pithoragarh",
+        distance: "Approx. 135 km",
+        duration: "5-6 hrs",
+        details: [
+          "Early morning checkout after breakfast.",
+          "Final ride through the scenic Kumaon hills.",
+          "Stop at Birthi Waterfall if missed earlier.",
+          "Pass through Berinag and tea gardens.",
+          "Visit Askot Sanctuary viewpoint and Satgarh.",
+          "Lunch break at a scenic spot en route.",
+          "Reach Pithoragarh by evening.",
+          "Bike return and final check (for rental bikes).",
+          "Closing ceremony and sharing of experiences.",
+          "Tour concludes with memories of an epic Himalayan ride."
+        ],
+        inclusions: "Support vehicle, Breakfast & Lunch, Bike return assistance.",
+        night_stay: "N/A"
+      }
+    ],
+    images: [
+      "/Landing-5.jpg",
+      "/AK-13.jpg",
+      "/D-1.jpg",
+      "/D-2.jpg",
+      "/KM-1.jpg",
+      "/AK-5.jpg",
+      "/N-1.jpg"
+    ],
+    price: {
+      standard_plan: 28000,
+      deluxe_plan: 35000
     },
-    {
-      day: 2,
-      title: "Narayan Ashram - Darma Valley - Dugtu (Panchachuli Base Camp)",
-      distance: "Approx. 60 km",
-      duration: "4-5 hrs (challenging terrain)",
-      details: [
-        "Early morning ride into the remote Darma Valley.",
-        "Navigate through narrow, winding roads with stunning valley views.",
-        "Pass through traditional villages: Nagling, Baling.",
-        "Stop at Kanchyoti Bridge and Waterfall for photos.",
-        "Ride to Dugtu village at Panchachuli Base Camp.",
-        "Visit Seepu Village with its mythological significance.",
-        "Optional short trek to Aadi-Aachari Taal (pond).",
-        "Experience authentic village life and hospitality.",
-        "Check into homestay for an immersive local experience.",
-        "Evening bonfire and traditional dinner with locals."
-      ],
-      inclusions: "Support vehicle, Homestay, Breakfast, Dinner & Evening Tea, Mechanical support.",
-      night_stay: "Dugtu/Datu Village (Darma Valley)."
+    days: 6,
+    places: [
+      "Pithoragarh",
+      "Dharchula",
+      "Jauljibi",
+      "Narayan Ashram",
+      "Tawaghat",
+      "Darma Valley",
+      "Nagling Village",
+      "Baling Village",
+      "Dugtu Village",
+      "Panchachuli Base Camp",
+      "Seepu Village",
+      "Adi Kailash",
+      "Gunji",
+      "Madkot Hot Springs",
+      "Chaukori",
+      "Birthi Waterfall",
+      "Munsyari",
+      "Nanda Devi Temple"
+    ],
+    tour_operator: {
+      name: "Devnagari Tour and Travels",
+      contact_number: "9456193464",
+      website: "https://devnagaritourtravels.com/",
+      email: "info@devnagaritourtravels.com"
     },
-    {
-      day: 3,
-      title: "Dugtu - Adi Kailash Darshan - Gunji",
-      distance: "Approx. 50 km",
-      duration: "4-5 hrs + Adi Kailash visit",
-      details: [
-        "Morning ride towards Adi Kailash.",
-        "Navigate challenging high-altitude terrain.",
-        "Reach Adi Kailash base for darshan and charan sparsh.",
-        "Spend time at the sacred site, perform prayers and photography.",
-        "Experience the spiritual energy of this holy mountain.",
-        "Ride to Gunji village near the Indo-Tibetan border.",
-        "Explore the remote border village atmosphere.",
-        "Check into homestay in Gunji.",
-        "Evening interactions with local communities.",
-        "Dinner and overnight stay at Gunji."
-      ],
-      inclusions: "Support vehicle, Homestay, Inner line permits, Breakfast, Dinner & Evening Tea.",
-      night_stay: "Gunji Village."
+    inclusions: [
+      "Royal Enfield motorcycle rental (if opted - Classic 350/Himalayan)",
+      "Fuel for the entire tour",
+      "Support vehicle with luggage transport",
+      "Experienced ride leader and mechanic",
+      "Accommodation (Hotels/Homestays/Camps)",
+      "Meals: Breakfast, Dinner, and Evening Tea (as per itinerary)",
+      "All Inner line permits for restricted areas",
+      "Basic motorcycle maintenance and spare parts",
+      "First Aid kit and emergency support",
+      "All sightseeing as per itinerary"
+    ],
+    exclusions: [
+      "Lunch and personal expenses",
+      "Bike damage charges (security deposit required)",
+      "Personal riding gear (helmet, jacket, gloves - available on rent)",
+      "Travel insurance (highly recommended)",
+      "Any expenses due to bike breakdown caused by rider negligence",
+      "Alcoholic beverages",
+      "Any adventure activities not mentioned in itinerary"
+    ],
+    bike_options: [
+      {
+        model: "Royal Enfield Classic 350",
+        price: "Included in standard plan",
+        suitable_for: "Comfortable cruising on mountain roads"
+      },
+      {
+        model: "Royal Enfield Himalayan 411",
+        price: "Additional ₹3,000",
+        suitable_for: "Better for challenging terrains and off-road sections"
+      },
+      {
+        model: "Own Bike",
+        price: "Deduct ₹8,000 from package price",
+        suitable_for: "Riders who prefer their own motorcycles"
+      }
+    ],
+    mandatory_requirements: [
+      "Valid driving license for motorcycles (mandatory)",
+      "Prior experience riding in hilly/mountain terrain",
+      "Good physical fitness and stamina",
+      "Age: 21-60 years (exceptions with medical certificate)",
+      "Signed indemnity form",
+      "Valid government-issued ID",
+      "Refundable security deposit: ₹10,000 for rental bikes"
+    ],
+    packing_list: [
+      "Riding Gear: Full-face helmet, riding jacket with armor, riding gloves, knee guards.",
+      "Clothing: Thermal layers, fleece jacket, windproof/waterproof outer layer, comfortable riding pants.",
+      "Footwear: Sturdy riding boots with ankle support (mandatory).",
+      "Accessories: Sunglasses, neck warmer/balaclava, bandana, cap.",
+      "Personal Items: Sunscreen (high SPF), lip balm, personal medications, energy bars.",
+      "Documents: Driving license, ID proof, permits (provided), insurance papers.",
+      "Other: Camera, power bank, reusable water bottle, small backpack for day rides.",
+      "Optional: Knee/elbow guards, rain gear, action camera for ride recording."
+    ],
+    terms_and_conditions: {
+      payment: "Full payment required 15 days before departure due to permit and bike booking requirements.",
+      identification: "Valid driving license for motorcycles is mandatory. No license = no ride.",
+      booking: "Bookings are non-transferable.",
+      refunds: "No refunds for any unavailed services.",
+      bike_damage: "Rider is responsible for any damage to the rented motorcycle. Security deposit will be adjusted against damages.",
+      fitness: "Riders must be physically and mentally fit for high-altitude riding. Medical conditions must be disclosed.",
+      punctuality: "Riding schedule is fixed for safety and daylight hours. Delays may affect the itinerary.",
+      conduct: "Drinking and riding is strictly prohibited. Violation leads to immediate tour termination without refund.",
+      liability: "Riders ride at their own risk. The company is not responsible for accidents, injuries, or bike damage.",
+      itinerary_changes: "Routes may be altered due to weather, road conditions, or permits. Safety is the priority.",
+      support: "Follow ride leader's instructions at all times. Maintain safe distance and speed limits."
     },
-    {
-      day: 4,
-      title: "Gunji - Dharchula - Munsyari",
-      distance: "Approx. 140 km",
-      duration: "6-7 hrs",
-      details: [
-        "After breakfast, start the ride back through Darma Valley.",
-        "Ride through Dharchula and continue towards Munsyari.",
-        "Stop at Madkot hot water springs for a refreshing break.",
-        "Visit Bangapani Waterfalls en route.",
-        "Ride through the confluence of Kali and Gori rivers at Jauljibi.",
-        "Pass through Chaukori Tea Gardens with panoramic mountain views.",
-        "Stop at the stunning Birthi Waterfall for photos.",
-        "Reach Munsyari by evening.",
-        "Check into hotel with views of Panchachuli peaks.",
-        "Explore local market and cafes.",
-        "Dinner and overnight stay in Munsyari."
-      ],
-      inclusions: "Support vehicle, Hotel stay, Breakfast, Dinner & Evening Tea.",
-      night_stay: "Munsyari."
-    },
-    {
-      day: 5,
-      title: "Munsyari - Local Exploration & Rest Day",
-      distance: "Local sightseeing (30-40 km)",
-      details: [
-        "Relaxed morning with sunrise views over Panchachuli peaks.",
-        "Visit Nanda Devi Temple for blessings.",
-        "Ride to nearby viewpoints including Kalamuni Top.",
-        "Visit Gayatri Ashram and Tribal Heritage Museum.",
-        "Optional ride to Maheshwari Kund or Thamri Kund.",
-        "Explore local markets and handicraft shops.",
-        "Rest and relaxation time - bike maintenance check.",
-        "Enjoy the serene mountain atmosphere.",
-        "Evening bonfire at hotel (if available).",
-        "Dinner and overnight stay in Munsyari."
-      ],
-      inclusions: "Support vehicle for optional rides, Hotel stay, All meals, Bike maintenance.",
-      night_stay: "Munsyari."
-    },
-    {
-      day: 6,
-      title: "Munsyari - Pithoragarh",
-      distance: "Approx. 135 km",
-      duration: "5-6 hrs",
-      details: [
-        "Early morning checkout after breakfast.",
-        "Final ride through the scenic Kumaon hills.",
-        "Stop at Birthi Waterfall if missed earlier.",
-        "Pass through Berinag and tea gardens.",
-        "Visit Askot Sanctuary viewpoint and Satgarh.",
-        "Lunch break at a scenic spot en route.",
-        "Reach Pithoragarh by evening.",
-        "Bike return and final check (for rental bikes).",
-        "Closing ceremony and sharing of experiences.",
-        "Tour concludes with memories of an epic Himalayan ride."
-      ],
-      inclusions: "Support vehicle, Breakfast & Lunch, Bike return assistance.",
-      night_stay: "N/A"
-    }
-  ],
-  images: [
-    "/Landing-5.jpg",
-    "/AK-13.jpg",
-    "/D-1.jpg",
-    "/D-2.jpg",
-    "/KM-1.jpg",
-    "/AK-5.jpg",
-    "/N-1.jpg"
-  ],
-  price: {
-    standard_plan: 28000,
-    deluxe_plan: 35000
-  },
-  days: 6,
-  places: [
-    "Pithoragarh",
-    "Dharchula",
-    "Jauljibi",
-    "Narayan Ashram",
-    "Tawaghat",
-    "Darma Valley",
-    "Nagling Village",
-    "Baling Village",
-    "Dugtu Village",
-    "Panchachuli Base Camp",
-    "Seepu Village",
-    "Adi Kailash",
-    "Gunji",
-    "Madkot Hot Springs",
-    "Chaukori",
-    "Birthi Waterfall",
-    "Munsyari",
-    "Nanda Devi Temple"
-  ],
-  tour_operator: {
-    name: "Devnagari Tour and Travels",
-    contact_number: "9456193464",
-    website: "https://devnagaritourtravels.com/",
-    email: "info@devnagaritourtravels.com"
-  },
-  inclusions: [
-    "Royal Enfield motorcycle rental (if opted - Classic 350/Himalayan)",
-    "Fuel for the entire tour",
-    "Support vehicle with luggage transport",
-    "Experienced ride leader and mechanic",
-    "Accommodation (Hotels/Homestays/Camps)",
-    "Meals: Breakfast, Dinner, and Evening Tea (as per itinerary)",
-    "All Inner line permits for restricted areas",
-    "Basic motorcycle maintenance and spare parts",
-    "First Aid kit and emergency support",
-    "All sightseeing as per itinerary"
-  ],
-  exclusions: [
-    "Lunch and personal expenses",
-    "Bike damage charges (security deposit required)",
-    "Personal riding gear (helmet, jacket, gloves - available on rent)",
-    "Travel insurance (highly recommended)",
-    "Any expenses due to bike breakdown caused by rider negligence",
-    "Alcoholic beverages",
-    "Any adventure activities not mentioned in itinerary"
-  ],
-  bike_options: [
-    {
-      model: "Royal Enfield Classic 350",
-      price: "Included in standard plan",
-      suitable_for: "Comfortable cruising on mountain roads"
-    },
-    {
-      model: "Royal Enfield Himalayan 411",
-      price: "Additional ₹3,000",
-      suitable_for: "Better for challenging terrains and off-road sections"
-    },
-    {
-      model: "Own Bike",
-      price: "Deduct ₹8,000 from package price",
-      suitable_for: "Riders who prefer their own motorcycles"
-    }
-  ],
-  mandatory_requirements: [
-    "Valid driving license for motorcycles (mandatory)",
-    "Prior experience riding in hilly/mountain terrain",
-    "Good physical fitness and stamina",
-    "Age: 21-60 years (exceptions with medical certificate)",
-    "Signed indemnity form",
-    "Valid government-issued ID",
-    "Refundable security deposit: ₹10,000 for rental bikes"
-  ],
-  packing_list: [
-    "Riding Gear: Full-face helmet, riding jacket with armor, riding gloves, knee guards.",
-    "Clothing: Thermal layers, fleece jacket, windproof/waterproof outer layer, comfortable riding pants.",
-    "Footwear: Sturdy riding boots with ankle support (mandatory).",
-    "Accessories: Sunglasses, neck warmer/balaclava, bandana, cap.",
-    "Personal Items: Sunscreen (high SPF), lip balm, personal medications, energy bars.",
-    "Documents: Driving license, ID proof, permits (provided), insurance papers.",
-    "Other: Camera, power bank, reusable water bottle, small backpack for day rides.",
-    "Optional: Knee/elbow guards, rain gear, action camera for ride recording."
-  ],
-  terms_and_conditions: {
-    payment: "Full payment required 15 days before departure due to permit and bike booking requirements.",
-    identification: "Valid driving license for motorcycles is mandatory. No license = no ride.",
-    booking: "Bookings are non-transferable.",
-    refunds: "No refunds for any unavailed services.",
-    bike_damage: "Rider is responsible for any damage to the rented motorcycle. Security deposit will be adjusted against damages.",
-    fitness: "Riders must be physically and mentally fit for high-altitude riding. Medical conditions must be disclosed.",
-    punctuality: "Riding schedule is fixed for safety and daylight hours. Delays may affect the itinerary.",
-    conduct: "Drinking and riding is strictly prohibited. Violation leads to immediate tour termination without refund.",
-    liability: "Riders ride at their own risk. The company is not responsible for accidents, injuries, or bike damage.",
-    itinerary_changes: "Routes may be altered due to weather, road conditions, or permits. Safety is the priority.",
-    support: "Follow ride leader's instructions at all times. Maintain safe distance and speed limits."
-  },
-  cancellation_policy:
-    "A 50% advance payment is mandatory to confirm the booking and reserve bikes. Cancellations made 15+ days prior receive 50% refund. Cancellations within 15 days are non-refundable due to permit and bike reservation commitments.",
-  pdf_url: ""
-}
+    cancellation_policy:
+      "A 50% advance payment is mandatory to confirm the booking and reserve bikes. Cancellations made 15+ days prior receive 50% refund. Cancellations within 15 days are non-refundable due to permit and bike reservation commitments.",
+    pdf_url: ""
+  }
 ];

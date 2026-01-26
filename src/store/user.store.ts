@@ -43,6 +43,7 @@ export const useUserStore = create<UserStore>((set) => ({
           name: input.name,
           email: input.email,
           password: hashedPassword,
+          mobile: input.mobile,
         })
         .returning();
       if (response) {

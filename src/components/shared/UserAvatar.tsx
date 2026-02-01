@@ -27,6 +27,7 @@ export function UserAvatar({ User }: { User: User | null }) {
             <div className="space-y-1">
               <h4 className="text-sm font-semibold">{User.name}</h4>
               <p className="text-sm font-medium">{User.email}</p>
+              <p className="text-sm font-medium">{User.mobile}</p>
             </div>
           </div>
         </HoverCardContent>

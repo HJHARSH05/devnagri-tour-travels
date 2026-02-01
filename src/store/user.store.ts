@@ -22,7 +22,7 @@ export const useUserStore = create<UserStore>((set) => ({
   isAdmin: false,
   signup: async (input) => {
     try {
-      if (!(input.email && input.name && input.password)) {
+      if (!(input.email && input.name && input.password && input.mobile)) {
         toast.error("All fields are required");
         return false;
       }

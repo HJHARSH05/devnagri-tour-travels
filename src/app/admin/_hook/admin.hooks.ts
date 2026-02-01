@@ -22,6 +22,7 @@ const useAdminHook = () => {
           name: Users.name,
           id: Users.id,
           email: Users.email,
+          mobile: Users.mobile,
         },
       })
       .from(Bookings)
@@ -48,6 +49,7 @@ const useAdminHook = () => {
           name: Users.name,
           id: Users.id,
           email: Users.email,
+          mobile: Users.mobile,
         },
         taxi: {
           id: Taxis.id,

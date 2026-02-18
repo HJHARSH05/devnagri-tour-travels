@@ -91,12 +91,14 @@ function PackageDetail() {
                   : [""]
                 ).map((src, idx) => (
                   <CarouselItem key={idx} className="relative">
-                    <div className="relative w-full h-[500px] rounded-lg overflow-hidden">
+                    <div className="relative w-full h-[260px] sm:h-[340px] md:h-[430px] lg:h-[500px] rounded-lg overflow-hidden">
                       <Image
                         src={src ?? ""}
                         alt={`${Package.name} ${idx + 1}`}
                         fill
-                        sizes="(min-width: 1024px) 1500px, 00px"
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 100vw, 1500px"
+                        quality={90}
+                        priority={idx === 0}
                         className="object-cover"
                       />
                       {/* subtle gradient for text legibility */}
@@ -424,7 +426,7 @@ function PackageDetail() {
                 {TOURS.map((t, index) => (
                   <CarouselItem
                     key={t.__id ?? index}
-                    className="pl-1 sm:basis-1/2 md:basis-1/3 lg:basis-1/4"
+                    className="pl-1 md:basis-1/2 lg:basis-1/3"
                   >
                     <div className="hover:scale-[1.01] transition-transform duration-200">
                       <TourCard

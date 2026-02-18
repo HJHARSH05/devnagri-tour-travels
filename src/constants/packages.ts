@@ -918,7 +918,7 @@ export const TOURS = [
         night_stay: "N/A",
       },
     ],
-    images: ["/Landing-2.jpg", "/Landing-5.jpg", "/Landing-6.jpg"],
+    images: ["/Landing-2.jpg", "/D-1.jpg", "/Landing-6.jpg"],
     price: {
       standard_plan: 6500,
       deluxe_plan: 8500,
@@ -1515,5 +1515,113 @@ export const TOURS = [
     cancellation_policy:
       "A 50% advance payment is mandatory to confirm the booking and reserve bikes. Cancellations made 15+ days prior receive 50% refund. Cancellations within 15 days are non-refundable due to permit and bike reservation commitments.",
     pdf_url: ""
+  },
+  {
+    __id: "10",
+    name: "Winter Munsiyari Tour Package (4 Days)",
+    overview: "A breathtaking 4-day winter escape from Delhi to the snow-clad peaks of Munsiyari. This tour offers a perfect blend of scenic Himalayan drives, spiritual visits to ancient temples, and an adventurous trek to Khaliya Top for panoramic views of the Panchachuli peaks.",
+    description: "<h2>Experience the Magic of Munsiyari</h2>\n<p>Embark on an unforgettable <strong>4-day journey</strong> from <strong>Delhi to Munsiyari</strong>. Known as the 'Little Kashmir' of Uttarakhand, Munsiyari transforms into a white wonderland during winter. This package is designed for nature lovers and adventure seekers, featuring highlights like the <strong>Birthi Waterfall</strong>, <strong>Nanda Devi Temple</strong>, and a thrilling trek to <strong>Khaliya Top</strong> at 3500 meters.</p>\n\n<h3>Highlights</h3>\n<ul>\n  <li><strong>Khaliya Top Trek:</strong> A 3-4 hour trek offering 360-degree views of the snow-capped Himalayan ranges.</li>\n  <li><strong>Scenic Sightseeing:</strong> Visit the famous Birthi Waterfall, Pithoragarh Market, and the confluence of the Kali and Gori rivers.</li>\n  <li><strong>Winter Landscapes:</strong> Experience the serene beauty of snow-covered trails in Pithoragarh and Munsiyari.</li>\n</ul>",
+    itinerary: [
+      {
+        "day": 1,
+        "title": "Delhi to Munsiyari via Tanakpur & Pithoragarh",
+        "distance": "Approx. 600 km",
+        "details": [
+          "Early morning pickup from Delhi and start the drive towards Munsiyari.",
+          "Sightseeing en route at Tanakpur and Champawat.",
+          "Pass through the haunted village of Swala, Lohaghat, and Ghat.",
+          "Brief stop at Pithoragarh and the Sangam (confluence) of Kali and Gori rivers.",
+          "Arrival and drop-off at Munsiyari for overnight stay."
+        ],
+        "inclusions": "Transport, Sightseeing, Dinner.",
+        "night_stay": "Munsiyari"
+      },
+      {
+        "day": 2,
+        "title": "Munsiyari Sightseeing & Trek to Khaliya Top",
+        "distance": "Local Trek",
+        "details": [
+          "Early morning visit to Nanda Devi Temple with views of Panchachuli Peaks.",
+          "Visit Hasaling view point.",
+          "Commence a 3-4 hour trek to Khaliya Top.",
+          "Explore Khaliya Top and Zero Point for high-altitude Himalayan views.",
+          "Overnight stay at Khaliya Top or Munsiyari (as per logistics)."
+        ],
+        "inclusions": "Transport, Trekking Guide, Breakfast & Dinner.",
+        "night_stay": "Khaliya Top / Munsiyari"
+      },
+      {
+        "day": 3,
+        "title": "Munsiyari to Pithoragarh via Birthi Waterfall",
+        "distance": "Approx. 130 km",
+        "details": [
+          "Early morning trek back to Munsiyari (if staying at top).",
+          "Drive towards Pithoragarh with a stop at the famous Birthi Waterfall.",
+          "Enjoy local sightseeing of waterfalls and winter snow along the route.",
+          "Visit Pithoragarh Market and Chandak Hill for a sunset view.",
+          "Check into hotel in Pithoragarh."
+        ],
+        "inclusions": "Transport, Sightseeing, Breakfast & Dinner.",
+        "night_stay": "Pithoragarh"
+      },
+      {
+        "day": 4,
+        "title": "Pithoragarh to Delhi via Bhimtal",
+        "distance": "Approx. 500 km",
+        "details": [
+          "Depart from Pithoragarh for the return journey to Delhi.",
+          "En route sightseeing at Gurna Mata temple and Pahadpani.",
+          "Brief halt at scenic Bhimtal and Haldwani.",
+          "Evening drop-off in Delhi; tour concludes."
+        ],
+        "inclusions": "Transport, Breakfast.",
+        "night_stay": "N/A"
+      }
+    ],
+    images: [
+      "/Landing-7.jpg",
+      "/D-2.jpg",
+      "/D-1.jpg",
+      "/KM-1.jpg",
+      "/AK-5.jpg",
+      "/C-1.jpg",
+      "/C-3.jpg",
+    ], price: {
+      standard_plan: 14999,
+      deluxe_plan: 18500
+    },
+    days: 4,
+    places: ["Delhi", "Tanakpur", "Champawat", "Munsiyari", "Khaliya Top", "Birthi Fall", "Pithoragarh", "Bhimtal"],
+    tour_operator: {
+      name: "Devnagari Tour and Travels",
+      contact_number: "9456193464",
+      website: "https://devnagaritourtravels.com/",
+      email: "info@devnagaritourtravels.com"
+    },
+    inclusions: [
+      "Transport (Delhi to Delhi round-trip)",
+      "3 Nights Accommodation (Munsiyari/Pithoragarh)",
+      "Meals as per itinerary",
+      "Sightseeing as per PDF description",
+      "Experienced Driver cum Guide",
+      "Trek assistance for Khaliya Top"
+    ],
+    packing_list: [
+      "Heavy woolens, thermals, and down jackets (Winter Trip)",
+      "Waterproof trekking boots with good grip",
+      "Valid government-issued ID",
+      "Personal medical kit",
+      "Sunscreen and sunglasses (high altitude sun is strong)"
+    ],
+    terms_and_conditions: {
+      payment: "Full payment must be completed before the trip departure.",
+      identification: "A valid government-issued ID is mandatory for all travelers.",
+      booking: "Bookings are subject to availability.",
+      luggage: "Travelers are responsible for their own belongings during the trek.",
+      itinerary_changes: "Itinerary may change due to heavy snowfall, road blocks, or weather conditions."
+    },
+    cancellation_policy: "A 30% advance payment is mandatory to confirm the booking. The advance amount is strictly non-refundable.",
+    pdf_url: "winter_munsiyari_tour_package_1499.pdf"
   }
+
 ];

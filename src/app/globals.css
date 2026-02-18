@@ -4,8 +4,9 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  --font-sans: "Mona Sans", ui-sans-serif, system-ui, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-sans:
+    "Mona Sans", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --color-dark-200: #475467;
   --color-light-blue-100: #c1d3f81a;
   --color-light-blue-200: #a7bff14d;
@@ -141,7 +142,7 @@ main {
   @apply min-h-screen pt-10;
 }
 h1 {
-  @apply max-sm:text-[2rem] text-4xl  text-gradient leading-tight xl:tracking-[-2px] font-semibold ;
+  @apply max-sm:text-[2rem] text-4xl  text-gradient leading-tight xl:tracking-[-2px] font-semibold;
 }
 
 h2 {
@@ -152,9 +153,8 @@ h3 {
 }
 
 h5 {
-    @apply max-md:text-lg font-mono font-extrabold text-2xl text-gradient leading-tight from-gray-500 via-gray-700 to-slate-500 xl:tracking-[-2px];
+  @apply max-md:text-lg font-mono font-extrabold text-2xl text-gradient leading-tight from-gray-500 via-gray-700 to-slate-500 xl:tracking-[-2px];
 }
-
 
 textarea {
   @apply w-full p-4 inset-shadow rounded-2xl focus:outline-none bg-white;
@@ -254,11 +254,53 @@ form {
     opacity: 1;
   }
 }
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes floatSoft {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@utility animate-fade-in {
+  animation: fadeIn 0.5s ease-out both;
+}
+
+@utility animate-fade-up {
+  animation: fadeUp 0.6s ease-out both;
+}
+
+@utility animate-fade-up-delay {
+  animation: fadeUp 0.7s ease-out 0.1s both;
+}
+
+@utility animate-float-soft {
+  animation: floatSoft 4s ease-in-out infinite;
+}
+
+@utility animate-float-soft-delay {
+  animation: floatSoft 4.4s ease-in-out 0.8s infinite;
+}
+
 * {
   scrollbar-width: thin;
   scrollbar-color: #8e98ff #f0f4ff;
 }
-.details-container{
+.details-container {
   scrollbar-width: none;
   scrollbar-color: #8e98ff #f0f4ff;
 }

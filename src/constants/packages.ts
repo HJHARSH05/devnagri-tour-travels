@@ -46,7 +46,14 @@ export const IMAGES = [
   "/N-1.jpg",
 ];
 
-export const TOURS = [
+const STANDARD_PLAN_INCLUSIONS = ["Transportation (Sedan/SUV)"];
+const DELUXE_PLAN_INCLUSIONS = [
+  "Transportation",
+  "Accommodation (Hotel), Food, and Drinks",
+  "Tourist Guide",
+];
+
+const TOUR_DATA = [
   {
     __id: "1",
     name: "Kumaun Darshan Tour Package",
@@ -109,7 +116,7 @@ export const TOURS = [
           "Visit the local market across the border in Darchula, Nepal.",
         ],
         inclusions:
-          "Transport (Sedan/MUV), Hotel Stay, Breakfast, Dinner & Evening Tea.",
+          "Transport (Sedan/SUV).",
         night_stay: "Dharchula.",
       },
       {
@@ -350,13 +357,7 @@ export const TOURS = [
       email: "info@devnagaritourtravels.com",
     },
     inclusions: [
-      "Transport",
-      "Hotel and Homestay Accommodation",
-      "Meals as per itinerary",
-      "All Sightseeing",
-      "Inner Line Permit",
-      "Medical & First Aid Support",
-      "Experienced Driver and Local Tour Guide",
+      "Transport (Delhi to Delhi round-trip)",
     ],
     packing_list: [
       "Warm Clothing: Thermal layers, fleece jackets, heavy down jacket, waterproof/windproof outer layers.",
@@ -463,12 +464,7 @@ export const TOURS = [
       email: "info@devnagaritourtravels.com",
     },
     inclusions: [
-      "Transport",
-      "Accommodation (Hotel & Camping/Guesthouse)",
-      "Meals as per itinerary",
-      "Tour Guide for trek",
-      "Medical & First Aid kit",
-      "All Sightseeing as per the itinerary",
+      "Transport (Delhi to Delhi round-trip)",
     ],
     packing_list: [
       "Warm Clothing: Thermal layers, fleece jackets, heavy down jacket.",
@@ -593,13 +589,7 @@ export const TOURS = [
       email: "info@devnagaritourtravels.com",
     },
     inclusions: [
-      "Tour Packages",
-      "Stay & Meals",
-      "Sightseeing",
-      "Inner line permit",
-      "Medical & First Aid",
-      "Transport",
-      "Tour Guide",
+      "Transport (Delhi to Delhi round-trip)",
     ],
     packing_list: [
       "Warm Clothing: Thermal layers, fleece jackets, a heavy down jacket, waterproof and windproof outer layers.",
@@ -844,13 +834,6 @@ export const TOURS = [
     ],
     inclusions: [
       "Comfortable taxi service throughout the journey.",
-      "Accommodation in well-maintained hotels (Full-Service & Premium Packages).",
-      "Meals (Breakfast & dinner) for Full-Service & Premium Packages.",
-      "Tour Guide/Helper (Available in the Premium Package).",
-      "Temple Darshan Assistance.",
-      "Driver allowance, toll taxes, parking, and fuel costs.",
-      "Basic Medical Kit.",
-      "Sightseeing to key pilgrimage and tourist spots along the route.",
     ],
     exclusions: [
       "Lunch & Personal Expenses (snacks, beverages, shopping).",
@@ -932,12 +915,7 @@ export const TOURS = [
       email: "info@devnagaritourtravels.com",
     },
     inclusions: [
-      "Transport (Delhi round-trip)",
-      "Hotel Accommodation (Bhawali/Haldwani)",
-      "Meals as per itinerary",
-      "All Sightseeing as per itinerary",
-      "Experienced Driver",
-      "Basic Medical & First Aid kit",
+      "Transport (Delhi round-trip)"
     ],
     packing_list: [
       "Comfortable clothing and a light shawl",
@@ -1106,13 +1084,7 @@ export const TOURS = [
       email: "info@devnagaritourtravels.com",
     },
     inclusions: [
-      "Transport (Sedan/MUV/SUV/4x4 as per terrain requirement)",
-      "Hotel and Homestay Accommodation",
-      "Meals: Breakfast, Dinner, and Evening Tea",
-      "All Sightseeing as per itinerary",
-      "Experienced Driver and Local Guide",
-      "Basic Medical & First Aid kit",
-      "Inner line permits (if required)",
+      "Transport (Sedan/MUV/SUV/4x4 as per terrain requirement)"
     ],
     packing_list: [
       "Warm Clothing: Thermal layers, fleece jackets, down jacket for cold nights.",
@@ -1223,13 +1195,6 @@ export const TOURS = [
     },
     inclusions: [
       "Round-trip helicopter transfers (Pithoragarh-Munsyari-Pithoragarh)",
-      "Premium Hotel Accommodation in Munsyari",
-      "All Meals: Lunch, Dinner, Breakfast",
-      "Ground transportation for local sightseeing in Munsyari",
-      "Experienced helicopter pilot and ground support team",
-      "All aviation charges and permits",
-      "Travel insurance during helicopter journey",
-      "Basic Medical & First Aid kit"
     ],
     exclusions: [
       "Transport to/from Pithoragarh helipad (can be arranged separately)",
@@ -1600,11 +1565,6 @@ export const TOURS = [
     },
     inclusions: [
       "Transport (Delhi to Delhi round-trip)",
-      "3 Nights Accommodation (Munsiyari/Pithoragarh)",
-      "Meals as per itinerary",
-      "Sightseeing as per PDF description",
-      "Experienced Driver cum Guide",
-      "Trek assistance for Khaliya Top"
     ],
     packing_list: [
       "Heavy woolens, thermals, and down jackets (Winter Trip)",
@@ -1623,5 +1583,13 @@ export const TOURS = [
     cancellation_policy: "A 30% advance payment is mandatory to confirm the booking. The advance amount is strictly non-refundable.",
     pdf_url: "winter_munsiyari_tour_package_1499.pdf"
   }
-
 ];
+
+export const TOURS = TOUR_DATA.map((tour) => ({
+  ...tour,
+  inclusions: [...STANDARD_PLAN_INCLUSIONS],
+  plan_inclusions: {
+    standard_plan: [...STANDARD_PLAN_INCLUSIONS],
+    deluxe_plan: [...DELUXE_PLAN_INCLUSIONS],
+  },
+}));

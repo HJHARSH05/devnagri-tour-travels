@@ -18,16 +18,20 @@ import { Label } from "../ui/label";
 interface Props {
   PackageName: string;
   PackageDays: number;
-  PackagePrice: number;
+  StandardPrice: number;
+  DeluxePrice: number;
   PlaceList?: string[];
 }
 
 function BookingCard({ props }: { props: Props }) {
   const { user } = useUserStore();
+  const [selectedPlan, setSelectedPlan] = useState<"standard_plan" | "deluxe_plan">(
+    "standard_plan"
+  );
   const [input, setInput] = useState<BookingInput>({
     PackageName: props.PackageName,
     PackageDays: props.PackageDays,
-    PackagePrice: props.PackageDays * props.PackagePrice,
+    PackagePrice: props.PackageDays * props.StandardPrice,
     people: 2,
     startDate: new Date(),
     PlaceList: props.PlaceList,
@@ -38,11 +42,13 @@ function BookingCard({ props }: { props: Props }) {
 
   // change package price
   useEffect(() => {
+    const selectedBasePrice =
+      selectedPlan === "deluxe_plan" ? props.DeluxePrice : props.StandardPrice;
     setInput((prev) => ({
       ...prev,
-      PackagePrice: prev.people * props.PackagePrice,
+      PackagePrice: prev.people * selectedBasePrice,
     }));
-  }, [input.people]);
+  }, [input.people, selectedPlan, props.StandardPrice, props.DeluxePrice]);
   const { bookTour } = useBookingHook();
 
   // handle booking controller
@@ -66,6 +72,29 @@ function BookingCard({ props }: { props: Props }) {
           {input.PackageDays} {input.PackageDays > 1 ? "days " : "day "}
         </h4>
         <div className="flex flex-col gap-6 mt-5">
+          {/* Plan Type */}
+          <div className="grid grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-6 items-center">
+            <Label className="text-xl font-bold sm:justify-center">Plan</Label>
+            <div className="flex items-center gap-3">
+              <Button
+                type="button"
+                variant={selectedPlan === "standard_plan" ? "default" : "outline"}
+                className={`cursor-pointer ${selectedPlan === "standard_plan" ? "bg-gradient-to-r from-emerald-400 via-emerald-400 to-emerald-600 text-white" : ""}`}
+                onClick={() => setSelectedPlan("standard_plan")}
+              >
+                Standard
+              </Button>
+              <Button
+                type="button"
+                variant={selectedPlan === "deluxe_plan" ? "default" : "outline"}
+                className={`cursor-pointer ${selectedPlan === "deluxe_plan" ? "bg-gradient-to-r from-emerald-400 via-emerald-400 to-emerald-600 text-white" : ""}`}
+                onClick={() => setSelectedPlan("deluxe_plan")}
+              >
+                Deluxe
+              </Button>
+            </div>
+          </div>
+
           {/* Number of people */}
           <div className="grid grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-6 items-center">
             <Label className="text-xl font-bold sm:justify-center">

@@ -22,6 +22,8 @@ import { TourPackage } from "@/types";
 import Autoplay from "embla-carousel-autoplay";
 import { AnimatePresence, motion } from "framer-motion";
 
+type PackagePlan = "standard_plan" | "deluxe_plan";
+
 function PackageDetail() {
   const { packageId } = useParams();
   const [Package, setPackage] = useState<TourPackage | null>(null);
@@ -32,6 +34,7 @@ function PackageDetail() {
   const [openInclusion, setOpenInclusion] = useState(false);
   const [openExclusion, setOpenExclusion] = useState(false);
   const [openFaqs, setOpenFaqs] = useState(false);
+  const [selectedPlan, setSelectedPlan] = useState<PackagePlan>("standard_plan");
 
   useEffect(() => {
     // use find for clarity
@@ -52,24 +55,42 @@ function PackageDetail() {
       : parseInt(String(Package.days).replace(/[^0-9]/g, "")) || 0;
   }, [Package]);
 
-  const computedPrice = useMemo(() => {
-    if (!Package) return 0;
-    const p = Package.price;
-    if (typeof p === "object" && p !== null && "standard_plan" in p) {
-      const standard = (p as { standard_plan?: number | string }).standard_plan;
-      return Number(String(standard ?? 0).replace(/[^0-9]/g, "")) || 0;
+  const selectedInclusions = useMemo(() => {
+    if (!Package) return [] as string[];
+    if (Package.plan_inclusions?.[selectedPlan]?.length) {
+      return Package.plan_inclusions[selectedPlan];
     }
-    return Number(String(p).replace(/[^0-9]/g, "")) || 0;
+    return Package.inclusions ?? [];
+  }, [Package, selectedPlan]);
+
+  const planPrices = useMemo(() => {
+    if (!Package) {
+      return { standard: 0, deluxe: 0 };
+    }
+
+    const toNumber = (value: number | string | undefined) =>
+      Number(String(value ?? 0).replace(/[^0-9]/g, "")) || 0;
+
+    if (typeof Package.price === "object" && Package.price !== null) {
+      return {
+        standard: toNumber(Package.price.standard_plan),
+        deluxe: toNumber(Package.price.deluxe_plan),
+      };
+    }
+
+    const parsed = toNumber(Package.price);
+    return { standard: parsed, deluxe: parsed };
   }, [Package]);
 
   const bookingProps = useMemo(
     () => ({
       PackageName: Package?.name || "",
       PackageDays: computedDays,
-      PackagePrice: computedPrice,
+      StandardPrice: planPrices.standard,
+      DeluxePrice: planPrices.deluxe,
       PlaceList: Package?.places
     }),
-    [Package, computedDays, computedPrice]
+    [Package, computedDays, planPrices]
   );
 
   return (
@@ -256,7 +277,7 @@ function PackageDetail() {
               )}
 
               {/* Inclusions Section */}
-              {Package.inclusions && Package.inclusions.length > 0 && (
+              {selectedInclusions.length > 0 && (
                 <Collapsible
                   open={openInclusion}
                   onOpenChange={setOpenInclusion}
@@ -271,6 +292,28 @@ function PackageDetail() {
                       </button>
                     </CollapsibleTrigger>
                     <CollapsibleContent>
+                      <div className="mt-3 flex gap-2 px-2">
+                        <button
+                          type="button"
+                          onClick={() => setSelectedPlan("standard_plan")}
+                          className={`rounded-md px-3 py-1.5 text-xs font-semibold border transition ${selectedPlan === "standard_plan"
+                            ? "bg-gradient-to-r from-green-500 to-emerald-600 text-white border-emerald-600"
+                            : "bg-white text-gray-600 border-gray-300"
+                            }`}
+                        >
+                          Standard Plan
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => setSelectedPlan("deluxe_plan")}
+                          className={`rounded-md px-3 py-1.5 text-xs font-semibold border transition ${selectedPlan === "deluxe_plan"
+                            ? "bg-gradient-to-r from-green-500 to-emerald-600 text-white border-emerald-600"
+                            : "bg-white text-gray-600 border-gray-300"
+                            }`}
+                        >
+                          Deluxe Plan
+                        </button>
+                      </div>
                       <AnimatePresence>
                         {openInclusion && (
                           <motion.div
@@ -281,7 +324,7 @@ function PackageDetail() {
                             transition={{ duration: 0.2 }}
                             className="flex flex-col gap-3 mt-4 px-2"
                           >
-                            {Package.inclusions.map((item, idx) => (
+                            {selectedInclusions.map((item, idx) => (
                               <div
                                 key={idx}
                                 className="flex items-center gap-2"
@@ -348,60 +391,60 @@ function PackageDetail() {
               {/* Terms and cancellation */}
               {(Package.terms_and_conditions ||
                 Package.cancellation_policy) && (
-                <Collapsible open={openFaqs} onOpenChange={setOpenFaqs}>
-                  <div className="mt-5">
-                    <CollapsibleTrigger asChild>
-                      <button className="w-full text-left flex items-center justify-between">
-                        <h1 className="text-xl font-bold">
-                          Terms & Cancellation
-                        </h1>
-                        <span className="text-sm text-muted-foreground bg-gradient-to-r from-light-blue-100 to-light-blue-200 px-2 rounded-lg p-1">
-                          {openFaqs ? "Hide" : "Show"}
-                        </span>
-                      </button>
-                    </CollapsibleTrigger>
-                    <CollapsibleContent>
-                      <AnimatePresence>
-                        {openFaqs && (
-                          <motion.div
-                            key="terms"
-                            initial={{ opacity: 0 }}
-                            animate={{ opacity: 1 }}
-                            exit={{ opacity: 0 }}
-                            transition={{ duration: 0.2 }}
-                            className="flex flex-col gap-3 mt-4"
-                          >
-                            {Package.terms_and_conditions &&
-                              Object.entries(Package.terms_and_conditions).map(
-                                ([k, v]) =>
-                                  v && (
-                                    <div key={k} className="px-2">
-                                      <h4 className="font-semibold text-sm capitalize">
-                                        {k.replace(/_/g, " ")}
-                                      </h4>
-                                      <p className="text-sm text-gray-600">
-                                        {v}
-                                      </p>
-                                    </div>
-                                  )
+                  <Collapsible open={openFaqs} onOpenChange={setOpenFaqs}>
+                    <div className="mt-5">
+                      <CollapsibleTrigger asChild>
+                        <button className="w-full text-left flex items-center justify-between">
+                          <h1 className="text-xl font-bold">
+                            Terms & Cancellation
+                          </h1>
+                          <span className="text-sm text-muted-foreground bg-gradient-to-r from-light-blue-100 to-light-blue-200 px-2 rounded-lg p-1">
+                            {openFaqs ? "Hide" : "Show"}
+                          </span>
+                        </button>
+                      </CollapsibleTrigger>
+                      <CollapsibleContent>
+                        <AnimatePresence>
+                          {openFaqs && (
+                            <motion.div
+                              key="terms"
+                              initial={{ opacity: 0 }}
+                              animate={{ opacity: 1 }}
+                              exit={{ opacity: 0 }}
+                              transition={{ duration: 0.2 }}
+                              className="flex flex-col gap-3 mt-4"
+                            >
+                              {Package.terms_and_conditions &&
+                                Object.entries(Package.terms_and_conditions).map(
+                                  ([k, v]) =>
+                                    v && (
+                                      <div key={k} className="px-2">
+                                        <h4 className="font-semibold text-sm capitalize">
+                                          {k.replace(/_/g, " ")}
+                                        </h4>
+                                        <p className="text-sm text-gray-600">
+                                          {v}
+                                        </p>
+                                      </div>
+                                    )
+                                )}
+                              {Package.cancellation_policy && (
+                                <div className="px-2">
+                                  <h4 className="font-semibold text-sm">
+                                    Cancellation Policy
+                                  </h4>
+                                  <p className="text-sm text-gray-600">
+                                    {Package.cancellation_policy}
+                                  </p>
+                                </div>
                               )}
-                            {Package.cancellation_policy && (
-                              <div className="px-2">
-                                <h4 className="font-semibold text-sm">
-                                  Cancellation Policy
-                                </h4>
-                                <p className="text-sm text-gray-600">
-                                  {Package.cancellation_policy}
-                                </p>
-                              </div>
-                            )}
-                          </motion.div>
-                        )}
-                      </AnimatePresence>
-                    </CollapsibleContent>
-                  </div>
-                </Collapsible>
-              )}
+                            </motion.div>
+                          )}
+                        </AnimatePresence>
+                      </CollapsibleContent>
+                    </div>
+                  </Collapsible>
+                )}
 
               {/* Booking Section */}
             </div>

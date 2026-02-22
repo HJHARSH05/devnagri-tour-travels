@@ -100,6 +100,11 @@ interface Price {
   deluxe_plan: number | string;
 }
 
+interface PlanInclusions {
+  standard_plan: string[];
+  deluxe_plan: string[];
+}
+
 /**
  * Interface for the tour operator's contact information.
  */
@@ -143,6 +148,7 @@ export type TourPackage = {
   places: string[];
   tour_operator: TourOperator;
   inclusions: string[];
+  plan_inclusions?: PlanInclusions;
   packing_list?: string[]; // Optional as not all packages might list this.
   terms_and_conditions: TermsAndConditions;
   cancellation_policy: string;

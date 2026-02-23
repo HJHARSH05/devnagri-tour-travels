@@ -105,6 +105,12 @@ interface PlanInclusions {
   deluxe_plan: string[];
 }
 
+interface BikeOption {
+  model: string;
+  price: string;
+  suitable_for: string;
+}
+
 /**
  * Interface for the tour operator's contact information.
  */
@@ -154,7 +160,7 @@ export type TourPackage = {
   cancellation_policy: string;
   pdf_url?: string;
   exclusions: string[];
-  bike_options?: string[];
+  bike_options?: string[] | BikeOption[];
   mandatory_requirements?: string[];
   packaging_list?: string[];
 };

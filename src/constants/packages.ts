@@ -1588,6 +1588,7 @@ const TOUR_DATA = [
 export const TOURS = TOUR_DATA.map((tour) => ({
   ...tour,
   inclusions: [...STANDARD_PLAN_INCLUSIONS],
+  exclusions: [...(tour.exclusions ?? [])],
   plan_inclusions: {
     standard_plan: [...STANDARD_PLAN_INCLUSIONS],
     deluxe_plan: [...DELUXE_PLAN_INCLUSIONS],

@@ -129,6 +129,7 @@ const useBookingHook = () => {
             name: Users.name,
             id: Users.id,
             email: Users.email,
+            mobile: Users.mobile,
           },
         })
         .from(Bookings)
@@ -158,6 +159,7 @@ const useBookingHook = () => {
             name: Users.name,
             id: Users.id,
             email: Users.email,
+            mobile: Users.mobile,
           },
           taxi: {
             id: Taxis.id,
@@ -207,7 +209,7 @@ const useBookingHook = () => {
       const rows = await db
         .select({ bookedSeats: TaxiBooking.bookedSeats })
         .from(TaxiBooking)
-        .where(and(eq(TaxiBooking.taxi, taxiId), eq(TaxiBooking.date, dateString), inArray(TaxiBooking.status, ["approved","pending","rejected"])));
+        .where(and(eq(TaxiBooking.taxi, taxiId), eq(TaxiBooking.date, dateString), inArray(TaxiBooking.status, ["approved", "pending", "rejected"])));
 
       // collect bookedSeats values and flatten
       const seats: string[] = [];

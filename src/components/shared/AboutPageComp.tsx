@@ -329,8 +329,8 @@ export default function AboutPageComp() {
                 S
               </div>
               <div>
-                <div className="font-semibold">Sonia Verma</div>
-                <div className="text-xs text-gray-500">Operations</div>
+                <div className="font-semibold">Sumit Kumar</div>
+                <div className="text-xs text-gray-500">Co-Founder</div>
               </div>
             </div>
 
@@ -339,7 +339,7 @@ export default function AboutPageComp() {
                 R
               </div>
               <div>
-                <div className="font-semibold">Harshwardhan Joshi</div>
+                <div className="font-semibold">Tanuja Verma</div>
                 <div className="text-xs text-gray-500">Logistics</div>
               </div>
             </div>
@@ -349,7 +349,7 @@ export default function AboutPageComp() {
                 P
               </div>
               <div>
-                <div className="font-semibold">Priya Chauhan</div>
+                <div className="font-semibold">Piyush Verma</div>
                 <div className="text-xs text-gray-500">Customer Care</div>
               </div>
             </div>

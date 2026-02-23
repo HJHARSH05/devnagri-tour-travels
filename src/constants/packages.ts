@@ -75,7 +75,7 @@ const TOUR_DATA = [
           "Drive to Gangolihat for the overnight stay.",
         ],
         inclusions:
-          "Transport (Sedan/MUV), Hotel Stay, Breakfast, Dinner & Evening Tea.",
+          "Transport (Sedan/SUV), Hotel Stay, Breakfast, Dinner & Evening Tea.",
         night_stay: "Jageshwar or Gangolihat.",
       },
       {
@@ -89,7 +89,7 @@ const TOUR_DATA = [
           "Arrive in Bageshwar and visit the local market.",
         ],
         inclusions:
-          "Transport (Sedan/MUV), Hotel Stay, Breakfast, Dinner & Evening Tea.",
+          "Transport (Sedan/SUV), Hotel Stay, Breakfast, Dinner & Evening Tea.",
         night_stay: "Bageshwar.",
       },
       {
@@ -102,7 +102,7 @@ const TOUR_DATA = [
           "En route, enjoy the beautiful landscapes including Odyari Band, Chaukori Tea Garden, Birthi Waterfall, and Kalamuni Dhar.",
         ],
         inclusions:
-          "Transport (Sedan/MUV), Hotel Stay, Breakfast, Dinner & Evening Tea.",
+          "Transport (Sedan/SUV), Hotel Stay, Breakfast, Dinner & Evening Tea.",
         night_stay: "Munsyari.",
       },
       {
@@ -158,7 +158,7 @@ const TOUR_DATA = [
           "Optional 3km trek to Dhwaj Temple based on requirement.",
         ],
         inclusions:
-          "Transport (Sedan/MUV), Homestay, Breakfast, Dinner & Evening Tea.",
+          "Transport (Sedan/SUV), Homestay, Breakfast, Dinner & Evening Tea.",
         night_stay: "Pithoragarh.",
       },
       {
@@ -168,7 +168,7 @@ const TOUR_DATA = [
         details: [
           "Local sightseeing in Pithoragarh: Mostmanu Temple, Vardani View Point, Ulkadevi Temple, and Kamakhya Devi Temple.",
           "Drive towards Champawat and then to the plains.",
-          "Sightseeing on the way: Tharkot Jheel, Gurna Mata Temple, Kolidhek Jheel (Lohaghat), tea gardens, Swala village, and Nanakmatta Dam.",
+          "Sightseeing on the way: Tharkot Jheel, Gurna Mata Temple, Kolidhek Jheel, Abbott Mount (on demand) Lohaghat, tea gardens, Haunted Village of Swala, and Nanakmatta Dam.",
           "Drop-off at Pantnagar, Kathgodam, or Haldwani, marking the end of the tour.",
         ],
         inclusions: "Transport and sightseeing as per itinerary.",
@@ -187,8 +187,8 @@ const TOUR_DATA = [
       "/Jt-1.jpg",
     ],
     price: {
-      standard_plan: 12000,
-      deluxe_plan: 15000,
+      standard_plan: 15000,
+      deluxe_plan: 25000,
     },
     days: 8,
     places: [
@@ -221,7 +221,7 @@ const TOUR_DATA = [
       email: "",
     },
     inclusions: [
-      "Transport (Sedan/MUV/SUV/4x4 as per itinerary)",
+      "Transport (Sedan/SUV/SUV/4x4 as per itinerary)",
       "Hotel / Homestay / Camp accommodation",
       "Meals: Breakfast, Dinner, and Evening Tea",
       "Local Tour Guide",
@@ -262,7 +262,7 @@ const TOUR_DATA = [
         title: "Delhi to Pithoragarh",
         details: [
           "Early morning pickup from Delhi and drive to Pithoragarh.",
-          "Sightseeing en route includes Nanakmatta Dam, Champawat, and Lohaghat.",
+          "Sightseeing en route includes Nanakmatta Dam, Champawat, and Kolidhek Jheel and Abbott Mount (on demand) Lohaghat.",
           "Check into the hotel in Pithoragarh for an overnight stay.",
         ],
         inclusions: "Transport, Hotel stay, Dinner & Evening tea.",
@@ -404,7 +404,7 @@ const TOUR_DATA = [
           "In Munsiyari, visit the Nanda Devi Temple and enjoy views of the Panchachuli peaks and Hansling mountain.",
           "Explore Gayatri Ashram and local areas before checking into the hotel.",
         ],
-        inclusions: "Transport, Hotel Stay, Lunch, and Dinner.",
+        inclusions: "Transport, Hotel Stay, Breakfast and Dinner.",
         night_stay: "Munsiyari.",
       },
       {
@@ -498,7 +498,7 @@ const TOUR_DATA = [
         title: "Haldwani/Kathgodam to Dharchula",
         details: [
           "Early morning pickup from Pantnagar, Kathgodam (Haldwani) and drive to Dharchula.",
-          "Sightseeing en route includes Nanakmatta dam, Champawat, lohaghat, Pithoragarh, and the Sangam of the Kali and Gori rivers at Joljibi.",
+          "Sightseeing en route includes Nanakmatta dam, Champawat, and Kolidhek Jheel and Abbott Mount (on demand) Lohaghat, Pithoragarh, and the Sangam of the Kali and Gori rivers at Joljibi.",
           "Check into the hotel upon arrival in Dharchula.",
         ],
         inclusions: "Transport, Hotel stay, dinner & evening tea.",
@@ -1084,7 +1084,7 @@ const TOUR_DATA = [
       email: "info@devnagaritourtravels.com",
     },
     inclusions: [
-      "Transport (Sedan/MUV/SUV/4x4 as per terrain requirement)"
+      "Transport (Sedan/SUV/SUV/4x4 as per terrain requirement)"
     ],
     packing_list: [
       "Warm Clothing: Thermal layers, fleece jackets, down jacket for cold nights.",
@@ -1141,7 +1141,7 @@ const TOUR_DATA = [
           "Witness stunning sunset over the Himalayan ranges.",
           "Dinner and overnight stay at hotel in Munsyari."
         ],
-        inclusions: "Helicopter Transfer, Premium Hotel Stay, All Meals (Lunch, Dinner), Ground Transport for sightseeing.",
+        inclusions: "Helicopter Transfer, Premium Hotel Stay, All Meals (Dinner), Ground Transport for sightseeing.",
         night_stay: "Munsyari."
       },
       {
@@ -1363,7 +1363,7 @@ const TOUR_DATA = [
           "Closing ceremony and sharing of experiences.",
           "Tour concludes with memories of an epic Himalayan ride."
         ],
-        inclusions: "Support vehicle, Breakfast & Lunch, Bike return assistance.",
+        inclusions: "Support vehicle, Breakfast, Bike return assistance.",
         night_stay: "N/A"
       }
     ],
@@ -1494,7 +1494,7 @@ const TOUR_DATA = [
         "details": [
           "Early morning pickup from Delhi and start the drive towards Munsiyari.",
           "Sightseeing en route at Tanakpur and Champawat.",
-          "Pass through the haunted village of Swala, Lohaghat, and Ghat.",
+          "Pass through the haunted village of Swala, and Kolidhek Jheel and Abbott Mount (on demand) Lohaghat, and Ghat.",
           "Brief stop at Pithoragarh and the Sangam (confluence) of Kali and Gori rivers.",
           "Arrival and drop-off at Munsiyari for overnight stay."
         ],

@@ -40,9 +40,9 @@ function PackageDetail() {
     // use find for clarity
     const id =
       typeof packageId === "string" ? packageId : String(packageId || "");
-    const found = TOURS.find((p) => p.__id === id) ?? null;
+    const found = TOURS.find((p) => p.name.replaceAll(" ", "-") === id) ?? null;
     // Only update if the package ID has actually changed
-    if (found?.__id !== Package?.__id) {
+    if (found?.name.replaceAll(" ", "-") !== Package?.name.replaceAll(" ", "-")) {
       setPackage(found as TourPackage);
     }
   }, [packageId, Package?.__id]);

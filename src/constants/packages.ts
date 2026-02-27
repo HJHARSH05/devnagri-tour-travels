@@ -1,12 +1,3 @@
-export const IMAGES1 = [
-  "https://images.unsplash.com/photo-1614088459293-5669fadc3448?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHJhdmVsJTIwZGVzdGluYXRpb258ZW58MHx8MHx8fDA%3D",
-  "https://images.unsplash.com/photo-1682686580036-b5e25932ce9a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHRyYXZlbCUyMGRlc3RpbmF0aW9ufGVufDB8fDB8fHww",
-  "https://images.unsplash.com/photo-1602619026153-0a2e22f2b84b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHRyYXZlbCUyMGRlc3RpbmF0aW9ufGVufDB8fDB8fHww",
-  "https://plus.unsplash.com/premium_photo-1719955781545-c60219441bfc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8dHJhdmVsJTIwZGVzdGluYXRpb258ZW58MHx8MHx8fDA%3D",
-  "https://images.unsplash.com/photo-1682685797857-97de838c192e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dHJhdmVsJTIwZGVzdGluYXRpb258ZW58MHx8MHx8fDA%3D",
-  "https://images.unsplash.com/photo-1682685797857-97de838c192e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dHJhdmVsJTIwZGVzdGluYXRpb258ZW58MHx8MHx8fDA%3D",
-];
-
 export const IMAGES = [
   "/Landing-1.jpg",
   "/Landing-2.jpg",
@@ -251,7 +242,7 @@ const TOUR_DATA = [
   },
   {
     __id: "2",
-    name: "Adi Kailash Om Parvat Yatra 2025",
+    name: "Adi Kailash Om Parvat Yatra 2026",
     overview:
       "Embark on a profound 5-day, 4-night spiritual journey to the sacred lands of Adi Kailash and Om Parvat with Devnagari Tour and Travels. This meticulously planned 'Delhi to Delhi' yatra is designed for groups, couples, families, and solo travelers seeking a divine connection in the Himalayas. The package includes transport, accommodation, meals, permits, and medical support. Witness the mystical impression of 'Aum' on Om Parvat and perform 'darshan' at Adi Kailash, the replica of Mount Kailash. This tour offers a unique opportunity to experience the spiritual heart of the Kumaon Himalayas.",
     description:
@@ -388,7 +379,7 @@ const TOUR_DATA = [
   },
   {
     __id: "3",
-    name: "Munsiyari/Khaliya Top Tour Package",
+    name: "Munsiyari and Khaliya Top Tour Package",
     overview:
       "Discover the breathtaking beauty of the Kumaon Himalayas with this 3-day, 2-night tour to Munsiyari and Khaliya Top, starting from Pithoragarh. Ideal for adventure seekers and nature lovers, this package combines scenic drives with an exhilarating trek. Experience the majestic Panchachuli peaks from Munsiyari, a serene hill station, and then trek to the stunning meadows of Khaliya Top for panoramic views of snow-covered Himalayan giants. With options for standard and deluxe plans, this tour offers a perfect blend of comfort and adventure.",
     description:
@@ -487,7 +478,7 @@ const TOUR_DATA = [
   },
   {
     __id: "4",
-    name: "Adi Kailash Om Parvat Yatra 2025 (from Haldwani)",
+    name: "Adi Kailash Om Parvat Yatra 2026 (from Haldwani)",
     overview:
       "Embark on a divine 4-day, 3-night spiritual yatra to Adi Kailash and Om Parvat, starting from Pantnagar, Kathgodam, or Haldwani. This tour is perfectly suited for groups, couples, families, and solo travelers wanting to visit the sacred land of Lord Shiva in the Pithoragarh region. With fixed group departures available in May, June, September, and October, the package includes all essential services like transport, stay, meals, and permits for a seamless pilgrimage. Experience the spiritual aura of these holy peaks and create memories that will last a lifetime.",
     description:
@@ -942,7 +933,7 @@ const TOUR_DATA = [
   },
   {
     __id: "7",
-    name: "Darma Valley & Munsyari Tour from Delhi",
+    name: "Darma Valley and Munsyari Tour from Delhi",
     overview:
       "Embark on an unforgettable 5-day, 4-night adventure from Delhi into the remote and pristine Darma Valley, one of Uttarakhand's hidden gems. This tour takes you through Pithoragarh to the untouched landscapes of Darma Valley, home to ancient villages, alpine meadows, and the Panchachuli Base Camp. Experience the serene beauty of Munsyari before returning to Delhi. Perfect for nature lovers, adventure seekers, and those looking to explore offbeat Himalayan destinations.",
     description:
@@ -1240,7 +1231,7 @@ const TOUR_DATA = [
   },
   {
     __id: "9",
-    name: "Bike Tour: Pithoragarh - Adi Kailash - Munsyari",
+    name: "Bike Tour from Pithoragarh to Adi Kailash to Munsyari",
     overview:
       "Embark on the ultimate motorcycling adventure through the stunning landscapes of Kumaon Himalayas. This 6-day, 5-night bike tour takes you from Pithoragarh to the sacred Adi Kailash, through remote Darma Valley, and to the scenic hill station of Munsyari. Perfect for experienced riders seeking thrilling mountain roads, breathtaking views, and an authentic Himalayan experience. Ride through challenging terrains, witness snow-capped peaks, and explore offbeat destinations on this adrenaline-pumping journey.",
     description:
@@ -1377,7 +1368,7 @@ const TOUR_DATA = [
       "/N-1.jpg"
     ],
     price: {
-      standard_plan: 28000,
+      standard_plan: 24000,
       deluxe_plan: 35000
     },
     days: 6,
@@ -1553,7 +1544,7 @@ const TOUR_DATA = [
       "/C-3.jpg",
     ], price: {
       standard_plan: 14999,
-      deluxe_plan: 18500
+      deluxe_plan: 23999
     },
     days: 4,
     places: ["Delhi", "Tanakpur", "Champawat", "Munsiyari", "Khaliya Top", "Birthi Fall", "Pithoragarh", "Bhimtal"],

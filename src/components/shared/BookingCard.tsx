@@ -192,6 +192,10 @@ function BookingCard({ props }: { props: Props }) {
               ₹ {input.PackagePrice}
             </span>
           </div>
+          {/* Price Note */}
+          <p className="text-sm text-center leading-relaxed text-yellow-400 font-medium ">
+            NOTE: This is the starting price for the package. The final price will be confirmed after contacting the Admin via WhatsApp or call.
+          </p>
 
           {/* Button */}
           {user ? (

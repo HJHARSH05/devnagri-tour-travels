@@ -43,9 +43,8 @@ export function TourCard({
 
   return (
     <Card
-      className={`${
-        shrink ? "aspect-[1/1]" : "aspect-[4/5]  max-sm:aspect-[4/3]"
-      } relative max-sm:w-[90%] w-full mx-auto overflow-hidden rounded-lg shadow-lg group`}
+      className={`${shrink ? "aspect-[1/1]" : "aspect-[4/5]  max-sm:aspect-[4/3]"
+        } relative max-sm:w-[90%] w-full mx-auto overflow-hidden rounded-lg shadow-lg group`}
     >
       <CardContent className="rounded-lg">
         {/* Background Image Container */}
@@ -100,7 +99,7 @@ export function TourCard({
                 size={"sm"}
                 className="bg-gradient-to-r from-green-500 to-teal-500 hover:from-teal-500 hover:to-green-500 hover:text-white"
                 onClick={() => {
-                  router.push(`/package/${tour.__id}`);
+                  router.push(`/package/${tour.name.replaceAll(" ", "-")}`);
                 }}
               >
                 View Details

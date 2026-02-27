@@ -157,7 +157,7 @@ export const downloadTourPDF = async (pack: BookingType) => {
   doc.rect(margin, yPosition - 5, pageWidth - 2 * margin, 20, "F");
   doc.setFontSize(14);
   doc.setFont("helvetica", "bold");
-  doc.text("Total Price:", margin + 10, yPosition + 5);
+  doc.text("Starting Price:", margin + 10, yPosition + 5);
   doc.setTextColor(41, 128, 185);
   doc.setFontSize(16);
   doc.text(`Rs. ${pack.price}`, pageWidth - margin - 30, yPosition + 5);

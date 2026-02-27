@@ -41,11 +41,11 @@ function BookedTourCard({ pack }: { pack: BookingType; lineclamp?: boolean }) {
               {(pack.startDate as string) ?? ""}
             </span>
           </p>
+          <p className=" font-semibold text-center">
+            Starting Price: <br /> <span className="font-bold">₹ {pack.price}</span>
+          </p>
           <p className="text-center">
             Days: <span>{pack.days}</span>
-          </p>
-          <p className=" font-semibold text-center">
-            Price: <span className="font-bold">₹ {pack.price}</span>
           </p>
           <p className=" font-semibold text-center">People: {pack.people}</p>
           <div className="col-span-2 flex items-center justify-center gap-4">

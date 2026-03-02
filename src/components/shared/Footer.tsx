@@ -13,9 +13,11 @@ const nav = [
   { label: "Home", href: "/" },
   { label: "Tours", href: "/tours" },
   { label: "About", href: "/about" },
-  { label: "Blog", href: "/blog" },
+  { label: "Adi Kailash Tours", href: "/adi-kailash" },
   { label: "Contact", href: "/contact" },
 ];
+
+const operatorNumbers = ["9456193464", "9410543676", "9411329894"];
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -55,6 +57,24 @@ export default function Footer() {
                 <Mail className="w-4 h-4" />
                 <span className="text-xs">devnagritourandtravel@gmail.com</span>
               </motion.a>
+            </div>
+
+            <div className="mt-4">
+              <p className="text-xs font-semibold uppercase tracking-wide text-gray-500">
+                Tour Operators
+              </p>
+              <div className="mt-2 flex flex-wrap gap-2">
+                {operatorNumbers.map((number) => (
+                  <a
+                    key={number}
+                    href={`tel:${number}`}
+                    className="inline-flex items-center gap-1 rounded-md border bg-white px-3 py-1.5 text-xs text-gray-700 hover:bg-gray-50 hover:shadow-sm"
+                  >
+                    <Phone className="h-3.5 w-3.5" />
+                    {number}
+                  </a>
+                ))}
+              </div>
             </div>
           </div>
 

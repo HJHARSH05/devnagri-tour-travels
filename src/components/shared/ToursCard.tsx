@@ -47,6 +47,12 @@ export function TourCard({
         } relative max-sm:w-[90%] w-full mx-auto overflow-hidden rounded-lg shadow-lg group`}
     >
       <CardContent className="rounded-lg">
+        <motion.div
+          aria-hidden
+          className="pointer-events-none absolute inset-0 z-20 rounded-lg border-2 border-white/80 transition-all duration-300 group-hover:border-4"
+          animate={{ opacity: [0.45, 1, 0.45] }}
+          transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+        />
         {/* Background Image Container */}
         <Image
           src={tour.images[1]}
@@ -86,6 +92,10 @@ export function TourCard({
                 {priceLabel}
               </span>
             </div>
+            <p className="text-[11px] text-gray-200 leading-relaxed">
+              Final price will be confirmed after contacting admin via WhatsApp
+              or call.
+            </p>
             <div className="flex items-center gap-1 mt-2">
               <Button
                 variant={"outline"}

@@ -12,6 +12,10 @@ export const NavData = [
     url: "/tours",
   },
   {
+    title: "Adi Kailash Tours",
+    url: "/adi-kailash",
+  },
+  {
     title: "Taxi Services",
     url: "/taxi-services",
   },

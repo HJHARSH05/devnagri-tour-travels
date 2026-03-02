@@ -45,8 +45,517 @@ const DELUXE_PLAN_INCLUSIONS = [
 ];
 
 const TOUR_DATA = [
+
   {
     __id: "1",
+    name: "Adi Kailash Om Parvat Yatra 2026",
+    overview:
+      "Embark on a profound 5-day, 4-night spiritual journey to the sacred lands of Adi Kailash and Om Parvat with Devnagari Tour and Travels. This meticulously planned 'Delhi to Delhi' yatra is designed for groups, couples, families, and solo travelers seeking a divine connection in the Himalayas. The package includes transport, accommodation, meals, permits, and medical support. Witness the mystical impression of 'Aum' on Om Parvat and perform 'darshan' at Adi Kailash, the replica of Mount Kailash. This tour offers a unique opportunity to experience the spiritual heart of the Kumaon Himalayas.",
+    description:
+      "<h2>A Divine Pilgrimage to the Land of Shiva</h2>\n<p>Join us for a deeply spiritual <strong>5-day, 4-night expedition</strong> to the revered peaks of <strong>Adi Kailash and Om Parvat</strong>. This yatra, organized by Devnagari Tour and Travels, is a sacred pilgrimage designed to take you into the heart of the Himalayas, to the very land where Lord Shiva is believed to reside. Our all-inclusive package, running from <strong>Delhi to Delhi</strong>, is perfect for devout pilgrims, adventure seekers, and nature lovers alike. We cater to all types of travelers, including groups, families, and solo participants, ensuring a safe, comfortable, and spiritually fulfilling experience.</p>\n\n<h3>The Sacred Peaks: Adi Kailash and Om Parvat</h3>\n<p>The journey's primary destinations are two of the most sacred peaks in the Indian Himalayas. <strong>Om Parvat</strong> is a breathtaking natural wonder where the pattern of snow deposition on the mountain face miraculously resembles the sacred symbol 'Aum' (ॐ). Witnessing this divine inscription is a moment of profound spiritual significance. The yatra then proceeds to <strong>Adi Kailash</strong>, also known as Chota Kailash. This majestic peak is a stunning replica of the great Mount Kailash in Tibet and is revered as one of Lord Shiva's ancient abodes. The opportunity to have 'darshan' and touch the feet ('charan sparsh') of this holy mountain is a lifetime achievement for devotees.</p>\n\n<h3>Journey Through Kumaon's Heartland</h3>\n<p>Your pilgrimage begins in Delhi, traveling through the scenic landscapes of the Kumaon region. The route itself is dotted with places of interest and natural beauty. You will pass through the plains and visit the <strong>Nanakmatta Dam</strong> before ascending into the hills via Champawat and Lohaghat. The first night's halt is in the beautiful town of <strong>Pithoragarh</strong>. From there, you will travel to the border town of <strong>Dharchula</strong>, located at the confluence of the Kali and Gori rivers, which serves as the gateway to the yatra. The journey from Dharchula is a thrilling drive through rugged terrain, passing waterfalls and scenic river valleys en route to <strong>Gunji</strong>, the base for your visits to the sacred peaks.</p>\n\n<h3>An All-Inclusive Spiritual Experience</h3>\n<p>We take care of all the logistics so you can focus on your spiritual experience. The package includes all transportation, comfortable stays in hotels and village homestays, and nutritious meals. We also handle the essential <strong>inner line permits</strong> required to enter this restricted border area. An experienced local guide and driver will accompany you, ensuring your journey is smooth and insightful. With fixed group departures available in <strong>May, June, September, and October</strong>, you can choose a time that best suits you to undertake this journey of a lifetime.",
+    itinerary: [
+      {
+        day: 1,
+        title: "Delhi to Pithoragarh",
+        details: [
+          "Early morning pickup from Delhi and drive to Pithoragarh.",
+          "Sightseeing en route includes Nanakmatta Dam, Champawat, and Kolidhek Jheel and Abbott Mount (on demand) Lohaghat.",
+          "Check into the hotel in Pithoragarh for an overnight stay.",
+        ],
+        inclusions: "Transport, Hotel stay, Dinner & Evening tea.",
+        night_stay: "Pithoragarh.",
+      },
+      {
+        day: 2,
+        title: "Pithoragarh to Dharchula",
+        details: [
+          "After checkout, visit Mostamanu Temple and Vardani View Point.",
+          "Drive to Dharchula.",
+          "Sightseeing on the way includes Ogla, Askot, and the sangam (confluence) of the Kali and Gori rivers.",
+          "Visit the Nepal border and the local market in Nepal.",
+          "Check into the hotel in Dharchula.",
+        ],
+        inclusions: "Transport, Hotel stay, Breakfast, Dinner & Evening tea.",
+        night_stay: "Dharchula.",
+      },
+      {
+        day: 3,
+        title: "Dharchula to Adi Kailash Darshan & Gunji Stay",
+        details: [
+          "Early morning drive towards Adi Kailash.",
+          "Sightseeing includes Ranthi Waterfall, Tawaghat, and Gunji.",
+          "Perform 'Darshan' and 'Charan Sparsh' at Adi Kailash.",
+          "Return to Gunji village and check into a homestay for the night.",
+        ],
+        inclusions:
+          "Transport, Homestay, Inner line permit, Breakfast, Dinner & Evening tea.",
+        night_stay: "Gunji Village.",
+      },
+      {
+        day: 4,
+        title: "Om Parvat Darshan & Drive to Pithoragarh",
+        details: [
+          "Proceed for Om Parvat Yatra in the morning.",
+          "Have darshan and perform puja at Om Parvat.",
+          "Sightseeing also includes the Kali Mata Temple.",
+          "Drive back to Pithoragarh and check into the hotel.",
+        ],
+        inclusions: "Transport, Hotel stay, Breakfast, Dinner & Evening tea.",
+        night_stay: "Pithoragarh.",
+      },
+      {
+        day: 5,
+        title: "Pithoragarh to Delhi Drop",
+        details: [
+          "Early morning departure from Pithoragarh.",
+          "Drive back to Delhi.",
+          "En route, visit Gurna Mata Temple and Kolidhek Jheel.",
+          "Drop-off in Delhi, marking the end of the yatra.",
+        ],
+        inclusions: "Transport, Breakfast & Evening tea.",
+        night_stay: "N/A",
+      },
+    ],
+    images: [
+      "/Landing-1.jpg",
+      "/AK-7.jpg",
+      "/AK-1.jpg",
+      "/AK-2.jpg",
+      "/AK-3.jpg",
+      "/AK-4.jpg",
+      "/AK-5.jpg",
+      "/AK-6.jpg",
+      "/AK-8.jpg",
+    ],
+    price: {
+      standard_plan: 17000,
+      deluxe_plan: 26000,
+    },
+    days: 5,
+    places: [
+      "Nanakmatta",
+      "Champawat",
+      "Lohaghat",
+      "Pithoragarh",
+      "Dharchula",
+      "Sangam (Kali & Gori River)",
+      "Nepal Border Market",
+      "Ranthi Waterfall",
+      "Tawaghat",
+      "Gunji",
+      "Adi Kailash",
+      "Om Parvat",
+      "Kali Mata Temple",
+    ],
+    tour_operator: {
+      name: "Devnagari Tour and Travels",
+      contact_number: "9456193464",
+      website: "devnagaritourtravels.com",
+      email: "info@devnagaritourtravels.com",
+    },
+    inclusions: [
+      "Transport (Delhi to Delhi round-trip)",
+    ],
+    packing_list: [
+      "Warm Clothing: Thermal layers, fleece jackets, heavy down jacket, waterproof/windproof outer layers.",
+      "Footwear: Sturdy, waterproof trekking boots with good ankle support.",
+      "Accessories: Warm socks, gloves, woolen cap, and scarf.",
+      "Personal Care: Sunscreen, lip balm, moisturizer, and personal medications.",
+      "Documents & Cash: Valid government-issued ID, necessary permits, and sufficient cash.",
+      "Other Essentials: Sunglasses, a headlamp or flashlight, and a reusable water bottle.",
+    ],
+    terms_and_conditions: {
+      payment: "Full payment must be completed before the trip departure.",
+      identification: "A valid government-issued ID is mandatory for boarding.",
+      booking: "Bookings are non-transferable.",
+      refunds:
+        "No refunds will be issued for any inclusions not availed by the traveler.",
+      luggage:
+        "Travelers are responsible for their own luggage and personal belongings.",
+      punctuality:
+        "Departure times are fixed; anyone missing the bus will not be eligible for a refund.",
+      vehicle_ac: "AC will be turned off in hilly regions for safety.",
+      conduct: "Smoking and drinking are strictly prohibited during the tour.",
+      liability:
+        "The company is not responsible for accidents, injuries, or changes to the itinerary due to unforeseen circumstances.",
+    },
+    cancellation_policy:
+      "A 30% advance payment is mandatory to confirm the booking. This advance amount is strictly non-refundable.",
+    pdf_url: "",
+  },
+  {
+    __id: "2",
+    name: "Adi Kailash Om Parvat Yatra 2026 (from Haldwani)",
+    overview:
+      "Embark on a divine 4-day, 3-night spiritual yatra to Adi Kailash and Om Parvat, starting from Pantnagar, Kathgodam, or Haldwani. This tour is perfectly suited for groups, couples, families, and solo travelers wanting to visit the sacred land of Lord Shiva in the Pithoragarh region. With fixed group departures available in May, June, September, and October, the package includes all essential services like transport, stay, meals, and permits for a seamless pilgrimage. Experience the spiritual aura of these holy peaks and create memories that will last a lifetime.",
+    description:
+      "<h2>A Sacred Journey to the Abode of Shiva from Haldwani</h2>\n<p>This <strong>4-day, 3-night Adi Kailash and Om Parvat Yatra</strong> is a specially curated spiritual tour beginning from the foothills of Kumaon at Pantnagar, Kathgodam, or Haldwani. Designed by Devnagari Tour & Travels, this pilgrimage is an invitation to explore the wonders of Adi Kailash and create lasting memories. The tour is ideal for all kinds of travelers, whether you are in a group, with family, a couple, or traveling solo. We offer both standard and deluxe arrangements to cater to your preferences.</p>\n\n<h3>Experience Divine Wonders</h3>\n<p>The yatra takes you to two of the most revered sites in the Himalayas. You will have the opportunity to perform 'darshan' and 'puja' at <strong>Om Parvat</strong>, a mountain peak where the natural formation of snow creates a perfect 'Aum' symbol. The journey continues to <strong>Adi Kailash</strong>, where pilgrims can perform 'darshan' and 'Charan Sparsh' (touching the feet) of the holy mountain. This all-encompassing tour also includes visits to the Kali Mata temple, the vibrant local market in Nepal, and scenic spots like the confluence of the Kali and Gori rivers.</p>\n\n<h3>Seamless and All-Inclusive Pilgrimage</h3>\n<p>We ensure a comfortable and hassle-free journey by managing all the logistics. The tour package includes transportation, accommodation in hotels and a village homestay, and most meals. We also take care of the crucial <strong>inner line permits</strong> required for this region. An experienced local guide and driver will accompany you, ensuring your safety and providing insights into the local culture and traditions. With fixed departure dates in the pleasant months of <strong>May, June, September, and October</strong>, this yatra is an accessible way to fulfill your spiritual aspirations.</p>",
+    itinerary: [
+      {
+        day: 1,
+        title: "Haldwani/Kathgodam to Dharchula",
+        details: [
+          "Early morning pickup from Pantnagar, Kathgodam (Haldwani) and drive to Dharchula.",
+          "Sightseeing en route includes Nanakmatta dam, Champawat, and Kolidhek Jheel and Abbott Mount (on demand) Lohaghat, Pithoragarh, and the Sangam of the Kali and Gori rivers at Joljibi.",
+          "Check into the hotel upon arrival in Dharchula.",
+        ],
+        inclusions: "Transport, Hotel stay, dinner & evening tea.",
+        night_stay: "Dharchula.",
+      },
+      {
+        day: 2,
+        title: "Dharchula to Adi Kailash Darshan & Gunji Stay",
+        details: [
+          "After an early morning checkout, drive towards Adi Kailash.",
+          "Sightseeing on the way includes Ranthi waterfall, Tawaghat, and Gunji.",
+          "Perform 'Darshan' and 'Charan Sparsh' at Adi Kailash.",
+          "Drive to Gunji village and check into a local homestay for the night.",
+        ],
+        inclusions:
+          "Transport, Home stay, inner line permit, Breakfast, dinner, & evening tea.",
+        night_stay: "Gunji Village.",
+      },
+      {
+        day: 3,
+        title: "Om Parvat Darshan & Drive to Pithoragarh",
+        details: [
+          "In the morning, proceed for the Om Parvat yatra.",
+          "Have 'Darshan' and perform 'puja' at Om Parvat.",
+          "Sightseeing includes Om Parvat, Kali Mata temple, and a visit to the Nepal border and local market.",
+          "Drive to Pithoragarh and check into the hotel.",
+        ],
+        inclusions: "Transport, hotel stay, breakfast, dinner & evening tea.",
+        night_stay: "Pithoragarh.",
+      },
+      {
+        day: 4,
+        title: "Pithoragarh to Haldwani/Kathgodam Drop",
+        details: [
+          "Early morning departure for Pantnagar, Kathgodam (Haldwani).",
+          "On the way, visit Gurna Mata temple and Kolidhek Jheel.",
+          "The tour concludes with the drop-off at Pantnagar, Kathgodam (Haldwani).",
+        ],
+        inclusions: "Transport, Breakfast & evening tea.",
+        night_stay: "N/A",
+      },
+    ],
+    images: [
+      "/Landing-3.jpg",
+      "/AK-10.jpg",
+      "/AK-1.jpg",
+      "/AK-2.jpg",
+      "/AK-3.jpg",
+      "/AK-4.jpg",
+      "/AK-5.jpg",
+      "/AK-6.jpg",
+      "/AK-7.jpg",
+      "/AK-8.jpg",
+      "/AK-9.jpg",
+      "/AK-11.jpg",
+      "/AK-12.jpg",
+      "/D-1.jpg",
+      "/D-2.jpg",
+      "/N-1.jpg",
+      "/AK-13.jpg",
+      "/AK-14.jpg",
+      "/AK-15.jpg",
+    ],
+    price: {
+      standard_plan: 15000,
+      deluxe_plan: 25000,
+    },
+    days: 4,
+    places: [
+      "Nanakmatta",
+      "Champawat",
+      "Pithoragarh",
+      "Sangam of Kali and Gori river",
+      "Nepal border",
+      "Nepal market",
+      "Dharchula",
+      "Ranthi water fall",
+      "Tawaghat",
+      "Gunji",
+      "Adi Kailash",
+      "Om Parvat",
+      "Kali Mata temple",
+    ],
+    tour_operator: {
+      name: "Devnagari Tour and Travels",
+      contact_number: "9456193464",
+      website: "devnagaritourtravels.com",
+      email: "info@devnagaritourtravels.com",
+    },
+    inclusions: [
+      "Transport (Delhi to Delhi round-trip)",
+    ],
+    packing_list: [
+      "Warm Clothing: Thermal layers, fleece jackets, a heavy down jacket, waterproof and windproof outer layers.",
+      "Sturdy Footwear: Waterproof trekking boots with good ankle support.",
+      "Accessories: Warm socks, gloves, a woolen cap, and a scarf.",
+      "Personal Care: Sunscreen, lip balm, moisturizer, and personal medications.",
+      "Essentials: A valid ID, necessary permits, and sufficient cash.",
+      "Other: Sunglasses, a headlamp or flashlight, and a reusable water bottle.",
+    ],
+    terms_and_conditions: {
+      payment: "Full payment for the trip must be completed before departure.",
+      identification:
+        "All travelers must carry and present a valid government-issued ID.",
+      booking: "Bookings are non-transferable.",
+      refunds:
+        "No refunds will be issued for any inclusions not availed by the traveler.",
+      luggage:
+        "Travelers are responsible for their luggage and personal belongings.",
+    },
+    cancellation_policy:
+      "To confirm your participation, a 30% advance payment of the total trip cost is mandatory at the time of booking. Please note, the advance amount is strictly non-refundable.",
+    pdf_url: "",
+  },
+  {
+    __id: "3",
+    name: "Bike Tour from Pithoragarh to Adi Kailash to Munsyari",
+    overview:
+      "Embark on the ultimate motorcycling adventure through the stunning landscapes of Kumaon Himalayas. This 6-day, 5-night bike tour takes you from Pithoragarh to the sacred Adi Kailash, through remote Darma Valley, and to the scenic hill station of Munsyari. Perfect for experienced riders seeking thrilling mountain roads, breathtaking views, and an authentic Himalayan experience. Ride through challenging terrains, witness snow-capped peaks, and explore offbeat destinations on this adrenaline-pumping journey.",
+    description:
+      "<h2>Ride Through the Mighty Himalayas</h2>\n<p>Experience the thrill of a lifetime with our <strong>6-day, 5-night motorcycle expedition</strong> through the heart of the Kumaon Himalayas. This tour is designed for passionate riders who seek adventure, stunning landscapes, and the freedom of the open road. Starting from Pithoragarh, you'll ride through winding mountain passes, remote valleys, and traditional villages, reaching the sacred <strong>Adi Kailash</strong> and the picturesque <strong>Munsyari</strong>.</p>\n\n<h3>The Ultimate Mountain Riding Experience</h3>\n<p>This bike tour takes you on some of the most scenic and challenging roads in the Indian Himalayas. You'll navigate through <strong>hairpin bends, river crossings, and high-altitude terrain</strong>, all while surrounded by majestic peaks like Panchachuli, Nanda Devi, and the sacred Adi Kailash. The journey includes rides through the <strong>Darma Valley</strong>, one of the most remote and pristine valleys in Uttarakhand, offering unparalleled natural beauty and solitude.</p>\n\n<h3>Sacred Sites & Scenic Stops</h3>\n<p>Along the way, you'll visit the sacred <strong>Adi Kailash (Chota Kailash)</strong>, where you can perform darshan and experience the spiritual energy of this holy mountain. The tour also includes stops at <strong>Narayan Ashram</strong>, traditional villages like Seepu and Dugtu, and the stunning <strong>Munsyari</strong> with its panoramic views of the Panchachuli peaks. Visit waterfalls, hot springs, confluence points, and the India-Nepal border, making this not just a ride but a complete Himalayan adventure.</p>\n\n<h3>Complete Support & Safety</h3>\n<p>Your safety is our priority. The tour includes a support vehicle carrying luggage, spare parts, and emergency equipment. An experienced ride leader and mechanic accompany the group throughout the journey. We provide quality accommodation, meals, inner line permits, and comprehensive mechanical support. Riders have the option to bring their own bikes or rent Royal Enfield motorcycles. This tour is suitable for riders with prior experience on mountain roads and good fitness levels.</p>",
+    itinerary: [
+      {
+        day: 1,
+        title: "Pithoragarh - Dharchula - Narayan Ashram",
+        distance: "Approx. 130 km",
+        duration: "6-7 hrs",
+        details: [
+          "Morning briefing and bike check at Pithoragarh.",
+          "Start the ride towards Dharchula through scenic mountain roads.",
+          "Stop at Askot Wildlife Sanctuary viewpoint.",
+          "Visit the confluence of Kali and Gori rivers at Jauljibi.",
+          "Ride through Dharchula, a border town with Nepal.",
+          "Continue to Narayan Ashram via Tawaghat.",
+          "Sightseeing includes Ranthi Waterfall, Thanidhar View Point, and Chirkila Dam.",
+          "Visit Narayan Swami Ashram and enjoy views of Chipla Kedar peaks.",
+          "Check into TRC camp/homestay.",
+          "Dinner and overnight stay at Narayan Ashram."
+        ],
+        inclusions: "Bike rental (if opted), Support vehicle, Accommodation, Breakfast, Dinner & Evening Tea.",
+        night_stay: "Narayan Ashram."
+      },
+      {
+        day: 2,
+        title: "Narayan Ashram - Darma Valley - Dugtu (Panchachuli Base Camp)",
+        distance: "Approx. 60 km",
+        duration: "4-5 hrs (challenging terrain)",
+        details: [
+          "Early morning ride into the remote Darma Valley.",
+          "Navigate through narrow, winding roads with stunning valley views.",
+          "Pass through traditional villages: Nagling, Baling.",
+          "Stop at Kanchyoti Bridge and Waterfall for photos.",
+          "Ride to Dugtu village at Panchachuli Base Camp.",
+          "Visit Seepu Village with its mythological significance.",
+          "Optional short trek to Aadi-Aachari Taal (pond).",
+          "Experience authentic village life and hospitality.",
+          "Check into homestay for an immersive local experience.",
+          "Evening bonfire and traditional dinner with locals."
+        ],
+        inclusions: "Support vehicle, Homestay, Breakfast, Dinner & Evening Tea, Mechanical support.",
+        night_stay: "Dugtu/Datu Village (Darma Valley)."
+      },
+      {
+        day: 3,
+        title: "Dugtu - Adi Kailash Darshan - Gunji",
+        distance: "Approx. 50 km",
+        duration: "4-5 hrs + Adi Kailash visit",
+        details: [
+          "Morning ride towards Adi Kailash.",
+          "Navigate challenging high-altitude terrain.",
+          "Reach Adi Kailash base for darshan and charan sparsh.",
+          "Spend time at the sacred site, perform prayers and photography.",
+          "Experience the spiritual energy of this holy mountain.",
+          "Ride to Gunji village near the Indo-Tibetan border.",
+          "Explore the remote border village atmosphere.",
+          "Check into homestay in Gunji.",
+          "Evening interactions with local communities.",
+          "Dinner and overnight stay at Gunji."
+        ],
+        inclusions: "Support vehicle, Homestay, Inner line permits, Breakfast, Dinner & Evening Tea.",
+        night_stay: "Gunji Village."
+      },
+      {
+        day: 4,
+        title: "Gunji - Dharchula - Munsyari",
+        distance: "Approx. 140 km",
+        duration: "6-7 hrs",
+        details: [
+          "After breakfast, start the ride back through Darma Valley.",
+          "Ride through Dharchula and continue towards Munsyari.",
+          "Stop at Madkot hot water springs for a refreshing break.",
+          "Visit Bangapani Waterfalls en route.",
+          "Ride through the confluence of Kali and Gori rivers at Jauljibi.",
+          "Pass through Chaukori Tea Gardens with panoramic mountain views.",
+          "Stop at the stunning Birthi Waterfall for photos.",
+          "Reach Munsyari by evening.",
+          "Check into hotel with views of Panchachuli peaks.",
+          "Explore local market and cafes.",
+          "Dinner and overnight stay in Munsyari."
+        ],
+        inclusions: "Support vehicle, Hotel stay, Breakfast, Dinner & Evening Tea.",
+        night_stay: "Munsyari."
+      },
+      {
+        day: 5,
+        title: "Munsyari - Local Exploration & Rest Day",
+        distance: "Local sightseeing (30-40 km)",
+        details: [
+          "Relaxed morning with sunrise views over Panchachuli peaks.",
+          "Visit Nanda Devi Temple for blessings.",
+          "Ride to nearby viewpoints including Kalamuni Top.",
+          "Visit Gayatri Ashram and Tribal Heritage Museum.",
+          "Optional ride to Maheshwari Kund or Thamri Kund.",
+          "Explore local markets and handicraft shops.",
+          "Rest and relaxation time - bike maintenance check.",
+          "Enjoy the serene mountain atmosphere.",
+          "Evening bonfire at hotel (if available).",
+          "Dinner and overnight stay in Munsyari."
+        ],
+        inclusions: "Support vehicle for optional rides, Hotel stay, All meals, Bike maintenance.",
+        night_stay: "Munsyari."
+      },
+      {
+        day: 6,
+        title: "Munsyari - Pithoragarh",
+        distance: "Approx. 135 km",
+        duration: "5-6 hrs",
+        details: [
+          "Early morning checkout after breakfast.",
+          "Final ride through the scenic Kumaon hills.",
+          "Stop at Birthi Waterfall if missed earlier.",
+          "Pass through Berinag and tea gardens.",
+          "Visit Askot Sanctuary viewpoint and Satgarh.",
+          "Lunch break at a scenic spot en route.",
+          "Reach Pithoragarh by evening.",
+          "Bike return and final check (for rental bikes).",
+          "Closing ceremony and sharing of experiences.",
+          "Tour concludes with memories of an epic Himalayan ride."
+        ],
+        inclusions: "Support vehicle, Breakfast, Bike return assistance.",
+        night_stay: "N/A"
+      }
+    ],
+    images: [
+      "/Landing-5.jpg",
+      "/AK-13.jpg",
+      "/D-1.jpg",
+      "/D-2.jpg",
+      "/KM-1.jpg",
+      "/AK-5.jpg",
+      "/N-1.jpg"
+    ],
+    price: {
+      standard_plan: 15000,
+      deluxe_plan: 25000
+    },
+    days: 6,
+    places: [
+      "Pithoragarh",
+      "Dharchula",
+      "Jauljibi",
+      "Narayan Ashram",
+      "Tawaghat",
+      "Darma Valley",
+      "Nagling Village",
+      "Baling Village",
+      "Dugtu Village",
+      "Panchachuli Base Camp",
+      "Seepu Village",
+      "Adi Kailash",
+      "Gunji",
+      "Madkot Hot Springs",
+      "Chaukori",
+      "Birthi Waterfall",
+      "Munsyari",
+      "Nanda Devi Temple"
+    ],
+    tour_operator: {
+      name: "Devnagari Tour and Travels",
+      contact_number: "9456193464",
+      website: "https://devnagaritourtravels.in/",
+      email: "info@devnagaritourtravels.com"
+    },
+    inclusions: [
+      "Royal Enfield motorcycle rental (if opted - Classic 350/Himalayan)",
+      "Fuel for the entire tour",
+      "Support vehicle with luggage transport",
+      "Experienced ride leader and mechanic",
+      "Accommodation (Hotels/Homestays/Camps)",
+      "Meals: Breakfast, Dinner, and Evening Tea (as per itinerary)",
+      "All Inner line permits for restricted areas",
+      "Basic motorcycle maintenance and spare parts",
+      "First Aid kit and emergency support",
+      "All sightseeing as per itinerary"
+    ],
+    exclusions: [
+      "Lunch and personal expenses",
+      "Bike damage charges (security deposit required)",
+      "Personal riding gear (helmet, jacket, gloves - available on rent)",
+      "Travel insurance (highly recommended)",
+      "Any expenses due to bike breakdown caused by rider negligence",
+      "Alcoholic beverages",
+      "Any adventure activities not mentioned in itinerary"
+    ],
+    bike_options: [
+      {
+        model: "Royal Enfield Classic 350",
+        price: "Included in standard plan",
+        suitable_for: "Comfortable cruising on mountain roads"
+      },
+      {
+        model: "Royal Enfield Himalayan 411",
+        price: "Additional ₹3,000",
+        suitable_for: "Better for challenging terrains and off-road sections"
+      },
+      {
+        model: "Own Bike",
+        price: "Deduct ₹8,000 from package price",
+        suitable_for: "Riders who prefer their own motorcycles"
+      }
+    ],
+    mandatory_requirements: [
+      "Valid driving license for motorcycles (mandatory)",
+      "Prior experience riding in hilly/mountain terrain",
+      "Good physical fitness and stamina",
+      "Age: 21-60 years (exceptions with medical certificate)",
+      "Signed indemnity form",
+      "Valid government-issued ID",
+      "Refundable security deposit: ₹10,000 for rental bikes"
+    ],
+    packing_list: [
+      "Riding Gear: Full-face helmet, riding jacket with armor, riding gloves, knee guards.",
+      "Clothing: Thermal layers, fleece jacket, windproof/waterproof outer layer, comfortable riding pants.",
+      "Footwear: Sturdy riding boots with ankle support (mandatory).",
+      "Accessories: Sunglasses, neck warmer/balaclava, bandana, cap.",
+      "Personal Items: Sunscreen (high SPF), lip balm, personal medications, energy bars.",
+      "Documents: Driving license, ID proof, permits (provided), insurance papers.",
+      "Other: Camera, power bank, reusable water bottle, small backpack for day rides.",
+      "Optional: Knee/elbow guards, rain gear, action camera for ride recording."
+    ],
+    terms_and_conditions: {
+      payment: "Full payment required 15 days before departure due to permit and bike booking requirements.",
+      identification: "Valid driving license for motorcycles is mandatory. No license = no ride.",
+      booking: "Bookings are non-transferable.",
+      refunds: "No refunds for any unavailed services.",
+      bike_damage: "Rider is responsible for any damage to the rented motorcycle. Security deposit will be adjusted against damages.",
+      fitness: "Riders must be physically and mentally fit for high-altitude riding. Medical conditions must be disclosed.",
+      punctuality: "Riding schedule is fixed for safety and daylight hours. Delays may affect the itinerary.",
+      conduct: "Drinking and riding is strictly prohibited. Violation leads to immediate tour termination without refund.",
+      liability: "Riders ride at their own risk. The company is not responsible for accidents, injuries, or bike damage.",
+      itinerary_changes: "Routes may be altered due to weather, road conditions, or permits. Safety is the priority.",
+      support: "Follow ride leader's instructions at all times. Maintain safe distance and speed limits."
+    },
+    cancellation_policy:
+      "A 50% advance payment is mandatory to confirm the booking and reserve bikes. Cancellations made 15+ days prior receive 50% refund. Cancellations within 15 days are non-refundable due to permit and bike reservation commitments.",
+    pdf_url: ""
+  },
+  {
+    __id: "4",
     name: "Kumaun Darshan Tour Package",
     overview:
       "Embark on an enchanting 8-day, 7-night journey through the majestic hills of Kumaon, Uttarakhand, with the Devnagari Tour and Travels' 'Kumaun Darshan' package. Thoughtfully designed for families, couples, groups, and solo travelers, this tour blends adventure, spirituality, and relaxation. Starting from Haldwani, Kathgodam, or Pantnagar, you'll explore sacred temples like Kanchi Dham and Jageshwar, marvel at the mysterious Patal Bhuvaneshwar cave, witness the breathtaking Panchachuli peaks from Munsyari, and venture into the remote Darma Valley. This comprehensive package ensures a comfortable and memorable exploration of 'Devbhoomi' (the Land of Gods).",
@@ -167,6 +676,7 @@ const TOUR_DATA = [
     ],
     images: [
       "/Landing-4.jpg",
+      "/KUM.png",
       "/KD-1.jpg",
       "/C-2.jpg",
       "/C-4.jpg",
@@ -208,7 +718,7 @@ const TOUR_DATA = [
     tour_operator: {
       name: "Devnagari Tour and Travels",
       contact_number: "9456193464",
-      website: "https://devnagaritourtravels.com/",
+      website: "https://devnagaritourtravels.in/",
       email: "",
     },
     inclusions: [
@@ -238,370 +748,6 @@ const TOUR_DATA = [
     },
     cancellation_policy:
       "A 30% advance payment is mandatory to confirm the booking. The advance amount is strictly non-refundable as the trip is organized on short notice.",
-    pdf_url: "",
-  },
-  {
-    __id: "2",
-    name: "Adi Kailash Om Parvat Yatra 2026",
-    overview:
-      "Embark on a profound 5-day, 4-night spiritual journey to the sacred lands of Adi Kailash and Om Parvat with Devnagari Tour and Travels. This meticulously planned 'Delhi to Delhi' yatra is designed for groups, couples, families, and solo travelers seeking a divine connection in the Himalayas. The package includes transport, accommodation, meals, permits, and medical support. Witness the mystical impression of 'Aum' on Om Parvat and perform 'darshan' at Adi Kailash, the replica of Mount Kailash. This tour offers a unique opportunity to experience the spiritual heart of the Kumaon Himalayas.",
-    description:
-      "<h2>A Divine Pilgrimage to the Land of Shiva</h2>\n<p>Join us for a deeply spiritual <strong>5-day, 4-night expedition</strong> to the revered peaks of <strong>Adi Kailash and Om Parvat</strong>. This yatra, organized by Devnagari Tour and Travels, is a sacred pilgrimage designed to take you into the heart of the Himalayas, to the very land where Lord Shiva is believed to reside. Our all-inclusive package, running from <strong>Delhi to Delhi</strong>, is perfect for devout pilgrims, adventure seekers, and nature lovers alike. We cater to all types of travelers, including groups, families, and solo participants, ensuring a safe, comfortable, and spiritually fulfilling experience.</p>\n\n<h3>The Sacred Peaks: Adi Kailash and Om Parvat</h3>\n<p>The journey's primary destinations are two of the most sacred peaks in the Indian Himalayas. <strong>Om Parvat</strong> is a breathtaking natural wonder where the pattern of snow deposition on the mountain face miraculously resembles the sacred symbol 'Aum' (ॐ). Witnessing this divine inscription is a moment of profound spiritual significance. The yatra then proceeds to <strong>Adi Kailash</strong>, also known as Chota Kailash. This majestic peak is a stunning replica of the great Mount Kailash in Tibet and is revered as one of Lord Shiva's ancient abodes. The opportunity to have 'darshan' and touch the feet ('charan sparsh') of this holy mountain is a lifetime achievement for devotees.</p>\n\n<h3>Journey Through Kumaon's Heartland</h3>\n<p>Your pilgrimage begins in Delhi, traveling through the scenic landscapes of the Kumaon region. The route itself is dotted with places of interest and natural beauty. You will pass through the plains and visit the <strong>Nanakmatta Dam</strong> before ascending into the hills via Champawat and Lohaghat. The first night's halt is in the beautiful town of <strong>Pithoragarh</strong>. From there, you will travel to the border town of <strong>Dharchula</strong>, located at the confluence of the Kali and Gori rivers, which serves as the gateway to the yatra. The journey from Dharchula is a thrilling drive through rugged terrain, passing waterfalls and scenic river valleys en route to <strong>Gunji</strong>, the base for your visits to the sacred peaks.</p>\n\n<h3>An All-Inclusive Spiritual Experience</h3>\n<p>We take care of all the logistics so you can focus on your spiritual experience. The package includes all transportation, comfortable stays in hotels and village homestays, and nutritious meals. We also handle the essential <strong>inner line permits</strong> required to enter this restricted border area. An experienced local guide and driver will accompany you, ensuring your journey is smooth and insightful. With fixed group departures available in <strong>May, June, September, and October</strong>, you can choose a time that best suits you to undertake this journey of a lifetime.",
-    itinerary: [
-      {
-        day: 1,
-        title: "Delhi to Pithoragarh",
-        details: [
-          "Early morning pickup from Delhi and drive to Pithoragarh.",
-          "Sightseeing en route includes Nanakmatta Dam, Champawat, and Kolidhek Jheel and Abbott Mount (on demand) Lohaghat.",
-          "Check into the hotel in Pithoragarh for an overnight stay.",
-        ],
-        inclusions: "Transport, Hotel stay, Dinner & Evening tea.",
-        night_stay: "Pithoragarh.",
-      },
-      {
-        day: 2,
-        title: "Pithoragarh to Dharchula",
-        details: [
-          "After checkout, visit Mostamanu Temple and Vardani View Point.",
-          "Drive to Dharchula.",
-          "Sightseeing on the way includes Ogla, Askot, and the sangam (confluence) of the Kali and Gori rivers.",
-          "Visit the Nepal border and the local market in Nepal.",
-          "Check into the hotel in Dharchula.",
-        ],
-        inclusions: "Transport, Hotel stay, Breakfast, Dinner & Evening tea.",
-        night_stay: "Dharchula.",
-      },
-      {
-        day: 3,
-        title: "Dharchula to Adi Kailash Darshan & Gunji Stay",
-        details: [
-          "Early morning drive towards Adi Kailash.",
-          "Sightseeing includes Ranthi Waterfall, Tawaghat, and Gunji.",
-          "Perform 'Darshan' and 'Charan Sparsh' at Adi Kailash.",
-          "Return to Gunji village and check into a homestay for the night.",
-        ],
-        inclusions:
-          "Transport, Homestay, Inner line permit, Breakfast, Dinner & Evening tea.",
-        night_stay: "Gunji Village.",
-      },
-      {
-        day: 4,
-        title: "Om Parvat Darshan & Drive to Pithoragarh",
-        details: [
-          "Proceed for Om Parvat Yatra in the morning.",
-          "Have darshan and perform puja at Om Parvat.",
-          "Sightseeing also includes the Kali Mata Temple.",
-          "Drive back to Pithoragarh and check into the hotel.",
-        ],
-        inclusions: "Transport, Hotel stay, Breakfast, Dinner & Evening tea.",
-        night_stay: "Pithoragarh.",
-      },
-      {
-        day: 5,
-        title: "Pithoragarh to Delhi Drop",
-        details: [
-          "Early morning departure from Pithoragarh.",
-          "Drive back to Delhi.",
-          "En route, visit Gurna Mata Temple and Kolidhek Jheel.",
-          "Drop-off in Delhi, marking the end of the yatra.",
-        ],
-        inclusions: "Transport, Breakfast & Evening tea.",
-        night_stay: "N/A",
-      },
-    ],
-    images: [
-      "/Landing-1.jpg",
-      "/AK-7.jpg",
-      "/AK-1.jpg",
-      "/AK-2.jpg",
-      "/AK-3.jpg",
-      "/AK-4.jpg",
-      "/AK-5.jpg",
-      "/AK-6.jpg",
-      "/AK-8.jpg",
-    ],
-    price: {
-      standard_plan: 27000,
-      deluxe_plan: 30000,
-    },
-    days: 5,
-    places: [
-      "Nanakmatta",
-      "Champawat",
-      "Lohaghat",
-      "Pithoragarh",
-      "Dharchula",
-      "Sangam (Kali & Gori River)",
-      "Nepal Border Market",
-      "Ranthi Waterfall",
-      "Tawaghat",
-      "Gunji",
-      "Adi Kailash",
-      "Om Parvat",
-      "Kali Mata Temple",
-    ],
-    tour_operator: {
-      name: "Devnagari Tour and Travels",
-      contact_number: "9456193464",
-      website: "devnagaritourtravels.com",
-      email: "info@devnagaritourtravels.com",
-    },
-    inclusions: [
-      "Transport (Delhi to Delhi round-trip)",
-    ],
-    packing_list: [
-      "Warm Clothing: Thermal layers, fleece jackets, heavy down jacket, waterproof/windproof outer layers.",
-      "Footwear: Sturdy, waterproof trekking boots with good ankle support.",
-      "Accessories: Warm socks, gloves, woolen cap, and scarf.",
-      "Personal Care: Sunscreen, lip balm, moisturizer, and personal medications.",
-      "Documents & Cash: Valid government-issued ID, necessary permits, and sufficient cash.",
-      "Other Essentials: Sunglasses, a headlamp or flashlight, and a reusable water bottle.",
-    ],
-    terms_and_conditions: {
-      payment: "Full payment must be completed before the trip departure.",
-      identification: "A valid government-issued ID is mandatory for boarding.",
-      booking: "Bookings are non-transferable.",
-      refunds:
-        "No refunds will be issued for any inclusions not availed by the traveler.",
-      luggage:
-        "Travelers are responsible for their own luggage and personal belongings.",
-      punctuality:
-        "Departure times are fixed; anyone missing the bus will not be eligible for a refund.",
-      vehicle_ac: "AC will be turned off in hilly regions for safety.",
-      conduct: "Smoking and drinking are strictly prohibited during the tour.",
-      liability:
-        "The company is not responsible for accidents, injuries, or changes to the itinerary due to unforeseen circumstances.",
-    },
-    cancellation_policy:
-      "A 30% advance payment is mandatory to confirm the booking. This advance amount is strictly non-refundable.",
-    pdf_url: "",
-  },
-  {
-    __id: "3",
-    name: "Munsiyari and Khaliya Top Tour Package",
-    overview:
-      "Discover the breathtaking beauty of the Kumaon Himalayas with this 3-day, 2-night tour to Munsiyari and Khaliya Top, starting from Pithoragarh. Ideal for adventure seekers and nature lovers, this package combines scenic drives with an exhilarating trek. Experience the majestic Panchachuli peaks from Munsiyari, a serene hill station, and then trek to the stunning meadows of Khaliya Top for panoramic views of snow-covered Himalayan giants. With options for standard and deluxe plans, this tour offers a perfect blend of comfort and adventure.",
-    description:
-      "<h2>Experience the Majesty of Munsiyari and Khaliya Top</h2>\n<p>Embark on a spectacular <strong>3-day, 2-night adventure</strong> into the heart of Uttarakhand's Kumaon region with our Munsiyari and Khaliya Top tour. This package, starting and ending in Pithoragarh, is perfectly crafted for those who wish to witness the raw, untouched beauty of the Himalayas. <strong>Munsiyari</strong>, a picturesque hill station, serves as the gateway, offering mesmerizing views of the iconic Panchachuli peaks and a tranquil environment filled with waterfalls, temples, and pristine lakes.</p>\n\n<h3>The Khaliya Top Trek: A Walk in the Clouds</h3>\n<p>The highlight of this tour is the trek to <strong>Khaliya Top</strong>, a magnificent alpine meadow renowned for its accessibility and stunning 360-degree views of the greater Himalayan range. This trek is considered ideal for both beginners and seasoned trekkers, offering a rewarding experience without being overly strenuous. As you ascend, the landscape unfolds into a breathtaking panorama of snow-laden peaks, including <strong>Panchachuli, Nanda Devi, and Rajrambha</strong>. The experience of camping under a starlit sky at Khaliya Top and waking up to a glorious sunrise over the mountains is truly unforgettable.</p>\n\n<h3>A Journey of Scenic Wonders</h3>\n<p>The journey to and from Munsiyari is as captivating as the destination itself. The drive from Pithoragarh takes you through winding mountain roads with sights like the confluence of the <strong>Kali and Gori rivers</strong>, the hot springs at Madkot, and the magnificent <strong>Birthi Waterfall</strong>. During your stay in Munsiyari, you will visit the sacred Nanda Devi Temple and Gayatri Ashram, soaking in the spiritual ambiance of the region. This tour is an all-inclusive experience, covering your transport, accommodation in hotels and camps, meals, and the guidance of an experienced local expert, allowing you to immerse yourself fully in the Himalayan splendor.",
-    itinerary: [
-      {
-        day: 1,
-        title: "Pithoragarh to Munsiyari",
-        details: [
-          "Early morning departure from Pithoragarh.",
-          "Scenic drive with sightseeing at Satgarh, Askot, and the sangam of the Kali and Gori rivers.",
-          "Visit the hot water springs at Madkot before reaching Munsiyari.",
-          "In Munsiyari, visit the Nanda Devi Temple and enjoy views of the Panchachuli peaks and Hansling mountain.",
-          "Explore Gayatri Ashram and local areas before checking into the hotel.",
-        ],
-        inclusions: "Transport, Hotel Stay, Breakfast and Dinner.",
-        night_stay: "Munsiyari.",
-      },
-      {
-        day: 2,
-        title: "Munsiyari to Khaliya Top Trek",
-        details: [
-          "After an early checkout, begin the trek to Khaliya Top.",
-          "Enjoy the stunning scenery and views of snowy mountains as you ascend.",
-          "Reach the Khaliya Top zero point for clear views of the Panchachuli, Nandadevi, and Rajrambha mountain peaks.",
-          "Witness a beautiful sunset over the Himalayas.",
-          "Overnight stay in a camp or TRC Guesthouse with a bonfire.",
-        ],
-        inclusions:
-          "Tour Guide, Breakfast, Dinner, Camping/Stay (TRC Guesthouse), Bonfire.",
-        night_stay: "Khaliya Top.",
-      },
-      {
-        day: 3,
-        title: "Khaliya Top to Munsiyari/Pithoragarh",
-        details: [
-          "Wake up early to witness a spectacular sunrise over the peaks.",
-          "Descend from Khaliya Top and reach Munsiyari.",
-          "Begin the drive back to Pithoragarh.",
-          "Stop to visit the famous Birthi Waterfall en route.",
-          "The tour concludes upon arrival in Pithoragarh.",
-        ],
-        inclusions: "Transport, Breakfast, and Lunch.",
-        night_stay: "N/A",
-      },
-    ],
-    images: [
-      "/Landing-6.jpg",
-      "/D-1.jpg",
-      "/KM-1.jpg",
-      "/AK-5.jpg",
-      "/D-2.jpg",
-    ],
-    price: {
-      standard_plan: 12000,
-      deluxe_plan: 15000,
-    },
-    days: 3,
-    places: [
-      "Pithoragarh",
-      "Munsiyari",
-      "Khaliya Top",
-      "Birthi Waterfall",
-      "Madkot (Hot Water Spring)",
-      "Sangam (Kali & Gori River)",
-      "Nanda Devi Temple",
-    ],
-
-    tour_operator: {
-      name: "Devnagari Tour and Travels",
-      contact_number: "9456193464",
-      website: "https://devnagaritourtravels.com/",
-      email: "info@devnagaritourtravels.com",
-    },
-    inclusions: [
-      "Transport (Delhi to Delhi round-trip)",
-    ],
-    packing_list: [
-      "Warm Clothing: Thermal layers, fleece jackets, heavy down jacket.",
-      "Outerwear: Waterproof and windproof outer layers.",
-      "Footwear: Waterproof trekking boots with good ankle support.",
-      "Accessories: Warm socks, gloves, woolen cap, and scarf.",
-      "Personal Care: Sunscreen, lip balm, moisturizer, personal medications.",
-      "Documents & Cash: Valid ID and sufficient cash.",
-      "Other Essentials: Sunglasses, headlamp or flashlight, reusable water bottle.",
-    ],
-    terms_and_conditions: {
-      payment: "Full payment for the trip must be completed before departure.",
-      identification:
-        "All travelers must carry and present a valid government-issued ID.",
-      booking: "Bookings are non-transferable.",
-    },
-    cancellation_policy:
-      "A 30% advance payment of the total trip cost is mandatory at the time of booking to confirm your participation. This advance amount is strictly non-refundable.",
-    pdf_url: "",
-  },
-  {
-    __id: "4",
-    name: "Adi Kailash Om Parvat Yatra 2026 (from Haldwani)",
-    overview:
-      "Embark on a divine 4-day, 3-night spiritual yatra to Adi Kailash and Om Parvat, starting from Pantnagar, Kathgodam, or Haldwani. This tour is perfectly suited for groups, couples, families, and solo travelers wanting to visit the sacred land of Lord Shiva in the Pithoragarh region. With fixed group departures available in May, June, September, and October, the package includes all essential services like transport, stay, meals, and permits for a seamless pilgrimage. Experience the spiritual aura of these holy peaks and create memories that will last a lifetime.",
-    description:
-      "<h2>A Sacred Journey to the Abode of Shiva from Haldwani</h2>\n<p>This <strong>4-day, 3-night Adi Kailash and Om Parvat Yatra</strong> is a specially curated spiritual tour beginning from the foothills of Kumaon at Pantnagar, Kathgodam, or Haldwani. Designed by Devnagari Tour & Travels, this pilgrimage is an invitation to explore the wonders of Adi Kailash and create lasting memories. The tour is ideal for all kinds of travelers, whether you are in a group, with family, a couple, or traveling solo. We offer both standard and deluxe arrangements to cater to your preferences.</p>\n\n<h3>Experience Divine Wonders</h3>\n<p>The yatra takes you to two of the most revered sites in the Himalayas. You will have the opportunity to perform 'darshan' and 'puja' at <strong>Om Parvat</strong>, a mountain peak where the natural formation of snow creates a perfect 'Aum' symbol. The journey continues to <strong>Adi Kailash</strong>, where pilgrims can perform 'darshan' and 'Charan Sparsh' (touching the feet) of the holy mountain. This all-encompassing tour also includes visits to the Kali Mata temple, the vibrant local market in Nepal, and scenic spots like the confluence of the Kali and Gori rivers.</p>\n\n<h3>Seamless and All-Inclusive Pilgrimage</h3>\n<p>We ensure a comfortable and hassle-free journey by managing all the logistics. The tour package includes transportation, accommodation in hotels and a village homestay, and most meals. We also take care of the crucial <strong>inner line permits</strong> required for this region. An experienced local guide and driver will accompany you, ensuring your safety and providing insights into the local culture and traditions. With fixed departure dates in the pleasant months of <strong>May, June, September, and October</strong>, this yatra is an accessible way to fulfill your spiritual aspirations.</p>",
-    itinerary: [
-      {
-        day: 1,
-        title: "Haldwani/Kathgodam to Dharchula",
-        details: [
-          "Early morning pickup from Pantnagar, Kathgodam (Haldwani) and drive to Dharchula.",
-          "Sightseeing en route includes Nanakmatta dam, Champawat, and Kolidhek Jheel and Abbott Mount (on demand) Lohaghat, Pithoragarh, and the Sangam of the Kali and Gori rivers at Joljibi.",
-          "Check into the hotel upon arrival in Dharchula.",
-        ],
-        inclusions: "Transport, Hotel stay, dinner & evening tea.",
-        night_stay: "Dharchula.",
-      },
-      {
-        day: 2,
-        title: "Dharchula to Adi Kailash Darshan & Gunji Stay",
-        details: [
-          "After an early morning checkout, drive towards Adi Kailash.",
-          "Sightseeing on the way includes Ranthi waterfall, Tawaghat, and Gunji.",
-          "Perform 'Darshan' and 'Charan Sparsh' at Adi Kailash.",
-          "Drive to Gunji village and check into a local homestay for the night.",
-        ],
-        inclusions:
-          "Transport, Home stay, inner line permit, Breakfast, dinner, & evening tea.",
-        night_stay: "Gunji Village.",
-      },
-      {
-        day: 3,
-        title: "Om Parvat Darshan & Drive to Pithoragarh",
-        details: [
-          "In the morning, proceed for the Om Parvat yatra.",
-          "Have 'Darshan' and perform 'puja' at Om Parvat.",
-          "Sightseeing includes Om Parvat, Kali Mata temple, and a visit to the Nepal border and local market.",
-          "Drive to Pithoragarh and check into the hotel.",
-        ],
-        inclusions: "Transport, hotel stay, breakfast, dinner & evening tea.",
-        night_stay: "Pithoragarh.",
-      },
-      {
-        day: 4,
-        title: "Pithoragarh to Haldwani/Kathgodam Drop",
-        details: [
-          "Early morning departure for Pantnagar, Kathgodam (Haldwani).",
-          "On the way, visit Gurna Mata temple and Kolidhek Jheel.",
-          "The tour concludes with the drop-off at Pantnagar, Kathgodam (Haldwani).",
-        ],
-        inclusions: "Transport, Breakfast & evening tea.",
-        night_stay: "N/A",
-      },
-    ],
-    images: [
-      "/Landing-3.jpg",
-      "/AK-10.jpg",
-      "/AK-1.jpg",
-      "/AK-2.jpg",
-      "/AK-3.jpg",
-      "/AK-4.jpg",
-      "/AK-5.jpg",
-      "/AK-6.jpg",
-      "/AK-7.jpg",
-      "/AK-8.jpg",
-      "/AK-9.jpg",
-      "/AK-11.jpg",
-      "/AK-12.jpg",
-      "/D-1.jpg",
-      "/D-2.jpg",
-      "/N-1.jpg",
-      "/AK-13.jpg",
-      "/AK-14.jpg",
-      "/AK-15.jpg",
-    ],
-    price: {
-      standard_plan: 22000,
-      deluxe_plan: 25000,
-    },
-    days: 4,
-    places: [
-      "Nanakmatta",
-      "Champawat",
-      "Pithoragarh",
-      "Sangam of Kali and Gori river",
-      "Nepal border",
-      "Nepal market",
-      "Dharchula",
-      "Ranthi water fall",
-      "Tawaghat",
-      "Gunji",
-      "Adi Kailash",
-      "Om Parvat",
-      "Kali Mata temple",
-    ],
-    tour_operator: {
-      name: "Devnagari Tour and Travels",
-      contact_number: "9456193464",
-      website: "devnagaritourtravels.com",
-      email: "info@devnagaritourtravels.com",
-    },
-    inclusions: [
-      "Transport (Delhi to Delhi round-trip)",
-    ],
-    packing_list: [
-      "Warm Clothing: Thermal layers, fleece jackets, a heavy down jacket, waterproof and windproof outer layers.",
-      "Sturdy Footwear: Waterproof trekking boots with good ankle support.",
-      "Accessories: Warm socks, gloves, a woolen cap, and a scarf.",
-      "Personal Care: Sunscreen, lip balm, moisturizer, and personal medications.",
-      "Essentials: A valid ID, necessary permits, and sufficient cash.",
-      "Other: Sunglasses, a headlamp or flashlight, and a reusable water bottle.",
-    ],
-    terms_and_conditions: {
-      payment: "Full payment for the trip must be completed before departure.",
-      identification:
-        "All travelers must carry and present a valid government-issued ID.",
-      booking: "Bookings are non-transferable.",
-      refunds:
-        "No refunds will be issued for any inclusions not availed by the traveler.",
-      luggage:
-        "Travelers are responsible for their luggage and personal belongings.",
-    },
-    cancellation_policy:
-      "To confirm your participation, a 30% advance payment of the total trip cost is mandatory at the time of booking. Please note, the advance amount is strictly non-refundable.",
     pdf_url: "",
   },
   {
@@ -765,13 +911,7 @@ const TOUR_DATA = [
     ],
     images: [
       "/Landing-4.jpg",
-      "/AK-14.jpg",
-      "/AK-1.jpg",
-      "/AK-2.jpg",
-      "/AK-3.jpg",
-      "/AK-4.jpg",
-      "/AK-5.jpg",
-      "/AK-6.jpg",
+      "/CharDham.png",
       "/AK-7.jpg",
       "/AK-8.jpg",
       "/AK-9.jpg",
@@ -783,13 +923,13 @@ const TOUR_DATA = [
     ],
     days: 11,
     price: {
-      standard_plan: 22000,
-      deluxe_plan: 25000,
+      standard_plan: 15000,
+      deluxe_plan: 20000,
     },
     tour_operator: {
       name: "Devnagari Tour and Travels",
       contact_number: "9456193464",
-      website: "https://devnagaritourtravels.com/",
+      website: "https://devnagaritourtravels.in/",
       email: "info@devnagaritourtravels.com",
     },
     places: [
@@ -892,17 +1032,17 @@ const TOUR_DATA = [
         night_stay: "N/A",
       },
     ],
-    images: ["/Landing-2.jpg", "/D-1.jpg", "/Landing-6.jpg"],
+    images: ["/Landing-2.jpg", "/KD-1.jpg", "/D-1.jpg", "/Landing-6.jpg"],
     price: {
-      standard_plan: 6500,
-      deluxe_plan: 8500,
+      standard_plan: 12000,
+      deluxe_plan: 18000,
     },
     days: 2,
     places: ["Delhi", "Haldwani", "Bhawali", "Bhimtal", "Kainchi Dham Ashram"],
     tour_operator: {
       name: "Devnagari Tour and Travels",
       contact_number: "9456193464",
-      website: "https://devnagaritourtravels.com/",
+      website: "https://devnagaritourtravels.in/",
       email: "info@devnagaritourtravels.com",
     },
     inclusions: [
@@ -933,6 +1073,105 @@ const TOUR_DATA = [
   },
   {
     __id: "7",
+    name: "Munsiyari and Khaliya Top Tour Package",
+    overview:
+      "Discover the breathtaking beauty of the Kumaon Himalayas with this 3-day, 2-night tour to Munsiyari and Khaliya Top, starting from Pithoragarh. Ideal for adventure seekers and nature lovers, this package combines scenic drives with an exhilarating trek. Experience the majestic Panchachuli peaks from Munsiyari, a serene hill station, and then trek to the stunning meadows of Khaliya Top for panoramic views of snow-covered Himalayan giants. With options for standard and deluxe plans, this tour offers a perfect blend of comfort and adventure.",
+    description:
+      "<h2>Experience the Majesty of Munsiyari and Khaliya Top</h2>\n<p>Embark on a spectacular <strong>3-day, 2-night adventure</strong> into the heart of Uttarakhand's Kumaon region with our Munsiyari and Khaliya Top tour. This package, starting and ending in Pithoragarh, is perfectly crafted for those who wish to witness the raw, untouched beauty of the Himalayas. <strong>Munsiyari</strong>, a picturesque hill station, serves as the gateway, offering mesmerizing views of the iconic Panchachuli peaks and a tranquil environment filled with waterfalls, temples, and pristine lakes.</p>\n\n<h3>The Khaliya Top Trek: A Walk in the Clouds</h3>\n<p>The highlight of this tour is the trek to <strong>Khaliya Top</strong>, a magnificent alpine meadow renowned for its accessibility and stunning 360-degree views of the greater Himalayan range. This trek is considered ideal for both beginners and seasoned trekkers, offering a rewarding experience without being overly strenuous. As you ascend, the landscape unfolds into a breathtaking panorama of snow-laden peaks, including <strong>Panchachuli, Nanda Devi, and Rajrambha</strong>. The experience of camping under a starlit sky at Khaliya Top and waking up to a glorious sunrise over the mountains is truly unforgettable.</p>\n\n<h3>A Journey of Scenic Wonders</h3>\n<p>The journey to and from Munsiyari is as captivating as the destination itself. The drive from Pithoragarh takes you through winding mountain roads with sights like the confluence of the <strong>Kali and Gori rivers</strong>, the hot springs at Madkot, and the magnificent <strong>Birthi Waterfall</strong>. During your stay in Munsiyari, you will visit the sacred Nanda Devi Temple and Gayatri Ashram, soaking in the spiritual ambiance of the region. This tour is an all-inclusive experience, covering your transport, accommodation in hotels and camps, meals, and the guidance of an experienced local expert, allowing you to immerse yourself fully in the Himalayan splendor.",
+    itinerary: [
+      {
+        day: 1,
+        title: "Pithoragarh to Munsiyari",
+        details: [
+          "Early morning departure from Pithoragarh.",
+          "Scenic drive with sightseeing at Satgarh, Askot, and the sangam of the Kali and Gori rivers.",
+          "Visit the hot water springs at Madkot before reaching Munsiyari.",
+          "In Munsiyari, visit the Nanda Devi Temple and enjoy views of the Panchachuli peaks and Hansling mountain.",
+          "Explore Gayatri Ashram and local areas before checking into the hotel.",
+        ],
+        inclusions: "Transport, Hotel Stay, Breakfast and Dinner.",
+        night_stay: "Munsiyari.",
+      },
+      {
+        day: 2,
+        title: "Munsiyari to Khaliya Top Trek",
+        details: [
+          "After an early checkout, begin the trek to Khaliya Top.",
+          "Enjoy the stunning scenery and views of snowy mountains as you ascend.",
+          "Reach the Khaliya Top zero point for clear views of the Panchachuli, Nandadevi, and Rajrambha mountain peaks.",
+          "Witness a beautiful sunset over the Himalayas.",
+          "Overnight stay in a camp or TRC Guesthouse with a bonfire.",
+        ],
+        inclusions:
+          "Tour Guide, Breakfast, Dinner, Camping/Stay (TRC Guesthouse), Bonfire.",
+        night_stay: "Khaliya Top.",
+      },
+      {
+        day: 3,
+        title: "Khaliya Top to Munsiyari/Pithoragarh",
+        details: [
+          "Wake up early to witness a spectacular sunrise over the peaks.",
+          "Descend from Khaliya Top and reach Munsiyari.",
+          "Begin the drive back to Pithoragarh.",
+          "Stop to visit the famous Birthi Waterfall en route.",
+          "The tour concludes upon arrival in Pithoragarh.",
+        ],
+        inclusions: "Transport, Breakfast, and Lunch.",
+        night_stay: "N/A",
+      },
+    ],
+    images: [
+      "/Landing-6.jpg",
+      "/D-1.jpg",
+      "/KM-1.jpg",
+      "/AK-5.jpg",
+      "/D-2.jpg",
+    ],
+    price: {
+      standard_plan: 15000,
+      deluxe_plan: 20000,
+    },
+    days: 3,
+    places: [
+      "Pithoragarh",
+      "Munsiyari",
+      "Khaliya Top",
+      "Birthi Waterfall",
+      "Madkot (Hot Water Spring)",
+      "Sangam (Kali & Gori River)",
+      "Nanda Devi Temple",
+    ],
+
+    tour_operator: {
+      name: "Devnagari Tour and Travels",
+      contact_number: "9456193464",
+      website: "https://devnagaritourtravels.in/",
+      email: "info@devnagaritourtravels.com",
+    },
+    inclusions: [
+      "Transport (Delhi to Delhi round-trip)",
+    ],
+    packing_list: [
+      "Warm Clothing: Thermal layers, fleece jackets, heavy down jacket.",
+      "Outerwear: Waterproof and windproof outer layers.",
+      "Footwear: Waterproof trekking boots with good ankle support.",
+      "Accessories: Warm socks, gloves, woolen cap, and scarf.",
+      "Personal Care: Sunscreen, lip balm, moisturizer, personal medications.",
+      "Documents & Cash: Valid ID and sufficient cash.",
+      "Other Essentials: Sunglasses, headlamp or flashlight, reusable water bottle.",
+    ],
+    terms_and_conditions: {
+      payment: "Full payment for the trip must be completed before departure.",
+      identification:
+        "All travelers must carry and present a valid government-issued ID.",
+      booking: "Bookings are non-transferable.",
+    },
+    cancellation_policy:
+      "A 30% advance payment of the total trip cost is mandatory at the time of booking to confirm your participation. This advance amount is strictly non-refundable.",
+    pdf_url: "",
+  },
+  {
+    __id: "8",
     name: "Darma Valley and Munsyari Tour from Delhi",
     overview:
       "Embark on an unforgettable 5-day, 4-night adventure from Delhi into the remote and pristine Darma Valley, one of Uttarakhand's hidden gems. This tour takes you through Pithoragarh to the untouched landscapes of Darma Valley, home to ancient villages, alpine meadows, and the Panchachuli Base Camp. Experience the serene beauty of Munsyari before returning to Delhi. Perfect for nature lovers, adventure seekers, and those looking to explore offbeat Himalayan destinations.",
@@ -1071,7 +1310,7 @@ const TOUR_DATA = [
     tour_operator: {
       name: "Devnagari Tour and Travels",
       contact_number: "9456193464",
-      website: "https://devnagaritourtravels.com/",
+      website: "https://devnagaritourtravels.in/",
       email: "info@devnagaritourtravels.com",
     },
     inclusions: [
@@ -1108,7 +1347,7 @@ const TOUR_DATA = [
     pdf_url: "",
   },
   {
-    __id: "8",
+    __id: "9",
     name: "Helicopter Tour to Munsyari",
     overview:
       "Experience the ultimate luxury and convenience with our exclusive helicopter tour to Munsyari. Skip the long mountain drives and arrive at the 'Little Kashmir' of Uttarakhand in style. This premium 2-day, 1-night package offers breathtaking aerial views of the Himalayas, quick access to Munsyari's stunning landscapes, and comfortable ground arrangements. Perfect for those seeking a time-efficient yet unforgettable journey to witness the majestic Panchachuli peaks.",
@@ -1157,15 +1396,15 @@ const TOUR_DATA = [
     ],
     images: [
       "/Landing-6.jpg",
-      "/KM-1.jpg",
       "/D-1.jpg",
+      "/KM-1.jpg",
       "/AK-5.jpg",
       "/D-2.jpg",
       "/C-5.jpg"
     ],
     price: {
-      standard_plan: 45000,
-      deluxe_plan: 55000
+      standard_plan: 20000,
+      deluxe_plan: 25000
     },
     days: 2,
     places: [
@@ -1181,7 +1420,7 @@ const TOUR_DATA = [
     tour_operator: {
       name: "Devnagari Tour and Travels",
       contact_number: "9456193464",
-      website: "https://devnagaritourtravels.com/",
+      website: "https://devnagaritourtravels.in/",
       email: "info@devnagaritourtravels.com"
     },
     inclusions: [
@@ -1227,249 +1466,6 @@ const TOUR_DATA = [
     },
     cancellation_policy:
       "A 50% advance payment is mandatory to confirm helicopter booking. Cancellations made 7+ days prior receive 50% refund. Cancellations within 7 days or no-shows are non-refundable due to charter commitments.",
-    pdf_url: ""
-  },
-  {
-    __id: "9",
-    name: "Bike Tour from Pithoragarh to Adi Kailash to Munsyari",
-    overview:
-      "Embark on the ultimate motorcycling adventure through the stunning landscapes of Kumaon Himalayas. This 6-day, 5-night bike tour takes you from Pithoragarh to the sacred Adi Kailash, through remote Darma Valley, and to the scenic hill station of Munsyari. Perfect for experienced riders seeking thrilling mountain roads, breathtaking views, and an authentic Himalayan experience. Ride through challenging terrains, witness snow-capped peaks, and explore offbeat destinations on this adrenaline-pumping journey.",
-    description:
-      "<h2>Ride Through the Mighty Himalayas</h2>\n<p>Experience the thrill of a lifetime with our <strong>6-day, 5-night motorcycle expedition</strong> through the heart of the Kumaon Himalayas. This tour is designed for passionate riders who seek adventure, stunning landscapes, and the freedom of the open road. Starting from Pithoragarh, you'll ride through winding mountain passes, remote valleys, and traditional villages, reaching the sacred <strong>Adi Kailash</strong> and the picturesque <strong>Munsyari</strong>.</p>\n\n<h3>The Ultimate Mountain Riding Experience</h3>\n<p>This bike tour takes you on some of the most scenic and challenging roads in the Indian Himalayas. You'll navigate through <strong>hairpin bends, river crossings, and high-altitude terrain</strong>, all while surrounded by majestic peaks like Panchachuli, Nanda Devi, and the sacred Adi Kailash. The journey includes rides through the <strong>Darma Valley</strong>, one of the most remote and pristine valleys in Uttarakhand, offering unparalleled natural beauty and solitude.</p>\n\n<h3>Sacred Sites & Scenic Stops</h3>\n<p>Along the way, you'll visit the sacred <strong>Adi Kailash (Chota Kailash)</strong>, where you can perform darshan and experience the spiritual energy of this holy mountain. The tour also includes stops at <strong>Narayan Ashram</strong>, traditional villages like Seepu and Dugtu, and the stunning <strong>Munsyari</strong> with its panoramic views of the Panchachuli peaks. Visit waterfalls, hot springs, confluence points, and the India-Nepal border, making this not just a ride but a complete Himalayan adventure.</p>\n\n<h3>Complete Support & Safety</h3>\n<p>Your safety is our priority. The tour includes a support vehicle carrying luggage, spare parts, and emergency equipment. An experienced ride leader and mechanic accompany the group throughout the journey. We provide quality accommodation, meals, inner line permits, and comprehensive mechanical support. Riders have the option to bring their own bikes or rent Royal Enfield motorcycles. This tour is suitable for riders with prior experience on mountain roads and good fitness levels.</p>",
-    itinerary: [
-      {
-        day: 1,
-        title: "Pithoragarh - Dharchula - Narayan Ashram",
-        distance: "Approx. 130 km",
-        duration: "6-7 hrs",
-        details: [
-          "Morning briefing and bike check at Pithoragarh.",
-          "Start the ride towards Dharchula through scenic mountain roads.",
-          "Stop at Askot Wildlife Sanctuary viewpoint.",
-          "Visit the confluence of Kali and Gori rivers at Jauljibi.",
-          "Ride through Dharchula, a border town with Nepal.",
-          "Continue to Narayan Ashram via Tawaghat.",
-          "Sightseeing includes Ranthi Waterfall, Thanidhar View Point, and Chirkila Dam.",
-          "Visit Narayan Swami Ashram and enjoy views of Chipla Kedar peaks.",
-          "Check into TRC camp/homestay.",
-          "Dinner and overnight stay at Narayan Ashram."
-        ],
-        inclusions: "Bike rental (if opted), Support vehicle, Accommodation, Breakfast, Dinner & Evening Tea.",
-        night_stay: "Narayan Ashram."
-      },
-      {
-        day: 2,
-        title: "Narayan Ashram - Darma Valley - Dugtu (Panchachuli Base Camp)",
-        distance: "Approx. 60 km",
-        duration: "4-5 hrs (challenging terrain)",
-        details: [
-          "Early morning ride into the remote Darma Valley.",
-          "Navigate through narrow, winding roads with stunning valley views.",
-          "Pass through traditional villages: Nagling, Baling.",
-          "Stop at Kanchyoti Bridge and Waterfall for photos.",
-          "Ride to Dugtu village at Panchachuli Base Camp.",
-          "Visit Seepu Village with its mythological significance.",
-          "Optional short trek to Aadi-Aachari Taal (pond).",
-          "Experience authentic village life and hospitality.",
-          "Check into homestay for an immersive local experience.",
-          "Evening bonfire and traditional dinner with locals."
-        ],
-        inclusions: "Support vehicle, Homestay, Breakfast, Dinner & Evening Tea, Mechanical support.",
-        night_stay: "Dugtu/Datu Village (Darma Valley)."
-      },
-      {
-        day: 3,
-        title: "Dugtu - Adi Kailash Darshan - Gunji",
-        distance: "Approx. 50 km",
-        duration: "4-5 hrs + Adi Kailash visit",
-        details: [
-          "Morning ride towards Adi Kailash.",
-          "Navigate challenging high-altitude terrain.",
-          "Reach Adi Kailash base for darshan and charan sparsh.",
-          "Spend time at the sacred site, perform prayers and photography.",
-          "Experience the spiritual energy of this holy mountain.",
-          "Ride to Gunji village near the Indo-Tibetan border.",
-          "Explore the remote border village atmosphere.",
-          "Check into homestay in Gunji.",
-          "Evening interactions with local communities.",
-          "Dinner and overnight stay at Gunji."
-        ],
-        inclusions: "Support vehicle, Homestay, Inner line permits, Breakfast, Dinner & Evening Tea.",
-        night_stay: "Gunji Village."
-      },
-      {
-        day: 4,
-        title: "Gunji - Dharchula - Munsyari",
-        distance: "Approx. 140 km",
-        duration: "6-7 hrs",
-        details: [
-          "After breakfast, start the ride back through Darma Valley.",
-          "Ride through Dharchula and continue towards Munsyari.",
-          "Stop at Madkot hot water springs for a refreshing break.",
-          "Visit Bangapani Waterfalls en route.",
-          "Ride through the confluence of Kali and Gori rivers at Jauljibi.",
-          "Pass through Chaukori Tea Gardens with panoramic mountain views.",
-          "Stop at the stunning Birthi Waterfall for photos.",
-          "Reach Munsyari by evening.",
-          "Check into hotel with views of Panchachuli peaks.",
-          "Explore local market and cafes.",
-          "Dinner and overnight stay in Munsyari."
-        ],
-        inclusions: "Support vehicle, Hotel stay, Breakfast, Dinner & Evening Tea.",
-        night_stay: "Munsyari."
-      },
-      {
-        day: 5,
-        title: "Munsyari - Local Exploration & Rest Day",
-        distance: "Local sightseeing (30-40 km)",
-        details: [
-          "Relaxed morning with sunrise views over Panchachuli peaks.",
-          "Visit Nanda Devi Temple for blessings.",
-          "Ride to nearby viewpoints including Kalamuni Top.",
-          "Visit Gayatri Ashram and Tribal Heritage Museum.",
-          "Optional ride to Maheshwari Kund or Thamri Kund.",
-          "Explore local markets and handicraft shops.",
-          "Rest and relaxation time - bike maintenance check.",
-          "Enjoy the serene mountain atmosphere.",
-          "Evening bonfire at hotel (if available).",
-          "Dinner and overnight stay in Munsyari."
-        ],
-        inclusions: "Support vehicle for optional rides, Hotel stay, All meals, Bike maintenance.",
-        night_stay: "Munsyari."
-      },
-      {
-        day: 6,
-        title: "Munsyari - Pithoragarh",
-        distance: "Approx. 135 km",
-        duration: "5-6 hrs",
-        details: [
-          "Early morning checkout after breakfast.",
-          "Final ride through the scenic Kumaon hills.",
-          "Stop at Birthi Waterfall if missed earlier.",
-          "Pass through Berinag and tea gardens.",
-          "Visit Askot Sanctuary viewpoint and Satgarh.",
-          "Lunch break at a scenic spot en route.",
-          "Reach Pithoragarh by evening.",
-          "Bike return and final check (for rental bikes).",
-          "Closing ceremony and sharing of experiences.",
-          "Tour concludes with memories of an epic Himalayan ride."
-        ],
-        inclusions: "Support vehicle, Breakfast, Bike return assistance.",
-        night_stay: "N/A"
-      }
-    ],
-    images: [
-      "/Landing-5.jpg",
-      "/AK-13.jpg",
-      "/D-1.jpg",
-      "/D-2.jpg",
-      "/KM-1.jpg",
-      "/AK-5.jpg",
-      "/N-1.jpg"
-    ],
-    price: {
-      standard_plan: 24000,
-      deluxe_plan: 35000
-    },
-    days: 6,
-    places: [
-      "Pithoragarh",
-      "Dharchula",
-      "Jauljibi",
-      "Narayan Ashram",
-      "Tawaghat",
-      "Darma Valley",
-      "Nagling Village",
-      "Baling Village",
-      "Dugtu Village",
-      "Panchachuli Base Camp",
-      "Seepu Village",
-      "Adi Kailash",
-      "Gunji",
-      "Madkot Hot Springs",
-      "Chaukori",
-      "Birthi Waterfall",
-      "Munsyari",
-      "Nanda Devi Temple"
-    ],
-    tour_operator: {
-      name: "Devnagari Tour and Travels",
-      contact_number: "9456193464",
-      website: "https://devnagaritourtravels.com/",
-      email: "info@devnagaritourtravels.com"
-    },
-    inclusions: [
-      "Royal Enfield motorcycle rental (if opted - Classic 350/Himalayan)",
-      "Fuel for the entire tour",
-      "Support vehicle with luggage transport",
-      "Experienced ride leader and mechanic",
-      "Accommodation (Hotels/Homestays/Camps)",
-      "Meals: Breakfast, Dinner, and Evening Tea (as per itinerary)",
-      "All Inner line permits for restricted areas",
-      "Basic motorcycle maintenance and spare parts",
-      "First Aid kit and emergency support",
-      "All sightseeing as per itinerary"
-    ],
-    exclusions: [
-      "Lunch and personal expenses",
-      "Bike damage charges (security deposit required)",
-      "Personal riding gear (helmet, jacket, gloves - available on rent)",
-      "Travel insurance (highly recommended)",
-      "Any expenses due to bike breakdown caused by rider negligence",
-      "Alcoholic beverages",
-      "Any adventure activities not mentioned in itinerary"
-    ],
-    bike_options: [
-      {
-        model: "Royal Enfield Classic 350",
-        price: "Included in standard plan",
-        suitable_for: "Comfortable cruising on mountain roads"
-      },
-      {
-        model: "Royal Enfield Himalayan 411",
-        price: "Additional ₹3,000",
-        suitable_for: "Better for challenging terrains and off-road sections"
-      },
-      {
-        model: "Own Bike",
-        price: "Deduct ₹8,000 from package price",
-        suitable_for: "Riders who prefer their own motorcycles"
-      }
-    ],
-    mandatory_requirements: [
-      "Valid driving license for motorcycles (mandatory)",
-      "Prior experience riding in hilly/mountain terrain",
-      "Good physical fitness and stamina",
-      "Age: 21-60 years (exceptions with medical certificate)",
-      "Signed indemnity form",
-      "Valid government-issued ID",
-      "Refundable security deposit: ₹10,000 for rental bikes"
-    ],
-    packing_list: [
-      "Riding Gear: Full-face helmet, riding jacket with armor, riding gloves, knee guards.",
-      "Clothing: Thermal layers, fleece jacket, windproof/waterproof outer layer, comfortable riding pants.",
-      "Footwear: Sturdy riding boots with ankle support (mandatory).",
-      "Accessories: Sunglasses, neck warmer/balaclava, bandana, cap.",
-      "Personal Items: Sunscreen (high SPF), lip balm, personal medications, energy bars.",
-      "Documents: Driving license, ID proof, permits (provided), insurance papers.",
-      "Other: Camera, power bank, reusable water bottle, small backpack for day rides.",
-      "Optional: Knee/elbow guards, rain gear, action camera for ride recording."
-    ],
-    terms_and_conditions: {
-      payment: "Full payment required 15 days before departure due to permit and bike booking requirements.",
-      identification: "Valid driving license for motorcycles is mandatory. No license = no ride.",
-      booking: "Bookings are non-transferable.",
-      refunds: "No refunds for any unavailed services.",
-      bike_damage: "Rider is responsible for any damage to the rented motorcycle. Security deposit will be adjusted against damages.",
-      fitness: "Riders must be physically and mentally fit for high-altitude riding. Medical conditions must be disclosed.",
-      punctuality: "Riding schedule is fixed for safety and daylight hours. Delays may affect the itinerary.",
-      conduct: "Drinking and riding is strictly prohibited. Violation leads to immediate tour termination without refund.",
-      liability: "Riders ride at their own risk. The company is not responsible for accidents, injuries, or bike damage.",
-      itinerary_changes: "Routes may be altered due to weather, road conditions, or permits. Safety is the priority.",
-      support: "Follow ride leader's instructions at all times. Maintain safe distance and speed limits."
-    },
-    cancellation_policy:
-      "A 50% advance payment is mandatory to confirm the booking and reserve bikes. Cancellations made 15+ days prior receive 50% refund. Cancellations within 15 days are non-refundable due to permit and bike reservation commitments.",
     pdf_url: ""
   },
   {
@@ -1536,8 +1532,8 @@ const TOUR_DATA = [
     ],
     images: [
       "/Landing-7.jpg",
-      "/D-2.jpg",
       "/D-1.jpg",
+      "/D-2.jpg",
       "/KM-1.jpg",
       "/AK-5.jpg",
       "/C-1.jpg",
@@ -1551,7 +1547,7 @@ const TOUR_DATA = [
     tour_operator: {
       name: "Devnagari Tour and Travels",
       contact_number: "9456193464",
-      website: "https://devnagaritourtravels.com/",
+      website: "https://devnagaritourtravels.in/",
       email: "info@devnagaritourtravels.com"
     },
     inclusions: [

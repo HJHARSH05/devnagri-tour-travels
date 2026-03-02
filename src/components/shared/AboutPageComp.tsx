@@ -55,9 +55,9 @@ const features = [
 ];
 
 const stats = [
-  { label: "Years in Service", value: "12+" },
-  { label: "Pilgrims Guided", value: "10k+" },
-  { label: "Handpicked Routes", value: "85+" },
+  { label: "Years in Service", value: "2+" },
+  { label: "Pilgrims Guided", value: "3k+" },
+  { label: "Handpicked Routes", value: "50+" },
 ];
 
 const categories = [

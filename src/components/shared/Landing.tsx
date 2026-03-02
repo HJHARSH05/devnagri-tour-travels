@@ -15,7 +15,7 @@ import { Button } from "../ui/button";
 
 export function Landing({ IMAGES }: { IMAGES: string[] }) {
   const plugin = React.useRef(
-    Autoplay({ delay: 3000, stopOnInteraction: true })
+    Autoplay({ delay: 5000, stopOnInteraction: true })
   );
 
   return (

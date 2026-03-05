@@ -15,6 +15,8 @@ const nav = [
   { label: "About", href: "/about" },
   { label: "Adi Kailash Tours", href: "/adi-kailash" },
   { label: "Contact", href: "/contact" },
+  { label: "Blog", href: "/blog" },
+  { label: "Testimonials", href: "/testimonials" },
 ];
 
 const operatorNumbers = ["9456193464", "9410543676", "9411329894"];

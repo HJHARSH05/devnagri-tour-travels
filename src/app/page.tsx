@@ -7,8 +7,8 @@ const App = () => {
   return (
     <>
       <Landing IMAGES={IMAGES.slice(0, 7)} />
-      <Tours />
-      <AboutPageComp/>
+      <Tours isHome />
+      <AboutPageComp />
     </>
   );
 };

@@ -76,22 +76,11 @@ export function TourCard({
               </span>
             </div>
             <div className="flex items-center gap-1">
-              <span className="text-xs text-gray-100 font-medium text-red-400 italic">
+              <span className="text-xs font-medium text-red-400 italic">
                 {contactMessage}
               </span>
             </div>
-            <p className="text-[11px] text-gray-200 leading-relaxed">
-              Final price will be confirmed after contacting admin via WhatsApp
-              or call.
-            </p>
             <div className="flex items-center gap-1 mt-2">
-              <Button
-                variant={"outline"}
-                size={"sm"}
-                className="bg-gradient-to-r from-red-300 to-red-600 hover:from-red-600 hover:to-red-300 hover:text-white"
-              >
-                Enquire Now
-              </Button>
               <Button
                 variant={"outline"}
                 size={"sm"}

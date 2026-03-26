@@ -137,11 +137,17 @@ export default Navbar;
 
 const UserDropdownIcon = () => {
   const { isAdmin, logout, user } = useUserStore();
+  const [open, setOpen] = useState(false);
 
   const initial = user?.name?.trim()?.charAt(0)?.toUpperCase() || "DU";
 
+  const handleLogout = () => {
+    setOpen(false);
+    logout();
+  };
+
   return (
-    <DropdownMenu>
+    <DropdownMenu open={open} onOpenChange={setOpen}>
       <DropdownMenuTrigger asChild>
         <Button
           variant="ghost"
@@ -157,18 +163,15 @@ const UserDropdownIcon = () => {
       <DropdownMenuContent align="end" className="w-48">
         <DropdownMenuLabel>My Account</DropdownMenuLabel>
         <DropdownMenuSeparator />
-        <DropdownMenuItem>
-          <User className="size-4" /> Profile
-        </DropdownMenuItem>
-        <DropdownMenuItem>
+        <DropdownMenuItem asChild onClick={() => setOpen(false)}>
           <Link href="/bookings">My Bookings</Link>
         </DropdownMenuItem>
         {isAdmin && (
-          <DropdownMenuItem>
+          <DropdownMenuItem asChild onClick={() => setOpen(false)}>
             <Link href="/admin">Admin Panel</Link>
           </DropdownMenuItem>
         )}
-        <DropdownMenuItem onClick={() => logout()}>
+        <DropdownMenuItem onClick={handleLogout}>
           Logout <LogOut className="ml-auto text-red-500" />
         </DropdownMenuItem>
       </DropdownMenuContent>

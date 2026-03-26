@@ -41,9 +41,6 @@ function BookedTourCard({ pack }: { pack: BookingType; lineclamp?: boolean }) {
               {(pack.startDate as string) ?? ""}
             </span>
           </p>
-          <p className=" font-semibold text-center">
-            Starting Price: <br /> <span className="font-bold">₹ {pack.price}</span>
-          </p>
           <p className="text-center">
             Days: <span>{pack.days}</span>
           </p>
@@ -51,13 +48,12 @@ function BookedTourCard({ pack }: { pack: BookingType; lineclamp?: boolean }) {
           <div className="col-span-2 flex items-center justify-center gap-4">
             <span>Status: </span>
             <Badge
-              className={`${
-                pack.status && pack.status === "approved"
+              className={`${pack.status && pack.status === "approved"
                   ? "bg-green-500"
                   : pack.status === "rejected"
-                  ? "bg-red-500"
-                  : "bg-yellow-500"
-              } text-sm font-semibold text-white shadow-md`}
+                    ? "bg-red-500"
+                    : "bg-yellow-500"
+                } text-sm font-semibold text-white shadow-md`}
             >
               {pack.status?.toUpperCase()}
             </Badge>

@@ -144,7 +144,7 @@ export const downloadTourPDF = async (pack: BookingType) => {
     yPosition += splitPlaces.length * 6;
   }
 
-  // Add spacing before price section
+  // Add spacing and pricing note
   yPosition += 5;
   doc.setLineWidth(0.5);
   doc.setDrawColor(200, 200, 200);
@@ -152,15 +152,17 @@ export const downloadTourPDF = async (pack: BookingType) => {
 
   yPosition += 12;
 
-  // Add price section with background
-  doc.setFillColor(245, 245, 245);
-  doc.rect(margin, yPosition - 5, pageWidth - 2 * margin, 20, "F");
-  doc.setFontSize(14);
+  // Add pricing information note
+  doc.setFillColor(220, 240, 255);
+  doc.rect(margin, yPosition - 5, pageWidth - 2 * margin, 25, "F");
+  doc.setFontSize(12);
   doc.setFont("helvetica", "bold");
-  doc.text("Starting Price:", margin + 10, yPosition + 5);
-  doc.setTextColor(41, 128, 185);
-  doc.setFontSize(16);
-  doc.text(`Rs. ${pack.price}`, pageWidth - margin - 30, yPosition + 5);
+  doc.setTextColor(0, 100, 200);
+  const pricingNote = doc.splitTextToSize(
+    "PRICING: Final price will be confirmed by our tour operator after contacting you. Please contact us for an accurate quote based on your travel dates and preferences.",
+    pageWidth - 2 * margin - 10
+  );
+  doc.text(pricingNote, margin + 5, yPosition);
   doc.setTextColor(0, 0, 0);
 
   // Add footer with contact information

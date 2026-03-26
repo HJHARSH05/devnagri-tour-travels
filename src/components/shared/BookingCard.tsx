@@ -183,19 +183,12 @@ function BookingCard({ props }: { props: Props }) {
               </PopoverContent>
             </Popover>
           </div>
-          {/* Price */}
-          <div className="grid grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-6">
-            <Label className="text-xl font-bold sm:justify-center">
-              Price Starts from
-            </Label>
-            <span className="text-lg lg:text-xl font-bold border px-3.5 py-1 rounded-lg">
-              ₹ {input.PackagePrice}
-            </span>
+          {/* Price Confirmation Message */}
+          <div className="grid grid-cols-1 gap-6 bg-blue-50 border border-blue-200 rounded-lg p-4">
+            <p className="text-sm text-center leading-relaxed text-blue-700 font-medium">
+              <span className="font-bold">💬 Pricing:</span> Final price will be confirmed by our tour operator after contacting you via WhatsApp or call. Please provide your preferred dates and group size for an accurate quote.
+            </p>
           </div>
-          {/* Price Note */}
-          <p className="text-sm text-center leading-relaxed text-yellow-400 font-medium ">
-            NOTE: This is the starting price for the package. The final price will be confirmed after contacting the Admin via WhatsApp or call.
-          </p>
 
           {/* Button */}
           {user ? (

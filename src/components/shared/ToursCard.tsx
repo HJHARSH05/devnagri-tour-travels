@@ -27,19 +27,8 @@ export function TourCard({
     window.addEventListener("resize", check);
     return () => window.removeEventListener("resize", check);
   }, []);
-  // derive a presentable price label
-  const priceLabel = (() => {
-    if (!tour.price) return "Price available on request";
-    if (typeof tour.price === "string") return tour.price;
-    const p = tour.price;
-    const std =
-      typeof p.standard_plan === "number"
-        ? `₹ ${p.standard_plan}`
-        : p.standard_plan;
-    const del =
-      typeof p.deluxe_plan === "number" ? `₹ ${p.deluxe_plan}` : p.deluxe_plan;
-    return `${std}${del ? ` / ${del}` : ""}`;
-  })();
+  // Price will be determined by contacting operator
+  const contactMessage = "Contact for pricing";
 
   return (
     <Card
@@ -87,9 +76,8 @@ export function TourCard({
               </span>
             </div>
             <div className="flex items-center gap-1">
-              <IndianRupee className="size-3.5 text-red-500" />
-              <span className="text-xs text-gray-100 font-medium">
-                {priceLabel}
+              <span className="text-xs text-gray-100 font-medium text-red-400 italic">
+                {contactMessage}
               </span>
             </div>
             <p className="text-[11px] text-gray-200 leading-relaxed">

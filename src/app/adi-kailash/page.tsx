@@ -3,22 +3,8 @@ import { IndianRupee, MapPin, Mountain } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
-const getPriceLabel = (price: (typeof TOURS)[number]["price"]) => {
-    if (!price) return "On request";
-    if (typeof price === "string") return price;
-
-    const standard =
-        typeof price.standard_plan === "number"
-            ? `₹ ${price.standard_plan}`
-            : price.standard_plan;
-
-    const deluxe =
-        typeof price.deluxe_plan === "number"
-            ? `₹ ${price.deluxe_plan}`
-            : price.deluxe_plan;
-
-    return deluxe ? `${standard} / ${deluxe}` : String(standard);
-};
+// Price will be determined by contacting operator
+const getContactMessage = () => "Contact for pricing";
 
 const imagePattern = [
     "col-span-2 row-span-2",
@@ -93,9 +79,8 @@ const AdiKailashPage = () => {
                                         <MapPin className="size-3.5 text-red-500" />
                                         <span>{tour.places.length} places</span>
                                     </div>
-                                    <div className="col-span-2 flex items-center gap-1 rounded-lg border border-slate-200 bg-slate-50 px-2 py-1.5">
-                                        <IndianRupee className="size-3.5 text-red-500" />
-                                        <span>{getPriceLabel(tour.price)}</span>
+                                    <div className="col-span-2 flex items-center gap-1 rounded-lg border border-red-200 bg-red-50 px-2 py-1.5">
+                                        <span className="text-red-600 font-medium text-xs italic">{getContactMessage()}</span>
                                     </div>
                                 </div>
 

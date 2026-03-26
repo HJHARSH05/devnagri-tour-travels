@@ -31,7 +31,7 @@ const useBookingHook = () => {
           bookingDate: new Date(),
           startDate: input.startDate,
           name: input.PackageName,
-          price: input.PackagePrice,
+          price: 0,
           people: input.people,
           days: input.PackageDays,
           placeList: input.PlaceList?.join(", ")

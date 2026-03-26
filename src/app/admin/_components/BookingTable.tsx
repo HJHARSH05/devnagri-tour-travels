@@ -46,7 +46,6 @@ const BookingTable = () => {
               Start Date
             </TableHead>
             <TableHead className="border-r-2 border-gray-400">Days</TableHead>
-            <TableHead className="border-r-2 border-gray-400">Amount</TableHead>
             <TableHead className="text-center border-r-2 border-gray-400">
               User
             </TableHead>
@@ -67,9 +66,6 @@ const BookingTable = () => {
               </TableCell>
               <TableCell className="border-r-2 border-gray-400">
                 {booking.days}
-              </TableCell>
-              <TableCell className="border-r-2 border-gray-400">
-                {booking.price}
               </TableCell>
               <TableCell className="border-r-2 border-gray-400">
                 <UserAvatar User={booking.user} />

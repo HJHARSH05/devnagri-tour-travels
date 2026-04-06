@@ -77,7 +77,7 @@ export default function ContactPage() {
             placeholder="Your full name"
             aria-invalid={errors.name ? "true" : "false"}
             defaultValue={user ? user.name : ""}
-            disabled={user?.name !== null}
+            disabled={user !== null}
           />
           {errors.name && (
             <p className="text-xs text-red-600 mt-1">{errors.name.message}</p>
@@ -101,7 +101,7 @@ export default function ContactPage() {
             placeholder="you@example.com"
             aria-invalid={errors.email ? "true" : "false"}
             defaultValue={user ? user.email : ""}
-            disabled={user?.email !== null}
+            disabled={user !== null}
           />
           {errors.email && (
             <p className="text-xs text-red-600 mt-1">{errors.email.message}</p>

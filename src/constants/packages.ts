@@ -35,6 +35,8 @@ export const IMAGES = [
   "/KD-1.jpg",
   "/KM-1.jpg",
   "/N-1.jpg",
+  "/DV.jpeg",
+  "/DV1.jpeg",
 ];
 
 const STANDARD_PLAN_INCLUSIONS = ["Transportation (Sedan/SUV)"];
@@ -1122,7 +1124,9 @@ const TOUR_DATA = [
     ],
     images: [
       "/Landing-6.jpg",
+      "/DV1.jpeg",
       "/D-1.jpg",
+      "/DV.jpeg",
       "/KM-1.jpg",
       "/AK-5.jpg",
       "/D-2.jpg",
@@ -1276,6 +1280,8 @@ const TOUR_DATA = [
     ],
     images: [
       "/Landing-7.jpg",
+      "/DV.jpeg",
+      "/DV1.jpeg",
       "/D-1.jpg",
       "/D-2.jpg",
       "/KM-1.jpg",

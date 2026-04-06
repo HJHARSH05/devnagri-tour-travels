@@ -1,10 +1,10 @@
+import Footer from "@/components/shared/Footer";
+import Navbar from "@/components/shared/Navbar";
+import Redirect from "@/components/shared/Redirect";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
-import Navbar from "@/components/shared/Navbar";
 import { Toaster } from "sonner";
-import Redirect from "@/components/shared/Redirect";
-import Footer from "@/components/shared/Footer";
+import "./globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

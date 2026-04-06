@@ -11,6 +11,8 @@ import {
 } from "@/components/ui/select";
 import { useUserStore } from "@/store/user.store";
 import {
+  Eye,
+  EyeOff,
   Loader,
   Lock,
   Mail,
@@ -32,6 +34,7 @@ const Signup = () => {
   });
   const [countryCode, setCountryCode] = useState("+91");
   const [isLoading, setisLoading] = useState(false);
+  const [showPassword, setShowPassword] = useState(false);
   const router = useRouter();
   const { signup } = useUserStore();
 
@@ -182,14 +185,22 @@ const Signup = () => {
                 <Input
                   id="password"
                   name="password"
-                  type="password"
+                  type={showPassword ? "text" : "password"}
                   value={input.password}
                   onChange={handleChange}
                   placeholder="Create a secure password"
-                  className="pl-9 transition-all duration-300 focus-visible:ring-2 focus-visible:ring-primary/40"
+                  className="pl-9 pr-10 transition-all duration-300 focus-visible:ring-2 focus-visible:ring-primary/40"
                   required
                   autoComplete="new-password"
                 />
+                <button
+                  type="button"
+                  aria-label={showPassword ? "Hide password" : "Show password"}
+                  onClick={() => setShowPassword((prev) => !prev)}
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground transition-colors hover:text-foreground"
+                >
+                  {showPassword ? <EyeOff className="size-4" /> : <Eye className="size-4" />}
+                </button>
               </div>
             </div>
 

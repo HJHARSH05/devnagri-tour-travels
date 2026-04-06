@@ -164,6 +164,9 @@ const UserDropdownIcon = () => {
         <DropdownMenuLabel>My Account</DropdownMenuLabel>
         <DropdownMenuSeparator />
         <DropdownMenuItem asChild onClick={() => setOpen(false)}>
+          <Link href="/profile">Profile</Link>
+        </DropdownMenuItem>
+        <DropdownMenuItem asChild onClick={() => setOpen(false)}>
           <Link href="/bookings">My Bookings</Link>
         </DropdownMenuItem>
         {isAdmin && (

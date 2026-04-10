@@ -46,7 +46,7 @@ interface BookingDialogProps {
 }
 
 const initialInput: BookingContactInput = {
-    name:"",
+    name: "",
     email: "",
     phoneNumber: "",
 };
@@ -144,9 +144,9 @@ const BookingDialog = ({ taxiBookProps, tourBookProps }: BookingDialogProps) => 
             <DialogContent className="sm:max-w-md p-0 overflow-hidden">
                 <DialogHeader className="px-6 pt-6 pb-2">
                     <DialogTitle>Book Your Package</DialogTitle>
-                    <DialogDescription>
+                    <DialogDescription className="text-center">
                         Enter your email and phone number. Our team will connect with you to
-                        confirm the booking details.
+                        confirm the booking details. <span className="text-yellow-400 px-1 rounded font-bold">If you want to track the application, log in with the same email id and use password 12345678.</span>
                     </DialogDescription>
                 </DialogHeader>
 
@@ -168,7 +168,7 @@ const BookingDialog = ({ taxiBookProps, tourBookProps }: BookingDialogProps) => 
                             />
                         </div>
                     </div>
-                    
+
                     <div className="space-y-2 w-full">
                         <Label htmlFor="email">Email</Label>
                         <div className="relative">

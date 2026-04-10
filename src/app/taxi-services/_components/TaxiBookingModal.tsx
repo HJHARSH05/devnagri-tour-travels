@@ -40,6 +40,7 @@ const TaxiBookingModal = ({
     destination: destination,
     price: price,
     taxi: "",
+    selectedSeats: [],
   });
   const [isCalendarOpen, setIsCalendarOpen] = useState(false);
   const [showList, setShowList] = useState(false);
@@ -84,6 +85,7 @@ const TaxiBookingModal = ({
     if (selected.includes(seatNo)) next = selected.filter((s) => s !== seatNo);
     else next = [...selected, seatNo];
     setSelectedSeatsMap({ ...selectedSeatsMap, [taxiId]: next });
+    setinput({ ...input, selectedSeats: next });
   };
   return (
     <Dialog>
@@ -218,7 +220,14 @@ const TaxiBookingModal = ({
                               </Button>
 
                             ) : (
-                              <BookingDialog taxiBookProps={{ ...item, selectedSeats: selectedSeatsMap[item.id as string], taxi: item.id as string, source: input.source || "", destination: input.destination || "", date: input.date, price: input.price }} />
+                              <BookingDialog taxiBookProps={{
+                                taxi: item.id as string,
+                                date: input.date,
+                                source: input.source,
+                                destination: input.destination,
+                                price: input.price,
+                                selectedSeats: input.selectedSeats,
+                              }} />
                             )
                           }
                         </div>

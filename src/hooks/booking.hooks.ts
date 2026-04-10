@@ -183,7 +183,6 @@ const useBookingHook = () => {
   // get all taxis available for the given Date
   const getAllTaxis = async (date: string) => {
     try {
-      if (!user) return { error: "User not found" };
       // For seat-level booking we return all taxis and the UI will fetch booked seats per taxi
       const taxis = await db
         .select({

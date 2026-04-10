@@ -182,5 +182,5 @@ export type TaxiBookingInput = {
   destination: string;
   date: Date;
   price: number;
-  selectedSeats?: number[];
+  selectedSeats: number[];
 };

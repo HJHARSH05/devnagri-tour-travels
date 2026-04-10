@@ -1,5 +1,5 @@
 import { db } from '@/config'
-import { Bookings, Users } from '@/config/schema'
+import { Bookings, TaxiBooking, Users } from '@/config/schema'
 import bcrypt from 'bcryptjs'
 import { eq, or } from 'drizzle-orm'
 import { toast } from 'sonner'
@@ -46,7 +46,6 @@ const createUser = async (input: { email: string, name: string, mobile: string }
         });
         return user[0];
     } catch (error) {
-        console.log(error)
         return null
     }
 }
@@ -61,7 +60,6 @@ const fetchUser = async ({ email, mobile }: { email: string, mobile: string }) =
         }).from(Users).where(or(eq(Users.email, email), eq(Users.mobile, mobile))).limit(1);
         return extUser[0];
     } catch (error) {
-        console.log(error)
         return null
     }
 
@@ -101,7 +99,6 @@ const useBookWithoutLogin = () => {
                         }
                     }).catch((error) => {
                         toast.error("Something went wrong");
-                        console.log(error)
                     })
             }
             else {
@@ -148,22 +145,21 @@ const useBookWithoutLogin = () => {
             const existingUser = await fetchUser({ email: input.email, mobile: input.phoneNumber });
 
             if (existingUser) {
-                await db.insert(Bookings).values({
-                    user: existingUser.id,
+                await db.insert(TaxiBooking).values({
                     bookingDate: new Date(),
-                    startDate: input.date,
-                    name: input.taxi,
+                    date: new Date(input.date as any),
+                    source: input.source,
+                    destination: input.destination,
+                    taxi: input.taxi,
                     price: input.price,
-                    people: 1,
-                    days: 1,
-                    placeList: `${input.source} to ${input.destination}`
+                    user: existingUser?.id,
+                    bookedSeats: input.selectedSeats?.join(",")
                 } as any).returning().then((res) => {
                     if (res) {
                         toast.success("Booking successful");
                     }
                 }).catch((error) => {
                     toast.error("Something went wrong");
-                    console.log(error)
                 })
             }
             else {
@@ -186,7 +182,6 @@ const useBookWithoutLogin = () => {
                     }
                 }).catch((error) => {
                     toast.error("Something went wrong");
-                    console.log(error)
                 })
             }
         } catch (error) {

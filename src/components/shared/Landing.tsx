@@ -148,7 +148,7 @@ export function Landing({ IMAGES }: { IMAGES: string[] }) {
                   </p>
                 </div>
 
-                <div className="relative z-10 grid grid-cols-1 gap-3 w-full">
+                <div className="relative z-10 grid grid-cols-2 gap-3 w-full">
                   <div>
                     <Label className="text-sm font-medium">Name</Label>
                     <Input

@@ -21,6 +21,8 @@ import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
 import useBookingHook from "@/hooks/booking.hooks";
 import { TaxiBookingInput, TaxiTypes } from "@/types";
+import { useUserStore } from "@/store/user.store";
+import BookingDialog from "@/components/shared/BookingDialog";
 const TaxiBookingModal = ({
   children,
   destination,
@@ -42,6 +44,7 @@ const TaxiBookingModal = ({
   const [isCalendarOpen, setIsCalendarOpen] = useState(false);
   const [showList, setShowList] = useState(false);
   const { getAllTaxis, bookTaxi, getBookedSeats } = useBookingHook();
+  const { user } = useUserStore();
 
   const [TaxiList, setTaxiList] = useState<TaxiTypes[]>([]);
   const [bookedMap, setBookedMap] = useState<Record<string, string[]>>({});
@@ -204,13 +207,20 @@ const TaxiBookingModal = ({
                               );
                             })}
                           </div>
-                          <Button
-                            size="sm"
-                            className="primary-button sm:w-fit"
-                            onClick={() => handleBooking(item.id as string)}
-                          >
-                            Book Selected Seats
-                          </Button>
+                          {
+                            user ? (
+                              <Button
+                                size="sm"
+                                className="primary-button sm:w-fit"
+                                onClick={() => handleBooking(item.id as string)}
+                              >
+                                Book Selected Seats
+                              </Button>
+
+                            ) : (
+                              <BookingDialog taxiBookProps={{ ...item, selectedSeats: selectedSeatsMap[item.id as string], taxi: item.id as string, source: input.source || "", destination: input.destination || "", date: input.date, price: input.price }} />
+                            )
+                          }
                         </div>
                       </div>
                     </div>

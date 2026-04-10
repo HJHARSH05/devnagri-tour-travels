@@ -18,7 +18,7 @@ export const Users = pgTable("users", {
 
 export const Bookings = pgTable("bookings", {
   id: serial("Id").primaryKey(),
-  name: varchar("Name", { length: 50 }).notNull(),
+  name: varchar("Name", { length: 255 }).notNull(),
   user: varchar().notNull().references(() => Users.id),
   bookingDate: date("Date").notNull(),
   startDate: date("StartDate").notNull(),

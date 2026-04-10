@@ -10,10 +10,10 @@ import { cn } from "@/lib/utils";
 import { useUserStore } from "@/store/user.store";
 import { BookingInput } from "@/types";
 import { CalendarIcon, Loader2, MinusCircle, PlusCircle } from "lucide-react";
-import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Button } from "../ui/button";
 import { Label } from "../ui/label";
+import BookingDialog from "./BookingDialog";
 
 interface Props {
   PackageName: string;
@@ -38,7 +38,6 @@ function BookingCard({ props }: { props: Props }) {
   });
   const [loading, setloading] = useState(false);
   const [isCalendarOpen, setIsCalendarOpen] = useState(false);
-  const router = useRouter();
 
   // change package price
   useEffect(() => {
@@ -206,16 +205,15 @@ function BookingCard({ props }: { props: Props }) {
             </Button>
           ) : (
             <>
-              <Button
-                variant={"outline"}
-                className="w-full max-w-96 mx-auto bg-gradient-to-r from-green-500 via-emerald-500 to-emerald-600 cursor-pointer"
-                onClick={() => router.push("/login")}
-              >
-                Login
-              </Button>
-              <p className="text-center text-red-500 -mt-4">
-                Please login to book your trip
-              </p>
+              <BookingDialog tourBookProps = {
+                {
+                  packageName: props.PackageName,
+                  packageDays: props.PackageDays,
+                  people: input.people,
+                  startDate: input.startDate,
+                  placeList: props.PlaceList,
+                }
+              } />
             </>
           )}
         </div>

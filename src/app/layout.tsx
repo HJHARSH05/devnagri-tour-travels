@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Devnagri Tourism",
+  title: "Devnagri Tour And Travels",
   description: "Locally-owned travel specialists in Uttarakhand. We design safe, meaningful and flexible journeys — for pilgrims, trekkers and explorers.",
   icons: {
     icon: ['/favicon.ico?v=4'],

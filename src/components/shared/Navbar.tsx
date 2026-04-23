@@ -68,13 +68,13 @@ const Navbar = () => {
         </div>
 
         {/* Desktop view */}
-        <div className="md:flex items-center justify-center gap-2 hidden">
+        <div className="md:flex items-center justify-center gap-2 hidden relative z-20">
           {NavData.map((item, index) => (
             <Link
               key={index}
               href={item.url}
               className={cn(
-                "px-3 py-2 rounded-xl text-sm font-semibold transition-all duration-200",
+                "relative z-20 px-3 py-2 rounded-xl text-sm font-semibold transition-all duration-200",
                 isActiveLink(item.url)
                   ? "bg-gradient-to-r from-light-blue-100 to-light-blue-200 text-slate-900 shadow-sm"
                   : "text-dark-200 hover:bg-slate-100"

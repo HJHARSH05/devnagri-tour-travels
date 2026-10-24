@@ -8,6 +8,7 @@ import {
   Phone
 } from "lucide-react";
 import Link from "next/link";
+import { TOURS } from "@/constants/packages";
 
 const nav = [
   { label: "Home", href: "/" },
@@ -29,7 +30,7 @@ export default function Footer() {
       initial={{ opacity: 0, y: 8 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.45 }}
-      className="mt-12 border-t bg-gray-200 backdrop-blur-sm"
+      className="mt-12 border-t border-blue-200 bg-blue-100 backdrop-blur-sm"
       aria-labelledby="footer-heading"
     >
       <div className="mx-auto max-w-7xl px-6 py-10">
@@ -97,6 +98,28 @@ export default function Footer() {
                     className="inline-flex items-center rounded-md px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:shadow-sm focus:outline-none focus:ring-2 focus:ring-purple-300"
                   >
                     {n.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+
+          {/* Tour packages */}
+          <nav
+            aria-label="Tour packages"
+            className="flex-1 min-w-0 md:max-w-sm"
+          >
+            <h3 className="text-sm font-semibold text-gray-700">
+              Tour Packages
+            </h3>
+            <ul className="mt-2 space-y-1">
+              {TOURS.map((tour) => (
+                <li key={tour.__id}>
+                  <Link
+                    href={`/package/${tour.name.replaceAll(" ", "-")}`}
+                    className="text-sm text-gray-600 hover:text-gray-900 hover:underline underline-offset-2 focus:outline-none focus:ring-2 focus:ring-purple-300"
+                  >
+                    {tour.name}
                   </Link>
                 </li>
               ))}

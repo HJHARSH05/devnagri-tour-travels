@@ -50,7 +50,7 @@ const TOUR_DATA = [
 
   {
     __id: "1",
-    name: "Adi Kailash Om Parvat Yatra 2026",
+    name: "Adi Kailash Om Parvat Yatra 2027",
     overview:
       "Embark on a profound 5-day, 4-night spiritual journey to the sacred lands of Adi Kailash and Om Parvat with Devnagari Tour and Travels. This meticulously planned 'Delhi to Delhi' yatra is designed for groups, couples, families, and solo travelers seeking a divine connection in the Himalayas. The package includes transport, accommodation, meals, permits, and medical support. Witness the mystical impression of 'Aum' on Om Parvat and perform 'darshan' at Adi Kailash, the replica of Mount Kailash. This tour offers a unique opportunity to experience the spiritual heart of the Kumaon Himalayas.",
     description:
@@ -187,7 +187,7 @@ const TOUR_DATA = [
   },
   {
     __id: "2",
-    name: "Adi Kailash Om Parvat Yatra 2026 (from Haldwani)",
+    name: "Adi Kailash Om Parvat Yatra 2027 (from Haldwani)",
     overview:
       "Embark on a divine 4-day, 3-night spiritual yatra to Adi Kailash and Om Parvat, starting from Pantnagar, Kathgodam, or Haldwani. This tour is perfectly suited for groups, couples, families, and solo travelers wanting to visit the sacred land of Lord Shiva in the Pithoragarh region. With fixed group departures available in May, June, September, and October, the package includes all essential services like transport, stay, meals, and permits for a seamless pilgrimage. Experience the spiritual aura of these holy peaks and create memories that will last a lifetime.",
     description:
